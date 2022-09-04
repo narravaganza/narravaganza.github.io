@@ -1,16 +1,39 @@
 ---
 ---
-//@import "main";
+@import "fonts";
 
-.current {
+.current-navigation-item {
   color: green;
 }
 
+.story-header {
+  color: black;
+  text-align: center;
+  font-family: 'Proza Libre';
+}
+
+
+.story-body {
+  color: black;
+  font-size: 1.2em;
+  max-width: 580px;
+  text-indent: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 160%;
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+  font-family: 'Proza Libre';
+}
 
 $font-stack: Helvetica, sans-serif;
 $primary-color: #282875;
 
-body {
+/* body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+*/

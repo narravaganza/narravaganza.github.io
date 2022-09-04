@@ -1,0 +1,52 @@
+---
+name: Peanuts
+preview: "I was walking down the street eating peanuts out of a bag of peanuts and tossing the shells on the ground until street justice warrior intervenes, says..."
+---
+I was walking down the street eating peanuts out of a bag of peanuts and tossing the shells on the ground until street justice warrior intervenes, says "don't throw the fucking shells on the ground"
+
+"they're biodegradable."
+
+"your mother is biodegradable"
+
+Mom is biodegradable, as a matter of fact. As a putrid matter of fact. Checkmate. I flick my king: 
+
+"ok boss"
+
+I call strangers "boss" in a sanitised handful of rare cases. One of these cases is when they assert spontaneous intellectual superiority. I'm probably in the presence of an international grandmaster. I need to do what's best for my family before it gets ugly.
+
+Run home. Throw the remaining peanuts in a hobo's hat. Do my jizz biz. Dip in a bath.
+Withdraw. Fundamentally, don't engage. Engagement has substantial downside potential, we just corroborated that. 
+
+As it turns out, there is a hobo in the vicinity, advancing towards the theatre of war. This dusty friend is ushered in by the trail of shells, crunching them under her sandal. Procedurally. Hovers the sandal over a shell, then raises the sandal for dramatic effect, and then lowers it onto the shell slowly applying her entire body mass onto it, tipping her body over. I presume her goal is to explore the possible extents of the duration of the sound of the crunch. I don't think she takes donations.
+
+Would you like some peanuts? She wouldn't say no to that, the bag boasts the emblem of a reputable store, and the hardness of the shell that she can attest to may be an indicator of quality. Would you perhaps care for the rest of these peanuts? Too tentative. And she'll be suspicious as to why i myself have interrupted consumption.
+
+But she has a hat. React. Hurl the peanuts onto it. Knock her hat off. Street justice grandmaster picks it up and describes me as a slack-jawed genetically fallen sack of garbage. I apologise to the woman. I was aiming at the rubbish bin over there, you see. This fine gentleman offered convincing arguments for ceasing their consumption. This is a terrible misunderstanding. In fact, hobo is short for "homeward bound", admittedly more kind-hearted than "homeless".
+
+They don't think it's a terrible misunderstanding. I have a credibility problem like my friend Gary, who was busted for allegedly masturbating to impressionable people walking down his street. When the cops showed up he told them that actually he was "adjusting his hernia, while pulling his pants up".
+
+"But was his internet working at the time" asks the street justice grandmaster.
+"he never had a reliable connection"
+"then his story is probably bullshit"
+"why"
+"because it's always easier and safer to satisfy those impulses outside of meatspace"
+"he actually had a hernia bro seriously i can show you a picture"
+"i still cant believe you called me a hobo"
+"i meant it in an affectionate way"
+"i am not a hobo"
+"no i realise that"
+"is that clear"
+"no look i think it's you who has something against hobos or homeward bound people in general, because you're so keen not to be associated with them, because you think you're better but you're not bound for anywhere in particular cause you're busy crunching peanut shells"
+"hey what's your fucking problem"
+"is that a rhetorical question?"
+"..."
+"Cause if it is a rhetorical question..."
+
+Fuck everything. I had a plan. I'm running, I'm dashing, I'm gonna be safe and sound because I'm now homeward bound. Engagement my balls.
+
+Arrive home. Curtains drawn on the theatre of war, and on my workstation. Turn computer on. Sit down. Take front part of t-shirt and move it behind my neck.
+
+Internet's down.
+
+
+
