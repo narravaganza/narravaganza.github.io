@@ -2,38 +2,101 @@
 ---
 @import "fonts";
 
+// $font-stack: "HelveticaNeue", sans-serif;
+// $font-stack: "Arial", sans-serif;
+$font-stack: "Proza Libre";
+$raven-color: #373D3F;
+
+body {
+  // background-color: #FFFFEF;
+    color: $raven-color;
+  font-size: 1em;
+  // max-width: 580px;
+  // text-indent: 30px;
+  text-align: left;
+  // text-justify: inter-word;
+  // line-height: 160%;
+  // left: 40%;
+  // padding-right: 22%;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+  // margin: 0 auto;
+  font-family: "Cormorant Garamond";
+}
+
+h1 {
+  color: black;
+  font-size: 3em;
+  max-width: 580px;
+  // text-indent: 30px;
+  text-align: center;
+  // line-height: 160%;
+  // padding-left: 22%;
+  // padding-right: 22%;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+  font-family: $font-stack;
+}
+
+h3 {
+  color: $raven-color;
+  font-size: 1em;
+  text-align: left;
+  padding-bottom: 0%;
+  font-family: 'Cormorant Garamond';
+}
+
+h4 {
+  color: $raven-color;
+  font-size: 1em;
+  text-align: left;
+  // padding-top: 0.5%;
+  padding-bottom: 2%;
+  font-family: 'Cormorant Garamond';
+}
+
 .current-navigation-item {
+  font-size: 3em;
   color: green;
 }
 
-.story-header {
+// Stories
+h1.story-header {
   color: black;
   text-align: center;
-  font-family: 'Proza Libre';
+  font-family: 'Cormorant Garamond';
+
+  font-size: 3em;
+  max-width: 580px;
+  // text-indent: 30px;
+  text-align: center;
+  // line-height: 160%;
+  // padding-left: 22%;
+  // padding-right: 22%;
+  padding-top: 0.5%;
+  margin: 0 auto;
+  padding-bottom: 4%;
+
 }
 
-
-.story-body {
-  color: black;
-  font-size: 1.2em;
-  max-width: 580px;
-  text-indent: 30px;
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 160%;
+div.story-body {
   padding-left: 22%;
   padding-right: 22%;
   padding-top: 0.5%;
   padding-bottom: 5%;
-  margin: 0 auto;
-  font-family: 'Proza Libre';
-}
 
-$font-stack: Helvetica, sans-serif;
-$primary-color: #282875;
+  p {
+    color: $raven-color;
+    font-size: 1.2em;
+    max-width: 580px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.8em;
+    padding-bottom: 0.55em;
 
-/* body {
-  font: 100% $font-stack;
-  color: $primary-color;
+    margin: 0 auto;
+    font-family: $font-stack;
+    background-color: white;
+  }
 }
-*/

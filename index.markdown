@@ -1,9 +1,14 @@
 ---
+title: Short Stories
 layout: default
 ---
-# {{ "Hello World!" | downcase }}
+# Short Stories for your online reading delight
 
-## Here are the blog posts
+Hello, thanks for dropping by, here are some short stories I wrote for you to enjoy.
 
-{% include blogroll.html %}
+{% for story in site.stories %}
+### [{{ story.name }}]({{story.url}})
+#### {{ story.preview }}
+{% endfor %}
+
 
