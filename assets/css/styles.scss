@@ -7,58 +7,62 @@
 $font-stack: "Proza Libre";
 $raven-color: #373D3F;
 
-body {
-  // background-color: #FFFFEF;
-    color: $raven-color;
-  font-size: 1em;
-  // max-width: 580px;
-  // text-indent: 30px;
-  text-align: left;
-  // text-justify: inter-word;
-  // line-height: 160%;
-  // left: 40%;
-  // padding-right: 22%;
-  padding-top: 0.5%;
-  padding-bottom: 5%;
-  // margin: 0 auto;
-  font-family: "Cormorant Garamond";
+// overall margins
+@media only screen and (min-width: 1200px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
-h1 {
-  color: black;
-  font-size: 3em;
-  max-width: 580px;
-  // text-indent: 30px;
-  text-align: center;
-  // line-height: 160%;
-  // padding-left: 22%;
-  // padding-right: 22%;
-  padding-top: 0.5%;
-  padding-bottom: 5%;
-  margin: 0 auto;
-  font-family: $font-stack;
+@media only screen and (max-width: 1200px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
-h3 {
-  color: $raven-color;
-  font-size: 1em;
-  text-align: left;
-  padding-bottom: 0%;
-  font-family: 'Cormorant Garamond';
-}
-
-h4 {
-  color: $raven-color;
-  font-size: 1em;
-  text-align: left;
-  // padding-top: 0.5%;
-  padding-bottom: 2%;
-  font-family: 'Cormorant Garamond';
-}
-
+// Navigation
 .current-navigation-item {
   font-size: 3em;
   color: green;
+}
+
+body {
+  // background-color: #FFFFEF;
+  color: $raven-color;
+  text-align: left;
+  padding-top: 0.5%;
+  padding-bottom: 5%;  
+  font-family: "Cormorant Garamond";
+}
+
+p {
+  font-size: 2em;
+  max-width: 580px;
+}
+
+
+h1 h2 h3 h4 {
+    font-family: "Cormorant Garamond";
+    max-width: 580px;
+}
+
+h1 {
+  font-size: 3em;
+  color: black;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.2em;
+  padding-bottom: 3%;
+  max-width: 580px; // this is already defined above, why is it needed?
 }
 
 // Stories
@@ -88,7 +92,7 @@ div.story-body {
 
   p {
     color: $raven-color;
-    font-size: 1.2em;
+    font-size: 120%;
     max-width: 580px;
     text-indent: 30px;
     text-align: justify;

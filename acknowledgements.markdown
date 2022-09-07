@@ -19,4 +19,4 @@ This story was presented to the x workshop
 * Cormorant Garamond
 
 ## This site
-This site is built using [Jekyll](https://jekyllrb.com/).
+This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.

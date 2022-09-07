@@ -28,3 +28,4 @@ feed:
   collections:
     stories:
       path: "/stories_feed.xml"
+  excerpt_only: true
