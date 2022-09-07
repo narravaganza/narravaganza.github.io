@@ -1,0 +1,33 @@
+##
+##  ci.yml
+##  Stories
+##
+##  Created by Ariel Elkin on 2022/07/09.
+##  Copyright My Balls. All rights reserved.
+##
+
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  build-site:
+    name: Build
+    runs-on:  macos-12
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build site
+        run: |
+          bundle install
+          bundle exec jekyll build
+
+      - name: Check site
+        run: |
+          NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+          gem install html-proofer
+          htmlproofer ./_site
