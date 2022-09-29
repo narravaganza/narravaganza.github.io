@@ -4,19 +4,19 @@ title: Acknowledgements
 permalink: /acknowledgements/
 ---
 
-## Stories
+# Stories
 
-Arcs:
+## Arcs
 this story was presented for the Clerkenwell Writers Group
 
-Peanuts:
+## Peanuts
 This story was presented to the x workshop
 
-## Fonts
+# Fonts
 
 * Proza Libre
 * Crimson
 * Cormorant Garamond
 
-## This site
+# This site
 This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.

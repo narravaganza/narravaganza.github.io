@@ -2,68 +2,99 @@
 ---
 @import "fonts";
 
-// $font-stack: "HelveticaNeue", sans-serif;
-// $font-stack: "Arial", sans-serif;
-$font-stack: "Proza Libre";
+$font-stack: "Proza Libre", sans-serif;
 $raven-color: #373D3F;
 
-// overall margins
-@media only screen and (min-width: 1200px) {
+// General
+html {
+  font-size: 100%; // use rem units throughout
+}
+@media only screen and (min-width: 1200px) { // larger screens
   body {
     margin-left: 10%;
     margin-right: 10%;
   }
+  div.story-body {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+  h1.story-header {
+    padding-top: 0.5%;
+  }
 }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) { //smaller screens
   body {
     margin-left: 5%;
     margin-right: 5%;
   }
+  div.story-body {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  h1.story-header {
+    padding-top: 5%;
+  }
 }
-
-// Navigation
-.current-navigation-item {
-  font-size: 3em;
-  color: green;
-}
-
 body {
-  // background-color: #FFFFEF;
   color: $raven-color;
-  text-align: left;
-  padding-top: 0.5%;
-  padding-bottom: 5%;  
+}
+
+p, li {
+  font-size: 1.4rem;
+  max-width: 580px;
   font-family: "Cormorant Garamond";
 }
 
-p {
-  font-size: 2em;
+li {
+  padding-top: 2%;
+}
+
+h1, h2, h3, h4 {
   max-width: 580px;
 }
 
-
-h1 h2 h3 h4 {
-    font-family: "Cormorant Garamond";
-    max-width: 580px;
-}
-
-h1 {
-  font-size: 3em;
+h1 { 
+  font-family: "Cormorant Garamond";
+  font-size: 3rem;
   color: black;
-  padding-top: 0.5%;
+}
+
+div.footnotes {
+  p, li, a {
+    font-size: 0.9rem; // why can't i change the size of the arrow? 
+  }
+}
+
+
+// Navigation
+nav {
+  font-family: "Cormorant Garamond";
+  padding-top: 1%;
+}
+
+.current-navigation-item {
+  font-size: 2rem;
+}
+
+.navigation-item {
+  font-size: 1.5rem;
+}
+// is there a nicer way to space elements other than adding &nbsp; ?
+
+
+// Storyroll
+div.story-list-header {
+  font-family: $font-stack;
+  max-width: 580px;
+}
+
+div.story-list-preview {
+  font-family: 'Cormorant Garamond';
+  font-size: 1.2rem;
   padding-bottom: 1%;
+  max-width: 580px;
 }
 
-h3 {
-  font-size: 2em;
-}
-
-h4 {
-  font-size: 1.2em;
-  padding-bottom: 3%;
-  max-width: 580px; // this is already defined above, why is it needed?
-}
 
 // Stories
 h1.story-header {
@@ -71,22 +102,19 @@ h1.story-header {
   text-align: center;
   font-family: 'Cormorant Garamond';
 
-  font-size: 3em;
+  font-size: 3rem;
   max-width: 580px;
   // text-indent: 30px;
   text-align: center;
   // line-height: 160%;
   // padding-left: 22%;
   // padding-right: 22%;
-  padding-top: 0.5%;
   margin: 0 auto;
   padding-bottom: 4%;
 
 }
 
 div.story-body {
-  padding-left: 22%;
-  padding-right: 22%;
   padding-top: 0.5%;
   padding-bottom: 5%;
 
@@ -96,11 +124,23 @@ div.story-body {
     max-width: 580px;
     text-indent: 30px;
     text-align: justify;
-    line-height: 1.8em;
-    padding-bottom: 0.55em;
+    line-height: 2.2rem;
+    padding-bottom: 0.65rem;
 
     margin: 0 auto;
     font-family: $font-stack;
     background-color: white;
   }
+}
+
+div.highlight pre{
+  white-space: pre-wrap;
+  line-height: 1.6rem;
+  padding-left: 16%; // can't get this to match the paragraph width... why? 
+  padding-right: 16%;
+}
+
+code {
+  white-space: pre-wrap;
+  font-family: "B612Mono";
 }
