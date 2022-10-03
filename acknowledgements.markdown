@@ -14,7 +14,7 @@ This story was presented to the x workshop
 
 # Fonts
 
-* [Proza Libre](http://bureauroffa.com/about-proza-libre){:target="_blank"}
+* [Proza Libre](https://bureauroffa.com/about-proza-libre){:target="_blank"}
 * Crimson
 * Cormorant Garamond
 
