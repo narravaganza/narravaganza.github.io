@@ -2,8 +2,9 @@
 ---
 @import "fonts";
 
-$font-stack: "Proza Libre", sans-serif;
+$font-stack-proza: "Proza Libre", sans-serif;
 $raven-color: #373D3F;
+$max-width: 580px;
 
 // General
 html {
@@ -41,19 +42,22 @@ body {
 
 p, li {
   font-size: 1.4rem;
-  max-width: 580px;
+  max-width: $max-width;
   font-family: "Cormorant Garamond";
 }
 
 li {
   padding-top: 2%;
+  color: $raven-color;
 }
 
 h1, h2, h3, h4 {
-  max-width: 580px;
+  max-width: $max-width;
+  margin-top: 4%;
+  margin-bottom: -1%;
 }
 
-h1 { 
+h1 {
   font-family: "Cormorant Garamond";
   font-size: 3rem;
   color: black;
@@ -84,15 +88,15 @@ nav {
 
 // Storyroll
 div.story-list-header {
-  font-family: $font-stack;
-  max-width: 580px;
+  font-family: $font-stack-proza;
+  max-width: $max-width;
 }
 
 div.story-list-preview {
   font-family: 'Cormorant Garamond';
   font-size: 1.2rem;
-  padding-bottom: 1%;
-  max-width: 580px;
+  padding-bottom: 2%;
+  max-width: $max-width;
 }
 
 
@@ -103,7 +107,7 @@ h1.story-header {
   font-family: 'Cormorant Garamond';
 
   font-size: 3rem;
-  max-width: 580px;
+  max-width: $max-width;
   // text-indent: 30px;
   text-align: center;
   // line-height: 160%;
@@ -121,14 +125,14 @@ div.story-body {
   p {
     color: $raven-color;
     font-size: 120%;
-    max-width: 580px;
+    max-width: $max-width;
     text-indent: 30px;
     text-align: justify;
     line-height: 2.2rem;
     padding-bottom: 0.65rem;
 
     margin: 0 auto;
-    font-family: $font-stack;
+    font-family: $font-stack-proza;
     background-color: white;
   }
 }
