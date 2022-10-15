@@ -15,6 +15,9 @@ Incited by and prepared for the [All Good Bookshop Writing Group](https://www.me
 ## Critical Mass
 Incited by Matt B.
 
+# Images
+[DALL·E](https://labs.openai.com/){:target="_blank"}
+
 # Fonts
 * [Proza Libre](https://bureauroffa.com/about-proza-libre){:target="_blank"}
 * [Crimson](https://github.com/skosch/Crimson){:target="_blank"}

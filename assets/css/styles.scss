@@ -3,6 +3,7 @@
 @import "fonts";
 
 $font-stack-proza: "Proza Libre", sans-serif;
+$font-stack-cormorant: "Cormorant Garamond", serif;
 $raven-color: #373D3F;
 $max-width: 580px;
 
@@ -15,7 +16,7 @@ html {
     margin-left: 10%;
     margin-right: 10%;
   }
-  div.story-body {
+  .story-body {
     padding-left: 22%;
     padding-right: 22%;
   }
@@ -28,7 +29,7 @@ html {
     margin-left: 5%;
     margin-right: 5%;
   }
-  div.story-body {
+  .story-body {
     padding-left: 0%;
     padding-right: 0%;
   }
@@ -43,7 +44,7 @@ body {
 p, li {
   font-size: 1.4rem;
   max-width: $max-width;
-  font-family: "Cormorant Garamond";
+  font-family: $font-stack-cormorant;
 }
 
 li {
@@ -58,7 +59,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-family: "Cormorant Garamond";
+  font-family: $font-stack-cormorant;
   font-size: 3rem;
   color: black;
 }
@@ -77,7 +78,7 @@ img {
 
 // Navigation
 nav {
-  font-family: "Cormorant Garamond";
+  font-family: $font-stack-cormorant;
   padding-top: 1%;
 }
 
@@ -92,16 +93,22 @@ nav {
 
 
 // Storyroll
-div.story-list-header {
-  font-family: $font-stack-proza;
+.story-list-header {
+  font-family: $font-stack-cormorant;
+  letter-spacing: 0.15rem;
   max-width: $max-width;
 }
 
-div.story-list-preview {
-  font-family: 'Cormorant Garamond';
+.story-list-preview {
+  font-family: $font-stack-cormorant;
   font-size: 1.2rem;
   padding-bottom: 2%;
   max-width: $max-width;
+}
+
+.story-list-preview img {
+  width: 40%;
+  height: auto;
 }
 
 
@@ -109,7 +116,7 @@ div.story-list-preview {
 h1.story-header {
   color: black;
   text-align: center;
-  font-family: 'Cormorant Garamond';
+  font-family: $font-stack-cormorant;
 
   font-size: 3rem;
   max-width: $max-width;
@@ -123,7 +130,7 @@ h1.story-header {
 
 }
 
-div.story-body {
+.story-body {
   padding-top: 0.5%;
   padding-bottom: 5%;
 
@@ -142,11 +149,13 @@ div.story-body {
   }
 }
 
-div.highlight pre{
+.highlight pre{
   white-space: pre-wrap;
   line-height: 1.6rem;
   padding-left: 16%; // can't get this to match the paragraph width... why? 
   padding-right: 16%;
+  border: 1px solid;
+  overflow-x: auto;
 }
 
 code {

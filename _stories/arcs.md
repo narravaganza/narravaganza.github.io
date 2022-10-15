@@ -1,7 +1,7 @@
 ---
-short_name: arcs
 name: Arcs
 preview: Alfred had known two girls during his time in London. One was a...
+story-roll-image: arcs1.png
 ---
 Alfred had known two girls during his time in London. One was a lawyer who liked to talk about her IT contract law cases. The other one was an art historian who liked to talk about which gallery would pay her to sell paintings. Alfred wanted to marry, therefore had to find a woman. He searched his conscience, and went for the one with the widest ass.
 
@@ -16,3 +16,4 @@ And that was the thing about Alfred “Alfa” Romeo; he literally didn’t gene
 “Should have used the zebra crossing, really, if a lorry runs you over, and you’re in a wheelchair, you’ll be turned into a proper waffle.” He pointed at a sticker of Rubens’s painting of Medusa’s severed head, live twisting snakes emanating from it, stuck on her rear mudguard. “Kinda like that fellow.” 
 
 His itinerary would total 48 left turns that morning. Twisting more than usual around the city; as the conversation with the sticker’s owner was worth the slight deviation, which ultimately resulted in an increase in the length of the arc of his path, and in a volatile marriage that lasted 3 years.
+
