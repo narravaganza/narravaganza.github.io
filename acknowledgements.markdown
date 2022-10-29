@@ -15,6 +15,12 @@ Incited by and prepared for the [All Good Bookshop Writing Group](https://www.me
 ## Critical Mass
 Incited by Matt B.
 
+## Chatty Chakras
+Critiqued by the BA Writers Group
+
+## Reliable Massage
+Inspired by a Writers Group that shall remain unknown
+
 # Images
 [DALL·E](https://labs.openai.com/){:target="_blank"}
 

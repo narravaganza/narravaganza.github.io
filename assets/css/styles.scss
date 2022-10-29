@@ -4,7 +4,11 @@
 
 $font-stack-proza: "Proza Libre", sans-serif;
 $font-stack-cormorant: "Cormorant Garamond", serif;
+
 $raven-color: #373D3F;
+$chan-background-color: #ffffe9;
+$chan-post-background-color: #ebd8cd;
+
 $max-width: 580px;
 
 // General
@@ -86,10 +90,14 @@ nav {
   font-size: 2rem;
 }
 
-.navigation-item {
+a.navigation-item { 
   font-size: 1.5rem;
+  text-decoration: none;
 }
 // is there a nicer way to space elements other than adding &nbsp; ?
+a.navigation-item:hover {
+  background-color: $chan-post-background-color;
+}
 
 
 // Storyroll
@@ -97,6 +105,9 @@ nav {
   font-family: $font-stack-cormorant;
   letter-spacing: 0.15rem;
   max-width: $max-width;
+}
+.story-list-header:hover {
+  background-color: $chan-post-background-color;
 }
 
 .story-list-preview {
@@ -146,6 +157,20 @@ h1.story-header {
     margin: 0 auto;
     font-family: $font-stack-proza;
     background-color: white;
+  }
+
+  img {
+    text-indent: 0px; // why is this ignored? 
+  }
+}
+
+.story-chat {
+  @extend .story-body;
+  p {
+    @extend .story-body;
+    text-indent: 0px;
+    line-height: 2.1rem;
+    margin-bottom: 1rem;
   }
 }
 
