@@ -24,9 +24,6 @@ html {
     padding-left: 22%;
     padding-right: 22%;
   }
-  h1.story-header {
-    padding-top: 0.5%;
-  }
 }
 @media only screen and (max-width: 1200px) { //smaller screens
   body {
@@ -36,9 +33,6 @@ html {
   .story-body {
     padding-left: 0%;
     padding-right: 0%;
-  }
-  h1.story-header {
-    padding-top: 5%;
   }
 }
 body {
@@ -84,6 +78,9 @@ img {
 nav {
   font-family: $font-stack-cormorant;
   padding-top: 1%;
+  a {
+    margin-right: 2rem;
+  }
 }
 
 .current-navigation-item {
@@ -94,7 +91,6 @@ a.navigation-item {
   font-size: 1.5rem;
   text-decoration: none;
 }
-// is there a nicer way to space elements other than adding &nbsp; ?
 a.navigation-item:hover {
   background-color: $chan-post-background-color;
 }
@@ -128,20 +124,17 @@ h1.story-header {
   color: black;
   text-align: center;
   font-family: $font-stack-cormorant;
-
   font-size: 3rem;
   max-width: $max-width;
-  // text-indent: 30px;
   text-align: center;
-  // line-height: 160%;
-  // padding-left: 22%;
-  // padding-right: 22%;
   margin: 0 auto;
+  padding-top: 5%;
   padding-bottom: 4%;
-
 }
 
 .story-body {
+  $text-indent: 30px;
+
   padding-top: 0.5%;
   padding-bottom: 5%;
 
@@ -149,7 +142,7 @@ h1.story-header {
     color: $raven-color;
     font-size: 120%;
     max-width: $max-width;
-    text-indent: 30px;
+    text-indent: $text-indent;
     text-align: justify;
     line-height: 2.2rem;
     padding-bottom: 0.65rem;
@@ -160,30 +153,48 @@ h1.story-header {
   }
 
   img {
-    text-indent: 0px; // why is this ignored? 
+    margin-left: -$text-indent;
+  }
+
+  hr {
+    height: 1rem;
+    width: 180px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-width: 0px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+
+  .highlight pre {
+    max-width: $max-width;
+    white-space: pre-wrap;
+    line-height: 1.6rem;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .language-plaintext {
+    margin: 0 auto;
+  }
+  code {
+    font-family: "B612Mono";
   }
 }
 
 .story-chat {
   @extend .story-body;
+  padding-left: 0px;
+  padding-right: 0px;
+
   p {
-    @extend .story-body;
     text-indent: 0px;
     line-height: 2.1rem;
     margin-bottom: 1rem;
   }
 }
 
-.highlight pre{
-  white-space: pre-wrap;
-  line-height: 1.6rem;
-  padding-left: 16%; // can't get this to match the paragraph width... why? 
-  padding-right: 16%;
-  border: 1px solid;
-  overflow-x: auto;
-}
 
-code {
-  white-space: pre-wrap;
-  font-family: "B612Mono";
-}
