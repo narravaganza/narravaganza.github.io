@@ -27,5 +27,8 @@ defaults:
 feed:
   collections:
     stories:
-      path: "/stories_feed.xml"
+      path: "/feed.xml"
+    posts: # workaround to prevent a feed of posts from being created. see https://github.com/jekyll/jekyll-feed/issues/376
+      path: "/404.html"
   excerpt_only: true
+
