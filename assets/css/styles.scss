@@ -24,6 +24,9 @@ html {
     padding-left: 22%;
     padding-right: 22%;
   }
+  .nav-title {
+    font-size: 4rem;
+  }
 }
 @media only screen and (max-width: 1200px) { //smaller screens
   body {
@@ -33,6 +36,9 @@ html {
   .story-body {
     padding-left: 0%;
     padding-right: 0%;
+  }
+  .nav-title {
+    font-size: 3rem;
   }
 }
 body {
@@ -73,13 +79,37 @@ img {
   height: auto;
 }
 
+a:hover {
+  background-color: $chan-post-background-color;
+}
+
 
 // Navigation
+.nav-title {
+  font-family: $font-stack-proza;
+  font-weight: 1000;
+  text-decoration: none; 
+}
+.nav-title:visited {
+  color: $raven-color;
+}
+
+.nav-title:hover {
+  color: black;
+}
+
 nav {
-  font-family: $font-stack-cormorant;
-  padding-top: 1%;
   a {
+    font-family: $font-stack-cormorant;
     margin-right: 2rem;
+  }
+
+  p {
+    margin-top: 0;
+    font-family: $font-stack-proza;
+    max-width: 100%;
+    color: grey;
+    font-weight: 200;
   }
 }
 
@@ -88,13 +118,9 @@ nav {
 }
 
 a.navigation-item { 
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
 }
-a.navigation-item:hover {
-  background-color: $chan-post-background-color;
-}
-
 
 // Storyroll
 .story-list-header {

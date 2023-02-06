@@ -1,53 +1,77 @@
+// Proza Libre
 @font-face {
-  font-family: "B612Mono";
+  font-family: "Proza Libre";
   font-style: normal;
-  src: url("../fonts/B612_Mono/B612Mono-Regular.ttf");
-}
-@font-face {
-  font-family: "B612Mono";
-  font-style: italic;
-  src: url("../fonts/B612_Mono/B612Mono-Italic.ttf");
+  font-weight: 700;
+  src: url("../fonts/Proza_Libre/ProzaLibre-Bold.ttf");
 }
 
 @font-face {
-  font-family: "Crimson";
-  font-style: normal;
-  src: url("../fonts/Crimson/Crimson-Roman.ttf");
+  font-family: "Proza Libre";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Proza_Libre/ProzaLibre-BoldItalic.ttf");
 }
 
 @font-face {
-  font-family: "Crimson";
+  font-family: "Proza Libre";
+  font-style: regular;
+  font-weight: 1000;
+  src: url("../fonts/Proza_Libre/ProzaLibre-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Proza Libre";
   font-style: italic;
-  src: url("../fonts/Crimson/Crimson-Italic.ttf");
+  font-weight: 1000;
+  src: url("../fonts/Proza_Libre/ProzaLibre-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Proza Libre";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Proza_Libre/ProzaLibre-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Proza Libre";
+  font-style: regular;
+  font-weight: 500;
+  src: url("../fonts/Proza_Libre/ProzaLibre-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Proza Libre";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Proza_Libre/ProzaLibre-MediumItalic.ttf");
 }
 
 @font-face {
   font-family: "Proza Libre";
   font-style: normal;
+  font-weight: 400;
   src: url("../fonts/Proza_Libre/ProzaLibre-Regular.ttf");
 }
 
 @font-face {
   font-family: "Proza Libre";
-  font-style: italic;
-  src: url("../fonts/Proza_Libre/ProzaLibre-Italic.ttf");
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Proza_Libre/ProzaLibre-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Proza Libre";
-  font-style: normal;
-  font-weight: 1000;
-  src: url("../fonts/Proza_Libre/ProzaLibre-ExtraBold.ttf");
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Proza_Libre/ProzaLibre-SemiBoldItalic.ttf");
 }
 
+
+// Cormorant Garamond
 @font-face {
   font-family: "Cormorant Garamond";
   font-style: normal;
   src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Proza Libre";
-  font-style: italic;
-  src: url("../fonts/Proza_Libre/ProzaLibre-Italic.ttf");
 }

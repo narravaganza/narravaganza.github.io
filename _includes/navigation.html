@@ -1,4 +1,6 @@
 <nav>
+  <a href="/" class="nav-title">Narravaganza</a>
+  <p>Short stories. {{ site.data.taglines | sample }}</p>
 {% for item in site.data.navigation %}
   <a href="{{ item.link }}"
   {% if page.url == item.link %} class="current-navigation-item" 
@@ -7,3 +9,4 @@
   {{item.name}}</a>
 {% endfor %}
 </nav>
+
