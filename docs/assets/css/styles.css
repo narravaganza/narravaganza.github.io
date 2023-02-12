@@ -60,7 +60,7 @@ a.navigation-item { font-size: 2rem; text-decoration: none; }
 
 .story-list-header:hover { background-color: #ebd8cd; }
 
-.story-list-preview { font-family: "Cormorant Garamond", serif; font-size: 1.2rem; padding-bottom: 2%; max-width: 580px; }
+.story-list-preview { font-family: "Cormorant Garamond", serif; font-size: 1.2rem; padding-bottom: 2%; }
 
 .story-list-preview img { width: 40%; height: auto; }
 
