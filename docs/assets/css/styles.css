@@ -22,13 +22,13 @@
 
 html { font-size: 100%; }
 
-@media only screen and (min-width: 1200px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .nav-title { font-size: 4rem; } }
+@media only screen and (min-width: 1200px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .nav-title { font-size: 4rem; } li { max-width: 580px; } }
 
 @media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .nav-title { font-size: 3rem; } }
 
 body { color: #373D3F; }
 
-p, li { font-size: 1.4rem; max-width: 580px; font-family: "Cormorant Garamond", serif; }
+p, li { font-size: 1.4rem; font-family: "Cormorant Garamond", serif; }
 
 li { padding-top: 2%; color: #373D3F; }
 
@@ -38,7 +38,7 @@ h1 { font-family: "Cormorant Garamond", serif; font-size: 3rem; color: black; }
 
 div.footnotes p, div.footnotes li, div.footnotes a { font-size: 0.9rem; }
 
-img { width: 100%; height: auto; }
+img { max-width: 580px; height: auto; }
 
 a:hover { background-color: #ebd8cd; }
 
@@ -68,13 +68,13 @@ h1.story-header { color: black; text-align: center; font-family: "Cormorant Gara
 
 .story-body, .story-chat { padding-top: 0.5%; padding-bottom: 5%; }
 
-.story-body p, .story-chat p { color: #373D3F; font-size: 120%; max-width: 580px; text-indent: 30px; text-align: justify; line-height: 2.2rem; padding-bottom: 0.65rem; margin: 0 auto; font-family: "Proza Libre", sans-serif; background-color: white; }
+.story-body p, .story-chat p { color: #373D3F; font-size: 120%; text-indent: 30px; text-align: justify; line-height: 2.2rem; padding-bottom: 0.65rem; margin: 0 auto; font-family: "Proza Libre", sans-serif; background-color: white; }
 
 .story-body img, .story-chat img { margin-left: -30px; }
 
 .story-body hr, .story-chat hr { height: 1rem; width: 180px; margin-top: 4rem; margin-bottom: 4rem; border-width: 0px; background-color: lightgray; border-radius: 5px; }
 
-.story-body .highlight pre, .story-chat .highlight pre { max-width: 580px; white-space: pre-wrap; line-height: 1.6rem; border: 1px solid; border-radius: 10px; padding: 1rem; margin: 0 auto; margin-top: 2rem; margin-bottom: 1rem; }
+.story-body .highlight pre, .story-chat .highlight pre { white-space: pre-wrap; line-height: 1.6rem; border: 1px solid; border-radius: 10px; padding: 1rem; margin: 0 auto; margin-top: 2rem; margin-bottom: 1rem; }
 
 .story-body .language-plaintext, .story-chat .language-plaintext { margin: 0 auto; }
 

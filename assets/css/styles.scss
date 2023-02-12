@@ -27,6 +27,9 @@ html {
   .nav-title {
     font-size: 4rem;
   }
+  li {
+    max-width: $max-width; // if applied to p then story-body text gets too little max-width... 
+  }
 }
 @media only screen and (max-width: 1200px) { //smaller screens
   body {
@@ -47,7 +50,6 @@ body {
 
 p, li {
   font-size: 1.4rem;
-  max-width: $max-width;
   font-family: $font-stack-cormorant;
 }
 
@@ -75,14 +77,13 @@ div.footnotes {
 }
 
 img {
-  width: 100%;
+  max-width: $max-width;
   height: auto;
 }
 
 a:hover {
   background-color: $chan-post-background-color;
 }
-
 
 // Navigation
 .nav-title {
@@ -167,7 +168,6 @@ h1.story-header {
   p {
     color: $raven-color;
     font-size: 120%;
-    max-width: $max-width;
     text-indent: $text-indent;
     text-align: justify;
     line-height: 2.2rem;
@@ -193,7 +193,6 @@ h1.story-header {
   }
 
   .highlight pre {
-    max-width: $max-width;
     white-space: pre-wrap;
     line-height: 1.6rem;
     border: 1px solid;
