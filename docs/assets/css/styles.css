@@ -24,7 +24,7 @@ html { font-size: 100%; }
 
 @media only screen and (min-width: 1200px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .story-body p, .story-chat p { font-size: 1.3rem; } .nav-title { font-size: 4rem; } li { max-width: 580px; } }
 
-@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 120%; } .nav-title { font-size: 6rem; } }
+@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 150%; } .nav-title { font-size: 6rem; } }
 
 body { color: #373D3F; }
 
