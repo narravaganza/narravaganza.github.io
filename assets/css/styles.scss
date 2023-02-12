@@ -2,8 +2,8 @@
 ---
 @import "fonts";
 
-$font-stack-proza: "Proza Libre", sans-serif;
-$font-stack-cormorant: "Cormorant Garamond", serif;
+$font-stack-proza: Proza Libre, sans-serif;
+$font-stack-cormorant: Cormorant Garamond, serif;
 
 $raven-color: #373D3F;
 $chan-background-color: #ffffe9;
@@ -23,6 +23,9 @@ html {
   .story-body {
     padding-left: 22%;
     padding-right: 22%;
+    p {
+      font-size: 1.3rem;
+    }
   }
   .nav-title {
     font-size: 4rem;
@@ -39,9 +42,13 @@ html {
   .story-body {
     padding-left: 0%;
     padding-right: 0%;
+    p {
+      font-size: 120%;
+    }
+
   }
   .nav-title {
-    font-size: 3rem;
+    font-size: 6rem;
   }
 }
 body {
@@ -88,7 +95,7 @@ a:hover {
 // Navigation
 .nav-title {
   font-family: $font-stack-proza;
-  font-weight: 1000;
+  font-weight: bold;
   text-decoration: none; 
 }
 .nav-title:visited {
@@ -110,7 +117,7 @@ nav {
     font-family: $font-stack-proza;
     max-width: 100%;
     color: grey;
-    font-weight: 200;
+    font-weight: medium;
   }
 }
 
@@ -166,7 +173,6 @@ h1.story-header {
 
   p {
     color: $raven-color;
-    font-size: 120%;
     text-indent: $text-indent;
     text-align: justify;
     line-height: 2.2rem;
