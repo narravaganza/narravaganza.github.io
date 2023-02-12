@@ -72,6 +72,14 @@
 // Cormorant Garamond
 @font-face {
   font-family: "Cormorant Garamond";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
   font-style: normal;
+  font-weight: 400;
   src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
 }

@@ -11,11 +11,7 @@ $chan-post-background-color: #ebd8cd;
 
 $max-width: 580px;
 
-// General
-html {
-  font-size: 100%; // use rem units throughout
-}
-@media only screen and (min-width: 1200px) { // larger screens
+@media only screen and (min-width: 1000px) { // larger screens
   body {
     margin-left: 10%;
     margin-right: 10%;
@@ -28,35 +24,83 @@ html {
     }
   }
   .nav-title {
-    font-size: 4rem;
+    font-size: 5vw;
+  }
+  .nav-tagline {
+    font-size: 1.4vw;
+  }
+  a.navigation-item { 
+    font-size: 2vw;
+  }
+  .current-navigation-item { 
+    font-size: 2vw;
+  }
+  img.homepage-hero-image {
+    width: 40vw;
+  }
+  .story-list-preview {
+    font-size: 1.2rem;
+  }
+
+  .story-body {
+    p {
+      line-height: 2.2rem;
+    }
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+  p, li {
+   font-size: 1.4rem;
   }
   li {
     max-width: $max-width; // if applied to p then story-body text gets too little max-width... 
   }
 }
-@media only screen and (max-width: 1200px) { //smaller screens
+@media only screen and (max-width: 999px) { //smaller screens
   body {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .nav-title {
+    font-size: 12vw;
+  }
+  .nav-tagline {
+    font-size: 4vw;
+  }
+  a.navigation-item { 
+    font-size: 6vw;
+  }
+  a.current-navigation-item { 
+    font-size: 6vw;
+  }
+  img.homepage-hero-image {
+    width: 70vw;
+  }
+  .story-list-preview {
+    font-size: 5vw;
   }
   .story-body {
     padding-left: 0%;
     padding-right: 0%;
     p {
-      font-size: 150%;
+      font-size: 5vw;
     }
-
   }
-  .nav-title {
-    font-size: 6rem;
+  h1 {
+    font-size: 7vw;
+  }
+  p, li {
+   font-size: 5vw;
   }
 }
+
 body {
   color: $raven-color;
 }
 
 p, li {
-  font-size: 1.4rem;
   font-family: $font-stack-cormorant;
 }
 
@@ -73,7 +117,6 @@ h1, h2, h3, h4 {
 
 h1 {
   font-family: $font-stack-cormorant;
-  font-size: 3rem;
   color: black;
 }
 
@@ -83,9 +126,11 @@ div.footnotes {
   }
 }
 
-img {
-  max-width: $max-width;
-  height: auto;
+img.story-header-image {
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding-bottom: 8%
 }
 
 a:hover {
@@ -108,31 +153,28 @@ a:hover {
 
 nav {
   a {
-    font-family: $font-stack-cormorant;
+    margin-top: 0;
+    font-family: $font-stack-proza;
+    font-weight: bold;
     margin-right: 2rem;
   }
 
   p {
     margin-top: 0;
     font-family: $font-stack-proza;
-    max-width: 100%;
     color: grey;
     font-weight: medium;
   }
 }
 
-.current-navigation-item {
-  font-size: 2rem;
-}
-
 a.navigation-item { 
-  font-size: 2rem;
   text-decoration: none;
 }
 
 // Storyroll
 .story-list-header {
-  font-family: $font-stack-cormorant;
+  font-family: $font-stack-proza;
+  font-weight: bold;
   letter-spacing: 0.15rem;
   max-width: $max-width;
 }
@@ -142,7 +184,6 @@ a.navigation-item {
 
 .story-list-preview {
   font-family: $font-stack-cormorant;
-  font-size: 1.2rem;
   padding-bottom: 2%;
 }
 
@@ -154,14 +195,14 @@ a.navigation-item {
 
 // Stories
 h1.story-header {
+  max-width: 100%;
   color: black;
   text-align: center;
   font-family: $font-stack-cormorant;
-  font-size: 3rem;
-  max-width: $max-width;
-  text-align: center;
+  font-style: bold;
+  font-size: 10vw;
   margin: 0 auto;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 4%;
 }
 
@@ -175,16 +216,11 @@ h1.story-header {
     color: $raven-color;
     text-indent: $text-indent;
     text-align: justify;
-    line-height: 2.2rem;
     padding-bottom: 0.65rem;
 
     margin: 0 auto;
     font-family: $font-stack-proza;
     background-color: white;
-  }
-
-  img {
-    margin-left: -$text-indent;
   }
 
   hr {
@@ -226,5 +262,3 @@ h1.story-header {
     margin-bottom: 1rem;
   }
 }
-
-

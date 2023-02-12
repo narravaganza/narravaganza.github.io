@@ -4,7 +4,7 @@ preview: The Boiled Tomato Technique will not only boost your dating productivit
 story-roll-image: 
 ---
 
-![](/assets/images/stories/boiled-tomato-1.png)
+![](/assets/images/stories/boiled-tomato-1.png){: .story-header-image}
 
 The Boiled Tomato Technique will not only boost your dating productivity, it will give you a life-long skill to help you achieve goals. Based on more than two weeks of refinement and thinking, it’s easy to understand and highly enjoyable. 
 
