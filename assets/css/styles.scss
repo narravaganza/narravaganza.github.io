@@ -11,7 +11,7 @@ $chan-post-background-color: #ebd8cd;
 
 $max-width: 580px;
 
-@media only screen and (min-width: 1000px) { // larger screens
+@media only screen and (min-width: 1201px) { // larger screens
   body {
     margin-left: 10%;
     margin-right: 10%;
@@ -58,7 +58,7 @@ $max-width: 580px;
     max-width: $max-width; // if applied to p then story-body text gets too little max-width... 
   }
 }
-@media only screen and (max-width: 999px) { //smaller screens
+@media only screen and (max-width: 1200px) { //smaller screens
   body {
     margin-left: 5%;
     margin-right: 5%;
