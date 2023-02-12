@@ -22,19 +22,19 @@
 
 html { font-size: 100%; }
 
-@media only screen and (min-width: 1200px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .nav-title { font-size: 4rem; } li { max-width: 580px; } }
+@media only screen and (min-width: 1200px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .story-body p, .story-chat p { font-size: 1.3rem; } .nav-title { font-size: 4rem; } li { max-width: 580px; } }
 
-@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .nav-title { font-size: 3rem; } }
+@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 120%; } .nav-title { font-size: 6rem; } }
 
 body { color: #373D3F; }
 
-p, li { font-size: 1.4rem; font-family: "Cormorant Garamond", serif; }
+p, li { font-size: 1.4rem; font-family: Cormorant Garamond, serif; }
 
 li { padding-top: 2%; color: #373D3F; }
 
 h1, h2, h3, h4 { max-width: 580px; margin-top: 4%; margin-bottom: -1%; }
 
-h1 { font-family: "Cormorant Garamond", serif; font-size: 3rem; color: black; }
+h1 { font-family: Cormorant Garamond, serif; font-size: 3rem; color: black; }
 
 div.footnotes p, div.footnotes li, div.footnotes a { font-size: 0.9rem; }
 
@@ -42,33 +42,33 @@ img { max-width: 580px; height: auto; }
 
 a:hover { background-color: #ebd8cd; }
 
-.nav-title { font-family: "Proza Libre", sans-serif; font-weight: 1000; text-decoration: none; }
+.nav-title { font-family: Proza Libre, sans-serif; font-weight: bold; text-decoration: none; }
 
 .nav-title:visited { color: #373D3F; }
 
 .nav-title:hover { color: black; }
 
-nav a { font-family: "Cormorant Garamond", serif; margin-right: 2rem; }
+nav a { font-family: Cormorant Garamond, serif; margin-right: 2rem; }
 
-nav p { margin-top: 0; font-family: "Proza Libre", sans-serif; max-width: 100%; color: grey; font-weight: 200; }
+nav p { margin-top: 0; font-family: Proza Libre, sans-serif; max-width: 100%; color: grey; font-weight: medium; }
 
 .current-navigation-item { font-size: 2rem; }
 
 a.navigation-item { font-size: 2rem; text-decoration: none; }
 
-.story-list-header { font-family: "Cormorant Garamond", serif; letter-spacing: 0.15rem; max-width: 580px; }
+.story-list-header { font-family: Cormorant Garamond, serif; letter-spacing: 0.15rem; max-width: 580px; }
 
 .story-list-header:hover { background-color: #ebd8cd; }
 
-.story-list-preview { font-family: "Cormorant Garamond", serif; font-size: 1.2rem; padding-bottom: 2%; }
+.story-list-preview { font-family: Cormorant Garamond, serif; font-size: 1.2rem; padding-bottom: 2%; }
 
 .story-list-preview img { width: 40%; height: auto; }
 
-h1.story-header { color: black; text-align: center; font-family: "Cormorant Garamond", serif; font-size: 3rem; max-width: 580px; text-align: center; margin: 0 auto; padding-top: 5%; padding-bottom: 4%; }
+h1.story-header { color: black; text-align: center; font-family: Cormorant Garamond, serif; font-size: 3rem; max-width: 580px; text-align: center; margin: 0 auto; padding-top: 5%; padding-bottom: 4%; }
 
 .story-body, .story-chat { padding-top: 0.5%; padding-bottom: 5%; }
 
-.story-body p, .story-chat p { color: #373D3F; font-size: 120%; text-indent: 30px; text-align: justify; line-height: 2.2rem; padding-bottom: 0.65rem; margin: 0 auto; font-family: "Proza Libre", sans-serif; background-color: white; }
+.story-body p, .story-chat p { color: #373D3F; text-indent: 30px; text-align: justify; line-height: 2.2rem; padding-bottom: 0.65rem; margin: 0 auto; font-family: Proza Libre, sans-serif; background-color: white; }
 
 .story-body img, .story-chat img { margin-left: -30px; }
 
