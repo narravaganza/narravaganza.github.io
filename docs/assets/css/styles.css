@@ -24,7 +24,7 @@
 
 @media only screen and (min-width: 1201px) { body { margin-left: 10%; margin-right: 10%; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .story-body p, .story-chat p { font-size: 1.3rem; } .nav-title { font-size: 5vw; } .nav-tagline { font-size: 1.4vw; } a.navigation-item { font-size: 2vw; } .current-navigation-item { font-size: 2vw; } img.homepage-hero-image { width: 40vw; } .story-list-preview { font-size: 1.2rem; } .story-body p, .story-chat p { line-height: 2.2rem; } h1 { font-size: 4vw; } p, li { font-size: 1.4rem; } li { max-width: 580px; } }
 
-@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .nav-title { font-size: 12vw; } .nav-tagline { font-size: 4vw; } a.navigation-item { font-size: 6vw; } a.current-navigation-item { font-size: 6vw; } img.homepage-hero-image { width: 70vw; } .story-list-preview { font-size: 5vw; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 5vw; } h1 { font-size: 7vw; } p, li { font-size: 5vw; } }
+@media only screen and (max-width: 1200px) { body { margin-left: 5%; margin-right: 5%; } .nav-title { font-size: 152vw; } .nav-tagline { font-size: 4vw; } a.navigation-item { font-size: 6vw; } a.current-navigation-item { font-size: 6vw; } img.homepage-hero-image { width: 70vw; } .story-list-preview { font-size: 5vw; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 5vw; } h1 { font-size: 7vw; } p, li { font-size: 5vw; } }
 
 body { color: #373D3F; }
 
