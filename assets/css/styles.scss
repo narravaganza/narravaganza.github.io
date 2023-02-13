@@ -16,13 +16,6 @@ $max-width: 580px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .story-body {
-    padding-left: 22%;
-    padding-right: 22%;
-    p {
-      font-size: 1.3rem;
-    }
-  }
   .nav-title {
     font-size: 5vw;
   }
@@ -41,13 +34,17 @@ $max-width: 580px;
   .story-list-preview {
     font-size: 1.2rem;
   }
-
+  h1.story-header {
+    font-size: 6vw;
+  }
   .story-body {
+    padding-left: 22%;
+    padding-right: 22%;
     p {
+      font-size: 1.3rem;
       line-height: 2.2rem;
     }
   }
-
   h1 {
     font-size: 4vw;
   }
@@ -83,6 +80,9 @@ $max-width: 580px;
   }
   .story-list-preview {
     font-size: 5vw;
+  }
+  h1.story-header {
+    font-size: 10vw;
   }
   .story-body {
     padding-left: 0%;
@@ -207,7 +207,6 @@ h1.story-header {
   text-align: center;
   font-family: $font-stack-cormorant;
   font-style: bold;
-  font-size: 10vw;
   margin: 0 auto;
   padding-top: 10%;
   padding-bottom: 4%;
