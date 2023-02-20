@@ -16,13 +16,16 @@ Incited by the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodB
 Incited by Matt B.
 
 ## Chatty Chakras
-Critiqued by the BA Writers Group
+Improved with feedback from the BA Writers Group
 
 ## Reliable Massage
 Inspired by a Writers Group that shall remain unknown
 
 ## The Boiled Tomato Technique
-Critiqued by Diana G.
+Improved with feedback from Diana G.
+
+## Fajeever And I
+Improved with feedback from Joan D.
 
 # Images
 * [DALL·E](https://labs.openai.com/){:target="_blank"} 
@@ -35,3 +38,5 @@ Critiqued by Diana G.
 
 # Infrastructure
 This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.
+
+Styling issues fixes by Solal G.
