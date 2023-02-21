@@ -18,6 +18,9 @@ Incited by Matt B.
 ## Chatty Chakras
 Improved with feedback from the BA Writers Group
 
+## Live at the Baby Seal
+Improved with Feedback from Alejandro J.
+
 ## Reliable Massage
 Inspired by a Writers Group that shall remain unknown
 

@@ -13,8 +13,9 @@ permalink: /about/
 
 # Inspiration
 * [greentexts](https://knowyourmeme.com/memes/greentext-stories){:target="_blank"}
-* Woody Allen
-* Charles Bukowski
+* [Antijokes](https://www.reddit.com/r/antijokes){:target="_blank"}
+* Woody Allen's short stories
+* Charles Bukowski's short stories
 
 # Disclaimer
 All stories hosted on this site are fictitious.
