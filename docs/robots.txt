@@ -1,1 +1,1 @@
-Sitemap: example.com/sitemap.xml
+Sitemap: narravaganza.lol/sitemap.xml
