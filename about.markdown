@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+preview: Narravaganza is a collection of funny short stories written in digital vernacular, the writing style of the Internet. 
 ---
 
 # Goals
