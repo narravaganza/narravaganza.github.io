@@ -30,14 +30,15 @@ Improved with feedback from Diana G.
 ## Fajeever And I
 Improved with feedback from Joan D.
 
+# Miscellanous Creative Input
+* `text-davinci-003` (a.k.a [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
+
 # Images
-* [DALL·E](https://labs.openai.com/){:target="_blank"} 
+* [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"} 
 * Stable Diffusion (via [Playground.ai](https://playgroundai.com/){:target="_blank"})
 
-# Fonts
+# Type
 * [Proza Libre](https://bureauroffa.com/about-proza-libre){:target="_blank"}
-* [Crimson](https://github.com/skosch/Crimson){:target="_blank"}
-* [Cormorant Garamond](https://www.behance.net/gallery/28579883/Cormorant-an-open-source-display-font-family){:target="_blank"}
 
 # Infrastructure
 This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.
