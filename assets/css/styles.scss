@@ -3,7 +3,6 @@
 @import "fonts";
 
 $font-stack-proza: Proza Libre, sans-serif;
-$font-stack-cormorant: Cormorant Garamond, serif;
 
 $raven-color: #373D3F;
 $chan-background-color: #ffffe9;
@@ -88,7 +87,8 @@ $max-width: 580px;
     padding-left: 0%;
     padding-right: 0%;
     p {
-      font-size: 5vw;
+      font-size: 1.3rem;
+      line-height: 4rem;
     }
   }
   h1 {
@@ -104,11 +104,8 @@ $max-width: 580px;
 }
 
 body {
+  font-family: $font-stack-proza;
   color: $raven-color;
-}
-
-p, li {
-  font-family: $font-stack-cormorant;
 }
 
 li {
@@ -123,7 +120,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-family: $font-stack-cormorant;
   color: black;
 }
 
@@ -146,7 +142,6 @@ a:hover {
 
 // Navigation
 .nav-title {
-  font-family: $font-stack-proza;
   font-weight: bold;
   text-decoration: none; 
 }
@@ -161,14 +156,12 @@ a:hover {
 nav {
   a {
     margin-top: 0;
-    font-family: $font-stack-proza;
     font-weight: bold;
     margin-right: 2rem;
   }
 
   p {
     margin-top: 0;
-    font-family: $font-stack-proza;
     color: grey;
     font-weight: medium;
   }
@@ -180,7 +173,6 @@ a.navigation-item {
 
 // Storyroll
 .story-list-header {
-  font-family: $font-stack-proza;
   font-weight: bold;
   letter-spacing: 0.15rem;
   max-width: $max-width;
@@ -190,8 +182,9 @@ a.navigation-item {
 }
 
 .story-list-preview {
-  font-family: $font-stack-cormorant;
   padding-bottom: 2%;
+  line-height: 2rem;
+  max-width: $max-width;
 }
 
 .story-list-preview img {
@@ -205,7 +198,6 @@ h1.story-header {
   max-width: 100%;
   color: black;
   text-align: center;
-  font-family: $font-stack-cormorant;
   font-style: bold;
   margin: 0 auto;
   padding-top: 10%;
@@ -225,7 +217,6 @@ h1.story-header {
     padding-bottom: 0.65rem;
 
     margin: 0 auto;
-    font-family: $font-stack-proza;
     background-color: white;
   }
 
