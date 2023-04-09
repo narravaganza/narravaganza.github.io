@@ -1,1 +1,1 @@
-Sitemap: narravaganza.lol/sitemap.xml
+Sitemap: https://narravaganza.lol/sitemap.xml

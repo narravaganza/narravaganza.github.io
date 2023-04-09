@@ -24,17 +24,15 @@
 
 @media only screen and (min-width: 1000px) { body { margin-left: 10%; margin-right: 10%; } .nav-title { font-size: 5vw; } .nav-tagline { font-size: 1.4vw; } a.navigation-item { font-size: 2vw; } .current-navigation-item { font-size: 2vw; } img.homepage-hero-image { width: 40vw; } .story-list-preview { font-size: 1.2rem; } h1.story-header { font-size: 6vw; } .story-body, .story-chat { padding-left: 22%; padding-right: 22%; } .story-body p, .story-chat p { font-size: 1.3rem; line-height: 2.2rem; } h1 { font-size: 4vw; } h2 { font-size: 3vw; } p, li { font-size: 1.4rem; } li { max-width: 580px; } }
 
-@media only screen and (max-width: 999px) { body { margin-left: 5%; margin-right: 5%; } .nav-title { font-size: 6rem; } .nav-tagline { font-size: 4vw; } a.navigation-item { font-size: 6vw; } a.current-navigation-item { font-size: 6vw; } img.homepage-hero-image { width: 70vw; } .story-list-preview { font-size: 5vw; } h1.story-header { font-size: 10vw; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 5vw; } h1 { font-size: 7vw; } h2 { font-size: 6vw; } p, li { font-size: 5vw; } }
+@media only screen and (max-width: 999px) { body { margin-left: 5%; margin-right: 5%; } .nav-title { font-size: 6rem; } .nav-tagline { font-size: 4vw; } a.navigation-item { font-size: 6vw; } a.current-navigation-item { font-size: 6vw; } img.homepage-hero-image { width: 70vw; } .story-list-preview { font-size: 5vw; } h1.story-header { font-size: 10vw; } .story-body, .story-chat { padding-left: 0%; padding-right: 0%; } .story-body p, .story-chat p { font-size: 1.3rem; line-height: 4rem; } h1 { font-size: 7vw; } h2 { font-size: 6vw; } p, li { font-size: 5vw; } }
 
-body { color: #373D3F; }
-
-p, li { font-family: Cormorant Garamond, serif; }
+body { font-family: Proza Libre, sans-serif; color: #373D3F; }
 
 li { padding-top: 2%; color: #373D3F; }
 
 h1, h2, h3, h4 { max-width: 580px; margin-top: 4%; margin-bottom: -1%; }
 
-h1 { font-family: Cormorant Garamond, serif; color: black; }
+h1 { color: black; }
 
 div.footnotes p, div.footnotes li, div.footnotes a { font-size: 0.9rem; }
 
@@ -42,31 +40,31 @@ img.story-header-image { width: 60%; margin: auto; display: block; padding-botto
 
 a:hover { background-color: #ebd8cd; }
 
-.nav-title { font-family: Proza Libre, sans-serif; font-weight: bold; text-decoration: none; }
+.nav-title { font-weight: bold; text-decoration: none; }
 
 .nav-title:visited { color: #373D3F; }
 
 .nav-title:hover { color: black; }
 
-nav a { margin-top: 0; font-family: Proza Libre, sans-serif; font-weight: bold; margin-right: 2rem; }
+nav a { margin-top: 0; font-weight: bold; margin-right: 2rem; }
 
-nav p { margin-top: 0; font-family: Proza Libre, sans-serif; color: grey; font-weight: medium; }
+nav p { margin-top: 0; color: grey; font-weight: medium; }
 
 a.navigation-item { text-decoration: none; }
 
-.story-list-header { font-family: Proza Libre, sans-serif; font-weight: bold; letter-spacing: 0.15rem; max-width: 580px; }
+.story-list-header { font-weight: bold; letter-spacing: 0.15rem; max-width: 580px; }
 
 .story-list-header:hover { background-color: #ebd8cd; }
 
-.story-list-preview { font-family: Cormorant Garamond, serif; padding-bottom: 2%; }
+.story-list-preview { padding-bottom: 2%; line-height: 2rem; max-width: 580px; }
 
 .story-list-preview img { width: 40%; height: auto; }
 
-h1.story-header { max-width: 100%; color: black; text-align: center; font-family: Cormorant Garamond, serif; font-style: bold; margin: 0 auto; padding-top: 10%; padding-bottom: 4%; }
+h1.story-header { max-width: 100%; color: black; text-align: center; font-style: bold; margin: 0 auto; padding-top: 10%; padding-bottom: 4%; }
 
 .story-body, .story-chat { padding-top: 0.5%; padding-bottom: 5%; }
 
-.story-body p, .story-chat p { color: #373D3F; text-indent: 30px; text-align: justify; padding-bottom: 0.65rem; margin: 0 auto; font-family: Proza Libre, sans-serif; background-color: white; }
+.story-body p, .story-chat p { color: #373D3F; text-indent: 30px; text-align: justify; padding-bottom: 0.65rem; margin: 0 auto; background-color: white; }
 
 .story-body hr, .story-chat hr { height: 1rem; width: 180px; margin-top: 4rem; margin-bottom: 4rem; border-width: 0px; background-color: lightgray; border-radius: 5px; }
 
