@@ -1,5 +1,5 @@
 ---
-name: Critical Mass
+title: Critical Mass
 preview: Please note that this group should be considered a 'fan site' and involvement in this group, either as a member or admin, should not be construed as being an 'organiser' of...
 ---
 ```

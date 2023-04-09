@@ -1,5 +1,5 @@
 ---
-name: Career Planning
+title: Career Planning
 preview: Franco says I need to *focus*, so today I'll start this journal to think of new projects I can focus on, dedicate my life to. I've ruled out starting a...
 ---
 Franco says I need to *focus*, so today I'll start this journal to think of new projects I can focus on, dedicate my life to.

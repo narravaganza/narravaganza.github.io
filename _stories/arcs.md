@@ -1,5 +1,5 @@
 ---
-name: Arcs
+title: Arcs
 preview: Alfred had known two girls during his time in London. One was a...
 story-roll-image: arcs1.png
 ---

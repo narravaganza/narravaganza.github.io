@@ -1,5 +1,5 @@
 ---
-name: The Bench It Is
+title: The Bench It Is
 preview: It’s May 2010, I’ve been in Paris since August 2009, not getting much done except getting my emotional and intellectual self-esteems trampled by the vengeful angry elephants of reality whose stolen ivory was used to build the towers I lived in. Those beasts being a protected species, fighting them is...
 ---
 

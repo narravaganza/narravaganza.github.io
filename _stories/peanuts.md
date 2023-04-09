@@ -1,5 +1,5 @@
 ---
-name: Peanuts
+title: Peanuts
 preview: "I was walking down the street eating peanuts out of a bag of peanuts and tossing the shells on the ground until street justice warrior intervenes, says..."
 ---
 I was walking down the street eating peanuts out of a bag of peanuts and tossing the shells on the ground until street justice warrior intervenes, says "don't throw the fucking shells on the ground"

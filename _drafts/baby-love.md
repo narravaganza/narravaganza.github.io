@@ -1,5 +1,5 @@
 ---
-name: Baby Love
+title: Baby Love
 preview: >
     "Why is there a dead spider on my bed?"<br>"Baby love what's wrong?"<br>"Why is there a..."
 story-roll-image: baby_love1.png

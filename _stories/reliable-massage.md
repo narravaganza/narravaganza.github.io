@@ -1,5 +1,5 @@
 ---
-name: Reliable Massage
+title: Reliable Massage
 preview: Ok welcome, welcome. So this, this is the Fedfer Writers Workshop. You are most of you are regulars, but just for the few newcomers, what we like to do is we like to read the piece together. And... Twice if it's a poem, once if it's prose. And then we have...
 ---
 

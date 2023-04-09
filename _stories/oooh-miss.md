@@ -1,5 +1,5 @@
 ---  
-name: Sick of the whole 'Ooooh Miss
+title: Sick of the whole 'Ooooh Miss
 preview: Speaking of which, I hear you host a podcast where you talk about teacher dating. What are some highlights of that
 ---  
 <div class="story-chat" markdown="1">
