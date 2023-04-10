@@ -40,6 +40,8 @@ img.story-header-image { width: 60%; margin: auto; display: block; padding-botto
 
 a:hover { background-color: #ebd8cd; }
 
+a { color: #373D3F; }
+
 .nav-title { font-weight: bold; text-decoration: none; }
 
 .nav-title:visited { color: #373D3F; }

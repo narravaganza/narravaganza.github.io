@@ -145,6 +145,11 @@ a:hover {
   font-weight: bold;
   text-decoration: none; 
 }
+
+.nav-title:a {
+    color: $raven-color;
+}
+
 .nav-title:visited {
   color: $raven-color;
 }
