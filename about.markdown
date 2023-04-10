@@ -52,15 +52,18 @@ Improved with feedback from Diana G.
 ## Fajeever And I
 Improved with feedback from Joan D.
 
+## Totality
+Inspired by Diana G.
+
 ## Miscellanous Creative Input
-* `text-davinci-003` (a.k.a [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"})
+`text-davinci-003` (a.k.a [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"})
 
 ## Images
 * [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"} 
 * Stable Diffusion (via [Playground.ai](https://playgroundai.com/){:target="_blank"})
 
 ## Type
-* [Proza Libre](https://bureauroffa.com/about-proza-libre){:target="_blank"}
+[Proza Libre](https://bureauroffa.com/about-proza-libre){:target="_blank"}
 
 ## Infrastructure
 This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.
