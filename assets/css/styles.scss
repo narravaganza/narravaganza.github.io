@@ -32,6 +32,7 @@ $max-width: 580px;
   }
   .story-list-preview {
     font-size: 1.2rem;
+    line-height: 2rem;
   }
   h1.story-header {
     font-size: 6vw;
@@ -79,6 +80,7 @@ $max-width: 580px;
   }
   .story-list-preview {
     font-size: 5vw;
+    line-height: 4rem;
   }
   h1.story-header {
     font-size: 10vw;
@@ -86,10 +88,6 @@ $max-width: 580px;
   .story-body {
     padding-left: 0%;
     padding-right: 0%;
-    p {
-      font-size: 1.3rem;
-      line-height: 4rem;
-    }
   }
   h1 {
     font-size: 7vw;
@@ -144,13 +142,6 @@ a:hover {
 .nav-title {
   font-weight: bold;
   text-decoration: none; 
-}
-
-.nav-title:a {
-    color: $raven-color;
-}
-
-.nav-title:visited {
   color: $raven-color;
 }
 
@@ -188,7 +179,6 @@ a.navigation-item {
 
 .story-list-preview {
   padding-bottom: 2%;
-  line-height: 2rem;
   max-width: $max-width;
 }
 
