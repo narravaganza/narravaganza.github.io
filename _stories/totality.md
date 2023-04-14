@@ -1,10 +1,10 @@
 ---
 title: Totality
-preview: Hey How's everything [ 3 weeks later ] at first i was humbled and inspired by this opportunity to explore the vastness of the cosmos...
+preview: Hey How is everything [ 3 weeks later ] at first i was humbled and inspired by this opportunity to explore the vastness of the cosmos...
 ---
 Hey
 
-How's everything
+How is everything
 
 ***
 
