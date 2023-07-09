@@ -15,11 +15,15 @@ preview: A collection of funny short stories written in digital vernacular, the 
 # Inspiration
 * [greentexts](https://knowyourmeme.com/memes/greentext-stories){:target="_blank"}
 * [Antijokes](https://www.reddit.com/r/antijokes){:target="_blank"}
+* San-Antonio's detective stories
 * Woody Allen's short stories
 * Charles Bukowski's short stories
 
 # Disclaimer
 All stories hosted on this site are fictitious.
+
+# License
+All stories hosted on <a xmlns:cc="http://creativecommons.org/ns#" href="https://narravaganza.lol" property="cc:attributionName" rel="cc:attributionURL">Narravaganza.lol</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 # Contact
 Send email to `author` followed by the `@` sign followed by `narravaganza.lol`
@@ -29,7 +33,7 @@ I value all feedback and will reply accordingly 😀
 # Acknowledgements
 
 ## Arcs
-Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wordpress.com/){:target="_blank"}
+Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wordpress.com/){:target="_blank"}. Received feedback from Pupa I. 
 
 ## Peanuts
 Incited by the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
@@ -53,10 +57,14 @@ Improved with feedback from Diana G.
 Improved with feedback from Joan D.
 
 ## Totality
-Inspired by Diana G.
+Incited by Diana G.
+
+## Plane Happy
+Improved with feedback from Dina S. and Pupa I.
+
 
 ## Miscellanous Creative Input
-`text-davinci-003` (a.k.a [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"})
+[ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
 
 ## Images
 * [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"} 

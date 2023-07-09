@@ -2,14 +2,11 @@
 title: The Flavour of Facts
 preview: "Guy goes to an ice cream shop, walks up, peculiarly goes: do you have cucumber ice cream please"
 ---
-
-
-
 Guy goes to an ice cream shop, walks up, peculiarly goes:
 
 "Do you have cucumber ice cream please"
 
-"Cucumber? We don't.. We don't have cucumber ice cream here"
+"Nn-what? Cucum... We don't.. We don't have cucumber ice cream here"
 
 "Ah ok thanks"
 
@@ -37,11 +34,11 @@ He stares at the floor and breathes slowly, heavily.
 
 Walks out.
 
-The owner finds this somewhat pitiful and decides to make cucumber ice cream that night. Finds and prepares the right cucumbers, spices, etc., stays up until 3, but ultimately ends up with a tub of that legendary light green and creamy cucumber ice cream. 
+The owner finds this somewhat pitiful and decides to make cucumber ice cream that night. Finds and prepares the right cucumbers, spices, etc., stays up until 3, ultimately ends up with a tub of that legendary, creamy, light green, cucumber ice cream. 
 
 Business as usual the next day, big line forms, people point at the cucumber ice cream, one person tries it but it's not a runaway success.
 
-Our guy joins the line, waits for his turn. When the owner see him he nods with the confidence of an emperor. his triumph assured
+The cucumber guy joins the line, waits for his turn. When the owner sees him he nods with the confidence of an emperor. His triumph assured.
 
 It's our guy's turn to order. 
 
@@ -53,7 +50,7 @@ It's our guy's turn to order.
 
 "Tastes like what?"
 
-"Like shit. Like fucking wet cardboard that's been dragged through vomit. Don't know which retards thought it'd be a good idea to make that gunk that I wouldn't feed to a dead dog"
+"Like shit. Like fucking vegan vomit fried in engine oil. Don't know which retard thought it'd be an idea to make that gunk, I wouldn't feed it to a dog dying with cancer"
 
 "Look my friend, look me in the eye, I stayed up till three in the morning last night to serve your request and make this ice cream because I know you care about this craft and I want to serve my dedicated..."
 
@@ -79,13 +76,13 @@ It's our guy's turn to order.
 
 "Fine let me taste it"
 
-The owner scoops up some ice cream, puts it in a cup on the counter, and as the guy is about to grab it the owner stabs him in the arm with an ice cream cone and hurls the tub of cucumber ice cream onto him
+The owner scoops up some ice cream, puts it in a cup on the counter, and as the guy is about to grab it the owner stabs him in the arm with an ice cream cone and hurls the tub of cucumber ice cream onto his face, splattering half of it across the floor.
 
-The experience had a profound effect on the guy; he realised that knowledge is not acquired through mere observation or hearsay, but rather through personal experience. He became an empiricist, learning to rely on his own senses to gain understanding of the world around him. 
+The experience had a profound effect on the cucumber guy; he realised that knowledge is not acquired through mere observation or hearsay, but rather through personal experience. He became an empiricist, learning to rely on his own senses to gain understanding of the world around him. 
 
 Life is full of moments that can teach us valuable lessons, but it's up to us to recognize and learn from them. 
 
-The altercation was diligently filmed by five other patrons, promptly posted to social media, gathered a cumulative total of 458 views. 
+The altercation was diligently filmed by five other patrons, promptly posted to social media, and gathered a cumulative total of 458 views. 
 
 But the lesson learned by the guy remained with him, for life is a journey of personal discovery and growth, and no one can truly understand something until they have experienced it for themselves.
 
