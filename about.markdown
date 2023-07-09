@@ -23,7 +23,7 @@ preview: A collection of funny short stories written in digital vernacular, the 
 All stories hosted on this site are fictitious.
 
 # License
-All stories hosted on <a xmlns:cc="http://creativecommons.org/ns#" href="https://narravaganza.lol" property="cc:attributionName" rel="cc:attributionURL">Narravaganza.lol</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+All stories hosted on <a xmlns:cc="https://creativecommons.org/ns#" href="https://narravaganza.lol" property="cc:attributionName" rel="cc:attributionURL">Narravaganza.lol</a> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 # Contact
 Send email to `author` followed by the `@` sign followed by `narravaganza.lol`
@@ -60,7 +60,7 @@ Improved with feedback from Joan D.
 Incited by Diana G.
 
 ## Plane Happy
-Improved with feedback from Dina S. and Pupa I.
+Improved with feedback from Dina S., Diana G., and Pupa I.
 
 
 ## Miscellanous Creative Input
