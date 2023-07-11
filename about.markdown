@@ -60,7 +60,7 @@ Improved with feedback from Joan D.
 Incited by Diana G.
 
 ## Plane Happy
-Improved with feedback from Dina S. and Pupa I.
+Improved with feedback from Dina S., Diana G., and the [Paris Writers Group](https://www.meetup.com/pariswriters/){:target="_blank"} 
 
 
 ## Miscellanous Creative Input

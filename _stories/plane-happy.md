@@ -3,9 +3,9 @@ title: Plane Happy
 preview: My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling...
 ---
 
-My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling in the aisle, sweating bullets, with a small box clutched in his palm. Guy's doing a marriage proposal way above the ground.
+My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling in the aisle with a small box clutched in his palm. Guy's doing a marriage proposal way above the ground.
 
-In front of this guy is his woman, standing in the aisle, her hands classically over her mouth, her eyes jumping around the cabin. 
+In front of this guy is his woman, standing in the aisle, her hands classically over her mouth, her eyes jumping around the cabin.
 
 "Grace, Grace! I have a special announcement to make. You're the love that makes my heart soar. Will you marry me and make me the happiest person alive?"
 
@@ -13,9 +13,9 @@ Five seconds go by.
 
 She lowers her hands, shakes her head. Half of the airplane gasps. Two babies cry. The rejected dude joins the symphony of wails.
 
-The "sit your ass down" lights come on for our safety and comfort and aerial stewards fly to ask the broken couple to sit their asses down. But the airplane is full, the repudiated groom is forced to sit next to his repudiating maid, and I can see a column of steam emanating from the top of his baseball cap.
+The "sit your ass down" lights come on and aerial stewards fly to ask the broken couple to sit their asses down for their safety and comfort. But the airplane is full, the repudiated groom is forced to sit next to his repudiating maid, and I can see a column of steam emanating from the top of his baseball cap.
 
-The sobs start doing such a creepy crescendo that the woman sitting next to me gets up, goes up to the groom and offers to exchange seats. In the blink of a tearful eye, turbulent Romeo sits next to me and my clothes go moist from the humidity of his tears. 
+The sobs start doing such a creepy crescendo that the woman sitting next to me gets up, goes up to the groom and offers to exchange seats. In the blink of a tearful eye, turbulent Romeo sits next to me and my clothes go moist from the humidity of his tears.
 
 must hurt to get shot down at 30,000 feet
 
