@@ -12,18 +12,11 @@ preview: A collection of funny short stories written in digital vernacular, the 
 1. Avoid traditional publishing, which restricts readership to a tiny percentage of the world population willing to pay for the work. Whereas by publishing it on this website, this work is freely available to everyone.
 1. Make available all previous editions of the texts through this repository's git history. 
 
-# Inspiration
-* [greentexts](https://knowyourmeme.com/memes/greentext-stories){:target="_blank"}
-* [Antijokes](https://www.reddit.com/r/antijokes){:target="_blank"}
-* San-Antonio's detective stories
-* Woody Allen's short stories
-* Charles Bukowski's short stories
-
 # Disclaimer
 All stories hosted on this site are fictitious.
 
 # License
-All stories hosted on <a xmlns:cc="https://creativecommons.org/ns#" href="https://narravaganza.lol" property="cc:attributionName" rel="cc:attributionURL">Narravaganza.lol</a> are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+All stories are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 # Contact
 Send email to `author` followed by the `@` sign followed by `narravaganza.lol`
@@ -60,14 +53,16 @@ Improved with feedback from Joan D.
 Incited by Diana G.
 
 ## Plane Happy
-Improved with feedback from Dina S., Diana G., and Pupa I.
+Improved with feedback from Dina S., Diana G., and Mikey B. 
 
+Dedicated to Pupa I.
 
 ## Miscellanous Creative Input
 [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
 
 ## Images
-* [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"} 
+* [Leonardo.Ai](https://leonardo.ai/){:target="_blank"}
+* [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"}
 * Stable Diffusion (via [Playground.ai](https://playgroundai.com/){:target="_blank"})
 
 ## Type
@@ -77,3 +72,14 @@ Improved with feedback from Dina S., Diana G., and Pupa I.
 This site is built using [Jekyll](https://jekyllrb.com/){:target="_blank"}.
 
 CSS assistance from Solal G.
+
+## General inspiration
+* [greentexts](https://knowyourmeme.com/memes/greentext-stories){:target="_blank"}
+* [Antijokes](https://www.reddit.com/r/antijokes){:target="_blank"}
+* [3am jokes](https://www.reddit.com/r/3amjokes){:target="_blank"}
+* [McSweeney's Internet Tendency](https://www.mcsweeneys.net/){:target="_blank"}
+* San-Antonio's detective stories
+* Woody Allen's short stories
+* Charles Bukowski's short stories
+* These people:
+![the gang behind narravaganza](/assets/images/about/the-gang.png){: .homepage-hero-image}
