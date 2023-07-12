@@ -57,6 +57,8 @@ Improved with feedback from Dina S., Diana G., Mikey B., and the [Paris Writers 
 
 Dedicated to Pupa I.
 
+***
+
 ## Miscellanous Creative Input
 [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
 
