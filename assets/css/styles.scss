@@ -214,6 +214,11 @@ h1.story-header {
     margin: 0 auto;
     background-color: white;
   }
+  img {
+    width: 100%;
+    max-width: none;
+    margin-left: -$text-indent;
+  }
 
   hr {
     height: 1rem;
