@@ -1,5 +1,5 @@
 ---
-title: Plane Happy
+title: The Happiest Person Alive
 preview: My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling...
 ---
 
