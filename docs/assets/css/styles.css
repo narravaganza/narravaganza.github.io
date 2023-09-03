@@ -64,6 +64,8 @@ h1.story-header { max-width: 100%; color: black; text-align: center; font-style:
 
 .story-body p, .story-chat p { color: #373D3F; text-indent: 30px; text-align: justify; padding-bottom: 0.65rem; margin: 0 auto; background-color: white; }
 
+.story-body img, .story-chat img { width: 100%; max-width: none; margin-left: -30px; }
+
 .story-body hr, .story-chat hr { height: 1rem; width: 180px; margin-top: 4rem; margin-bottom: 4rem; border-width: 0px; background-color: lightgray; border-radius: 5px; }
 
 .story-body .highlight pre, .story-chat .highlight pre { white-space: pre-wrap; line-height: 1.6rem; border: 1px solid; border-radius: 10px; padding: 1rem; margin: 0 auto; margin-top: 2rem; margin-bottom: 1rem; }

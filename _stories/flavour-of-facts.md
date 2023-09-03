@@ -60,7 +60,7 @@ It's our guy's turn to order.
 
 "I don't need to test it"
 
-"Look this is not the internet, this is real life, and if you want, your opinion, on something, to be taken seriously, when you express it, in the proximity, right next to the thing, then you need to show you have experienced the thing itself"
+"Look this is not the internet, this is real life, and if you want, your opinion, on something, to be taken seriously, when you express it, in the proximity, right next to the thing, the thing you're talking about, then you need to show you have experienced the thing itself"
 
 "I don't need that"
 
@@ -82,7 +82,7 @@ The experience had a profound effect on the cucumber guy; he realised that knowl
 
 Life is full of moments that can teach us valuable lessons, but it's up to us to recognize and learn from them. 
 
-The altercation was diligently filmed by five other patrons, promptly posted to social media, and gathered a cumulative total of 458 views. 
+The altercation was diligently filmed by five other patrons, promptly posted to social media, and had gathered a cumulative total of 458 views at time of going to press.
 
 But the lesson learned by the guy remained with him, for life is a journey of personal discovery and growth, and no one can truly understand something until they have experienced it for themselves.
 

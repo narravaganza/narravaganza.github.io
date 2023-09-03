@@ -2,15 +2,19 @@
 layout: default
 title: About
 permalink: /about/
-preview: A collection of funny short stories written in digital vernacular, the writing style of the Internet. 
+preview: Narravaganza is an online collection of humorous short stories and flash fiction. 
 ---
+
+# About
+
+Narravaganza is an online collection of humorous short stories and flash fiction. The stories here range from misadventures in a spiritual radio station to hilarious interpretations of classic jokes. Punchy and concise narratives to address some needs of the digital age.
 
 # Goals
 1. Make you laugh or smile.
 1. Try writing in _digital vernacular_ – the writing style that emerged from the Internet.
 1. Use various Internet mediums (e.g. social media posts, text messages, emails, etc.) as a literary technique to tell a story. I want to produce beautiful pieces of _digital_ [literary realism](https://en.wikipedia.org/wiki/Literary_realism){:target="_blank"}).
-1. Avoid traditional publishing, which restricts readership to a tiny percentage of the world population willing to pay for the work. Whereas by publishing it on this website, this work is freely available to everyone.
-1. Make available all previous editions of the texts through this repository's git history. 
+1. Avoid traditional publishing, which restricts readership to a tiny percentage of the world population willing to pay for the work. Whereas on this website, it is freely available to everyone.
+1. Make available all previous editions of the texts through this repository's git history.
 
 # Disclaimer
 All stories hosted on this site are fictitious.
