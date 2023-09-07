@@ -2,7 +2,7 @@
 title: Fajeever and I
 preview: Shit, I can no longer have a decent wank. I'm in a fucking trailer, Fajeever the trailer, and it rocks and squeaks every time I jerk off. I need to make people believe that I'm...
 ---
-Shit, I can no longer have a decent wank. I'm in a fucking trailer, Fajeever the trailer, and it rocks and squeaks every time I jerk off. I need to make people believe that I'm not jerking off in here. So when I'm done I'll yell "oh baby that was great".
+Shit, I can no longer have a decent wank. I'm in my campervan, Fajeever[****] the trailer, and it rocks and squeaks every time I jerk off. I need to make people believe that I'm not jerking off in here. So when I'm done I'll yell "oh baby that was great".
 
 Oh! Oh baby! That was great!
 
@@ -14,7 +14,7 @@ Haha, stealthy as fuuck, the name's Bond, Trailer Bond.
 
 Fuck is that the neighbours?
 
-Thump, sudden, scary, and loud, on the wall I'm resting my head on. They've hurled a shoe at me, or their cat.
+Thump, sudden, scary, and loud, on the window I'm resting my head on. They've hurled a shoe at me, or their cat.
 
 Now it's all silent again in the parking lot. It's not even bedtime, it's like ten, but I won't check my phone to verify. I know I'll compulsively check Tinder. I've already exceeded my daily quota of likes and I know nobody has responded to my virtuoso pickup lines
 
@@ -50,7 +50,7 @@ Excuse me
 
 Sir
 
-"Move the fucking trailer out"
+"Move the fucking van out"
 
 No problem, sir, no need to shout, I'll be out in a little second there.
 
@@ -108,7 +108,7 @@ Always add a question otherwise they don't respond
 
 How's your day going? I see you're up early
 
-"Nice rv"
+"Nice van"
 
 Thanks. His name's Fajeever
 
@@ -193,8 +193,6 @@ Hhahaha yeah that's cool man is it ok if I just do my thing like alongside you
 "Feeeeeeep feeeeeeeeep no get lost fuckface"
 
 Super cool whistle man, haha. ha
-
-***
 
 Stark knight won't budge.
 
@@ -296,7 +294,7 @@ I got the kicking I deserved. Not the one I needed.
 
 With Fajeever!
 
-"What? Oh your RV! Will you haul that back on the cart? Do you need a hand?"
+"What? Oh your van! Will you haul that back on the cart? Do you need a hand?"
 
 I kinda do. I normally pull the cart with a rope, but now there’s just too little rope left. 
 
