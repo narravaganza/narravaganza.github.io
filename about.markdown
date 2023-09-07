@@ -20,12 +20,14 @@ Narravaganza is an online collection of humorous short stories and flash fiction
 All stories hosted on this site are fictitious.
 
 # License
-All stories are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+All stories are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
 
 # Contact
 Send email to `author` followed by the `@` sign followed by `narravaganza.lol`
 
 I value all feedback and will reply accordingly 😀
+
+Feedback may be used as material in future stories lol
 
 # Acknowledgements
 
@@ -61,12 +63,16 @@ Improved with feedback from Dina S., Diana G., Mikey B., and the [Paris Writers 
 
 Dedicated to Pupa I.
 
+## The Pedaler of Enlightenment
+Improved with feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
+
 ***
 
 ## Miscellanous Creative Input
 [ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
 
 ## Images
+* [Midjourney](https://www.midjourney.com/){:target="_blank"}
 * [Leonardo.Ai](https://leonardo.ai/){:target="_blank"}
 * [DALL·E](https://openai.com/product/dall-e-2){:target="_blank"}
 * Stable Diffusion (via [Playground.ai](https://playgroundai.com/){:target="_blank"})
