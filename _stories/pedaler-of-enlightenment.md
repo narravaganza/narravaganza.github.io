@@ -16,6 +16,8 @@ He leans towards the microphones:
 
 "There are no handlebars on the path to enlightenment. The journey itself guides us. In this journey we confront the boundaries of ordinary life, of ordinary cycling, of ordinary humans. Today I do not merely break a record, I am illuminating a path."
 
+![](/assets/images/stories/pedaler-of-enlightenment_2.png)
+
 A roar soars throughout the crowd. Brandiche's elocutions ring true for those who connect with his inspiring spirit of ambition, self-belief, mindfulness, and balance in motion. He frames his record attempt as a means of transcending not only the ordinary in cycling but also in life itself, thereby capturing the essence of pushing personal boundaries. He leads us through technical terrain; ascending singletracks that demand finesse, focus, and properly inflated inner tubes. A self-help guru who talks the talk and cycles the path. 
 
 "I am dedicating this record to the pioneers of abstract thought, the people who pushed and scraped and scanned the limits of their minds, who didn't need hands to achieve their goals, because success starts in the mind, because hands are a crutch for the weak, because hand-eye coordination is an illusion. Reaching this awakening is awakening to the best version of you. Hands-off the best."
@@ -23,8 +25,6 @@ A roar soars throughout the crowd. Brandiche's elocutions ring true for those wh
 As he delivers these lines Brandiche's voice is breathy, swift, and enigmatic, like a bicycle pump working tirelessly. His lycra clothing, which he refers to as his "performance armour", is tight enough to reveal the curls in his chest hair and the rigidity of his mentality. His sermon is episodic; no more than five sentences are uttered without a minute-long pause, each set ushered in by Brandiche's striking of a singing bowl.
 
 Indeed, Brandiche's custom-made bicycle, Saṃsāra (from the Sanskrit word connoting the continuous cycle of birth, life, punctured tires, death, and rebirth) is an orange tubular affair with a Tibetan singing bowl in lieu of a bell. Saṃsāra's frame is glossy (an obvious reference to the top of the Dalai Lama's head, and probably just as scratch-free), the only conspicuous object being a sticker with the words: "Objects in mirror are crashing - because they need handlebars."
-
-![](/assets/images/stories/pedaler-of-enlightenment_2.png)
 
 A colleague asks the Pedal Prodigy about the connection between his meditation practice and Cycling Without Holding The Handlebars. Brandiche gently closes his eyes and takes three deep breaths, his audience bracing, for a gong and dance. "Cycling", he begins, twisting the left end of his handlebar moustache, "much like meditation, is a journey inward as much as it is a physical, i.e. external pursuit. Just as we navigate the open road, we navigate the landscape of our thoughts and emotions. Both are about finding that tranquil space within ourselves, where the hum of the wheels aligns with the rhythm of our breath. Where the worries of the world momentarily fade. In this union of motion and mindfulness, we discover a profound harmony that guides us towards our goals." 
 
@@ -52,6 +52,6 @@ With a dramatic gesture, Franco Brandiche, the Pedaler of Enlightenment, tapping
 
 Five followers with closed eyes appeared taller than I thought them to be. It eluded my observation whether their feet were still touching the ground. The Cycling Path Illuminator, satisfied, cycled off towards the looming terminal and enlightenment.
 
-As he finished the first lap, about 50 meters away from us, Franco Brandiche's billowing robe became entangled in the rotation of the front wheel of Saṃsāra, causing a sudden halt, pivoting the bike, projecting him head-first into the tarmac. He suffered a mild concussion, and is mindful of wearing a helmet in his forthcoming attempt, despite several helmet manufacturers rejecting his sponsorship requests.
+As he finished the first lap, about 50 meters away from us, Franco Brandiche's billowing robe became entangled in the rotation of the wheels of Saṃsāra, locking the front wheel, causing a sudden halt, pivoting the bike, projecting the aspirant over the handlebars and head-first into the tarmac. He suffered a mild concussion and is mindful of wearing a helmet in his forthcoming attempt, despite several helmet manufacturers declining his sponsorship requests.
 
 ![](/assets/images/stories/pedaler-of-enlightenment_1.png)
