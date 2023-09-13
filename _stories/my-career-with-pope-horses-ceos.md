@@ -1,7 +1,8 @@
 ---
-title: Career Planning
+title: My Career with the Pope and Horses and CEOs
 preview: Franco says I need to *focus*, so today I'll start this journal to think of new projects I can focus on, dedicate my life to. I've ruled out starting a...
 ---
+
 Franco says I need to *focus*, so today I'll start this journal to think of new projects I can focus on, dedicate my life to.
 
 I've ruled out starting a contemporary art museum, because I'd have to throw away all the artwork after ten years.
@@ -42,11 +43,13 @@ No, because it won't make me any less liable for the dead badgers, in the eyes o
 
 Which in a sense is fine, because the planet's overpopulated. "Overpopulated" means that there are too many people, but "overpopulated" could also mean that there are too many popes, I think, as it's like a shorthand for "over the pope limit".
 
+![](/assets/images/stories/career_with_pope_1.png)
+
 And the funny thing here is that the adjective for "pope", is, get this, "popeless". So that means the Vatican is, literally, a popeless country.
 
 Can you believe that the most popeless country in the world is more popeless than the ones you previously thought were the popeless. Basically, the less you're influenced by the Vatican, the less popeless you are.
 
-This right here is the kind of thing that makes Franco bananas and Mom cry. "Cameron", she goes, my mom, "Cameron, you start fourty nine different things at the same time, you're an ideas man, but you never finish any of them, Cameron, you have to accomplish something with your life" and my job at the bike shop just isn't an accomplishment that she's willing to take in as an accomplishment. Franco says the same thing, except you have to replace the "Cameron" with "camdude" or with "you fuckhead". In a sense, they're right.
+This right here is the kind of thing that makes Franco bananas and Mom cry. "Cameron", she goes, my mom, "Cameron, you start fourty nine different things at the same time, you're an ideas man, but you never finish any of them, Cameron, you have to accomplish something with your life" and my job at the bike shop just isn't an accomplishment that she's willing to take in as an accomplishment. Franco says the same thing. In a sense, they're right.
 
 In a sense, they can also suck my dick.
 
@@ -68,5 +71,4 @@ And since only the nastiest backstabbing dickheads end up as CEOs anyway, they'r
 
 But first I’d need to create the required hype, and for that I’d need to be friends with some key CEOs, and that’s not gonna happen because they’re not likely to come into the shop to get their bikes fixed. This guy came in the other day, he really looked like Bill Gates except he was wearing a wifebeater and he wasn’t Bill Gates. 
 
-
-
+![](/assets/images/stories/career_with_pope_2.png)

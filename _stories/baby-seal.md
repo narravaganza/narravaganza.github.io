@@ -24,6 +24,8 @@ As background jazz, they usually play that Bill Evans record with the yellow cov
 
 Apparently, "Sculpture" was the name of a properly obscure and 1980s fusion jazz trio, whose drummer was friends with Eddy, the owner. That drummer missed a few beats during a gig here in 1987, and hung himself backstage shortly afterwards. It was his family who gave Eddy that "Now Playing Sculpture" sculpture, now perched 1 meter above the whiskeys, gathering piles of dust and uneasy looks from the patrons of the Baby Seal Jazz Club.
 
+![](/assets/images/stories/baby_seal_1.png)
+
 There we go. Two tables to the left of mine, I hear Eddy has invited a question about the origin of his club's name. "Why did I call it the Baby Seal? Because I want this place to offer the most rewarding clubbing in this town". Now he explodes in laughter, tilting his head diagonally backwards, all the fingers of his right hand spread out on a terrified patron's table.
 
 "Here's that gleamin' house scotch, alright?"
