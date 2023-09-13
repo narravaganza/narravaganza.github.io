@@ -1,7 +1,7 @@
 ---
 title: Narravaganza
 layout: default
-preview: An online collection of funny short stories to make you LOLOMFG
+preview: An online collection of funny short stories to make you LOLWTF
 
 ---
 ![](/assets/images/avellaneous_satellite.jpg){: .homepage-hero-image}
