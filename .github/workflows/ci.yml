@@ -23,11 +23,11 @@ jobs:
 
       - name: Build site
         run: |
-          bundle install
+          bundle install --quiet
           bundle exec jekyll build
 
       - name: Check site
         run: |
           NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-          gem install html-proofer
+          gem install html-proofer --silent
           htmlproofer --ignore-urls "/instagram.com/,/midjourney.com/,/twitter.com/," ./_site
