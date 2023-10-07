@@ -37,6 +37,9 @@ Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wor
 ## Peanuts
 Incited by the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
+## Comet Jordi
+Incited by Danielito H.
+
 ## Critical Mass
 Incited by Matt B.
 
@@ -44,7 +47,7 @@ Incited by Matt B.
 Improved with feedback from the BA Writers Group
 
 ## Live at the Baby Seal
-Improved with Feedback from Alejandro J.
+Improved with feedback from Alejandro J.
 
 ## Reliable Massage
 Inspired by a Writers Group that shall remain unknown
