@@ -38,7 +38,7 @@ Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wor
 Incited by the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
 ## Comet Jordi
-Incited by Danielito H.
+Incited by Danielito H. Spanish version proofread by Patriczia C.
 
 ## Critical Mass
 Incited by Matt B.
