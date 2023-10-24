@@ -1,5 +1,5 @@
 ---
-title: Totality
+title: How Everything Is
 preview: Hey How is everything [ 3 weeks later ] at first i was humbled and inspired by this opportunity to explore the vastness of the cosmos...
 ---
 Hey
@@ -18,11 +18,11 @@ but this task... its sheer magnitude quickly became daunting. you wanted me to i
 
 but i remained hopeful and duty-bound to you my dear friend
 
-On the afternoon of the 4th day i finished accounting for the larger molecules within my appartment. i observed and analysed the behavior of the carbon-based solids i could find, as well as the production of various other gases in the premises
+On the afternoon of the 4th day i finished accounting for the larger molecules within my apartment. i observed and analysed the behavior of the carbon-based solids i could find, as well as the production of various other gases in the premises
 
 my knowledge of the universe's molecular makeup was advancing
 
-Then it struck me… you also wanted me to account for the molecules _outside_ the appartment
+Then it struck me… you also wanted me to account for the molecules _outside_ the apartment
 
 Time was ticking
 
@@ -43,3 +43,5 @@ I awoke this morning in the back of a bus parked in a bus deposit, my magnifying
 how everything is
 
 now our limited knowledge of the universe includes the reason for which it took me three weeks to text you back and it's clearly your fault
+
+![](/assets/images/stories/how_everything_is_1.png)

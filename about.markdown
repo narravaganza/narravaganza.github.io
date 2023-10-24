@@ -58,7 +58,7 @@ Improved with feedback from Diana G.
 ## Fajeever And I
 Improved with feedback from Joan D.
 
-## Totality
+## How Everything Is
 Incited by Diana G.
 
 ## Plane Happy
