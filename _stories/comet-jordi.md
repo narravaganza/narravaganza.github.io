@@ -32,3 +32,5 @@ Some comets can take as long as 30 million years to complete one trip around the
 _Twinkle, twinkle, Comet Jordi_
 
 _I might join you when I'm fourty_
+
+![](/assets/images/stories/jordi_1.jpg)
