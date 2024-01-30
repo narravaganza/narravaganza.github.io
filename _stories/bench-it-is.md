@@ -128,5 +128,5 @@ What do I make of this..?
 4) Escaping from the aforementioned elephants is a better option than fighting them. Later on it’s hard to tell whether it is them that come after you or if it is you that come back to them. 
 
 ![proof of travel](/assets/images/stories/bench-it-is-extra5.jpg)
-Proof of travel. Chanceux a tous les coups = Lucky at all the hits (oh baby) = All your shots go in because you're lucky. Assuming you are. End of story, thanks for reading.
+Proof of travel. Chanceux a tous les coups = Lucky at all the hits (oh baby) = All your shots go in because you're lucky. Assuming you are. 
 

@@ -13,9 +13,9 @@ Zig zags, curves, arcs. Alfred sought them in his conquests on the asphalt and o
 
 ![](/assets/images/stories/arcs_9.jpeg)
 
-And that was the thing about Alfred “Alfa” Romeo; he literally didn’t generally operate in a straightforward way. The shortest path between two points may be a straight line, he claimed, but it’s also the most boring, he added, and it implies doing Fleet Street at rush hour, he noted, so this morning I’ll go along Smithfield the market, he thought, despite the nasty light at the bottom of Charterhouse Street, he felt, and it was at that red light, using a near miss between an electric scooter and a wheelchair as a pretext, that he struck up a conversation with a young lady whose bicycle was covered in stickers of classical art paintings.
+And that was the thing about Alfred “Alfa” Romeo; he literally didn’t generally operate in a straightforward way. The shortest path between two points may be a straight line, he claimed, but it’s also the most boring, he added, and it implies doing Fleet Street at rush hour, he noted, so this morning I’ll go along Smithfield the market, he felt, despite the nasty light at the bottom of Charterhouse Street, he thought, and it was at that red light, using a near miss between an electric scooter and a wheelchair as a pretext, that he struck up a conversation with a young lady whose bicycle was covered in stickers of classical art paintings.
 
-“Should have used the zebra crossing, really, if a lorry runs you over, and you’re in a wheelchair, you’ll be turned into a proper waffle.” He pointed at a sticker of Rubens’s painting of Medusa’s severed head, live twisting snakes emanating from it, stuck on her rear mudguard. “Kinda like that fellow.” 
+“Should have used the zebra crossing, really, if a lorry runs you over, and you’re in a wheelchair, you’ll be turned into a proper waffle. Kinda like that fellow.” He pointed at a sticker of Rubens’s painting of Medusa’s severed head, live twisting snakes emanating from it, stuck on her rear mudguard. 
 
 His itinerary would total 48 left turns that morning. Twisting more than usual around the city; as the conversation with the sticker’s owner was worth the slight deviation, which ultimately resulted in an increase in the length of the arc of his path, and in a volatile marriage that lasted 3 years.
 
