@@ -32,3 +32,4 @@ Algunos cometas pueden tardar hasta 30 millones de años en completar un viaje a
 _Twinkle, twinkle, comet Jordi._
 _I might join you when I'm fourty_
 
+![](/assets/images/stories/jordi_1.jpg)

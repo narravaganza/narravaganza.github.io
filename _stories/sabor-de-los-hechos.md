@@ -3,6 +3,8 @@ title: El Sabor De Los Hechos
 preview: "Un tipo va a una heladería, se acerca, peculiarmente dice: ¿Tiene helado de pepino, por favor?"
 ---
 
+![](/assets/images/stories/flavour_of_facts_2.png)
+
 Un tipo va a una heladería, se acerca, peculiarmente dice:
 
 "¿Tiene helado de pepino, por favor?"
@@ -23,6 +25,8 @@ Al día siguiente, el mismo tipo aparece en la heladería, hay una cola enorme, 
 
 Al día siguiente la heladería estaba cerrada, así que no sabemos si habría aparecido.
 
+![](/assets/images/stories/flavour_of_facts_4.png)
+
 Pero el día después, justo cuando la heladería levanta su persiana, ahí está nuestro tipo.
 
 "helado de pepino por favor"
@@ -35,7 +39,11 @@ Se queda mirando al suelo y respira lenta y pesadamente.
 
 Se va.
 
-Al dueño todo esto le parece un poco lamentable y decide hacer helado de pepino esa noche. Busca y prepara los pepinos adecuados, especias, etc., se queda despierto hasta las tres y acaba con una tarrina de ese legendario helado de pepino, cremoso y de color verde claro.
+Al dueño todo esto le parece un poco lamentable y decide hacer helado de pepino esa noche. 
+
+![](/assets/images/stories/flavour_of_facts_1.png)
+
+Busca y prepara los pepinos adecuados, especias, etc., se queda despierto hasta las tres y acaba con una tarrina de ese legendario helado de pepino, cremoso y de color verde claro.
 
 Al día siguiente, todo sigue igual, se forma una gran cola, la gente señala el helado de pepino, hasta una persona llega a probarlo, pero no es un éxito arrollador.
 
@@ -86,3 +94,5 @@ La vida está llena de momentos que pueden enseñarnos valiosas lecciones, pero 
 El altercado fue filmado diligentemente por otros cinco clientes, se publicó rápidamente en las redes sociales y, al cierre de esta edición, había acumulado un total de 458 reproducciones.
 
 Pero la lección aprendida se quedó con él, porque la vida es un viaje de descubrimiento y crecimiento personal, y nadie puede entender algo de verdad hasta que lo ha experimentado por sí mismo.
+
+![](/assets/images/stories/flavour_of_facts_3.png)
