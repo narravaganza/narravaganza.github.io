@@ -2,6 +2,9 @@
 title: The Flavour of Facts
 preview: "Guy goes to an ice cream shop, walks up, peculiarly goes: do you have cucumber ice cream please"
 ---
+
+![](/assets/images/stories/flavour_of_facts_2.png)
+
 Guy goes to an ice cream shop, walks up, peculiarly goes:
 
 "Do you have cucumber ice cream please"
@@ -22,6 +25,8 @@ Next day, same guy goes to the ice cream shop, big line, he stands in line for 2
 
 The next day the ice cream shop was shut so we don't know if he would have showed up. 
 
+![](/assets/images/stories/flavour_of_facts_4.png)
+
 But be assured that on the following day, just as the ice cream shop was lifting its shutters, there's our guy. 
 
 "cucumber ice cream please"
@@ -34,7 +39,11 @@ He stares at the floor and breathes slowly, heavily.
 
 Walks out.
 
-The owner finds this somewhat pitiful and decides to make cucumber ice cream that night. Finds and prepares the right cucumbers, spices, etc., stays up until 3, ultimately ends up with a tub of that legendary, creamy, light green, cucumber ice cream. 
+The owner finds this somewhat pitiful and decides to make cucumber ice cream that night. 
+
+![](/assets/images/stories/flavour_of_facts_1.png)
+
+Finds and prepares the right cucumbers, spices, etc., stays up until 3, ultimately ends up with a tub of that legendary, creamy, light green, cucumber ice cream. 
 
 Business as usual the next day, big line forms, people point at the cucumber ice cream, one person tries it but it's not a runaway success.
 
@@ -87,3 +96,5 @@ The altercation was diligently filmed by five other patrons, promptly posted to 
 But the lesson learned by the guy remained with him, for life is a journey of personal discovery and growth, and no one can truly understand something until they have experienced it for themselves.
 
 YouTube's algorithms detected that a song by Michael Jackson was playing in the background of the video of the altercation, resulting in ads being added to it.
+
+![](/assets/images/stories/flavour_of_facts_3.png)
