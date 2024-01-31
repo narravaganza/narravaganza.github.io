@@ -30,4 +30,4 @@ jobs:
         run: |
           NOKOGIRI_USE_SYSTEM_LIBRARIES=true
           gem install html-proofer --silent
-          htmlproofer --ignore-urls "/instagram.com/,/midjourney.com/,/twitter.com/," ./_site
+          htmlproofer --ignore-urls "/instagram.com/,/midjourney.com/,/twitter.com/,/reddit.com,/substack.com/" ./_site
