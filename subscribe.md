@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Subscribe
-permalink: /subscribe/
+permalink: /subscribe
 preview: Subscribe to Narravaganza and receive new humorous short stories and flash fiction. 
 ---
 
