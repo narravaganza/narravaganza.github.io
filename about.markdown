@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /about
-preview: Narravaganza is an online collection of humorous short stories and flash fiction. 
+preview: Narravaganza is an online collection of humorous short stories and flash fiction.
 ---
 
 # About
@@ -32,25 +32,27 @@ Feedback may be used as material in future stories lol
 # Acknowledgements
 
 ## Arcs
-Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wordpress.com/){:target="_blank"}. Received feedback from Pupa I. 
+Incited by the [Clerkenwell Writers Asylum](https://clerkenwellwritersasylum.wordpress.com/){:target="_blank"}. Received feedback from Pupa I.
 
 ## Peanuts
 Incited by the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
 ## Comet Jordi
-Incited by Danielito H. Spanish version proofread by Patriczia C.
+Incited by Danielito H.
+
+Spanish version proofread by Patriczia C.
 
 ## Critical Mass
 Incited by Matt B.
 
 ## Chatty Chakras
-Improved with feedback from the BA Writers Group
+Improved with feedback from the BA Writers Group.
 
 ## Live at the Baby Seal
 Improved with feedback from Alejandro J.
 
 ## Reliable Massage
-Inspired by a Writers Group that shall remain unknown
+Inspired by a Writers Group that shall remain unknown.
 
 ## The Boiled Tomato Technique
 Improved with feedback from Diana G.
@@ -61,7 +63,7 @@ Improved with feedback from Joan D.
 ## How Everything Is
 Incited by Diana G.
 
-## Plane Happy
+## The Happiest Person Alive
 Improved with feedback from Dina S., Diana G., Mikey B., and the [Paris Writers Group](https://www.meetup.com/pariswriters/){:target="_blank"}
 
 Dedicated to Pupa I.
@@ -72,7 +74,8 @@ Improved with feedback from the [All Good Bookshop Writing Group](https://www.me
 ***
 
 ## Miscellanous Creative Input
-[ChatGPT](https://openai.com/blog/chatgpt){:target="_blank"}
+* [ChatGPT](https://chatgpt.com/){:target="_blank"}
+* [Claude](https://claude.ai/){:target="_blank"}
 
 ## Images
 * [Midjourney](https://www.midjourney.com/){:target="_blank"}
