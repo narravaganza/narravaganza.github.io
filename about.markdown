@@ -71,8 +71,8 @@ Dedicated to Pupa I.
 ## The Pedaler of Enlightenment
 Improved with feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
-## The Turia Troopper
-Improved with angry noises from Javier E. and feedback from Alejandro J., Cate B., Claudia C., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., and Yoti.
+## The Turia Trooper
+Improved with angry noises from Javier E. and feedback from Alejandro J., Cate Baum, Claudia C., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
 
 Hugs to Claudia, Kiko, and Josep, my fellow _tropeleros_. 
 
