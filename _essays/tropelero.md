@@ -38,6 +38,8 @@ Al día siguiente nos desplazamos a otra zona, empuñando nuestra hidrolimpiador
 
 Ese día, menos de un quinto de nuestras horas se empleó de manera productiva. 
 
+***
+
 A la desdichada trayectoria de destrucción de la inundación se superpuso la tragedia del despilfarro de la solidaridad. Nuestra experiencia no fue única: los esfuerzos de muchos voluntarios fueron redundantes o mal dirigidos: paleando barro sin rumbo, uniéndose a brigadas abarrotadas o trabajando en lugares donde menos personas podrían haber realizado la misma tarea. A menudo llegamos allí donde ya se prestaba ayuda, donde las víctimas podían haberse costeado profesionales, o donde el impacto de nuestro trabajo era mínimo en relación con las necesidades no atendidas en otros lugares. El exceso de buena voluntad se convertía trágicamente en un déficit de impacto. 
 
 ![](/assets/images/stories/tropelero_2.png)
