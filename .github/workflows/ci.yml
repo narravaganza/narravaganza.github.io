@@ -16,10 +16,15 @@ on:
 jobs:
   build-site:
     name: Build
-    runs-on:  macos-15.0
-    
+    runs-on:  macos-14
+
     steps:
       - uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
 
       - name: Build site
         run: |
