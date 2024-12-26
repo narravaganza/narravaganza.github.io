@@ -72,9 +72,9 @@ Dedicated to Pupa I.
 Improved with feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
 ## The Turia Trooper
-Improved with angry noises from Javier E. and feedback from Alejandro J., Cate Baum, Claudia C., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
+Improved with feedback from Alejandro J., Cate Baum, Clàudia C., Javier E., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
 
-Hugs to Claudia, Kiko, and Josep, my fellow _tropeleros_. 
+Hugs to Clàudia, Kiko, and Josep, my fellow _tropeleros_.
 
 ***
 

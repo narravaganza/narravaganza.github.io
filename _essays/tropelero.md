@@ -1,10 +1,10 @@
 ---
 title: El Tropelero del Turia
-preview: Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder. 
+preview: Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder.
 story-roll-image: arcs1.png
 ---
 
-Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder. 
+Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder.
 
 Se había perdido mucho tiempo de forma sistémica. Décadas de planificación urbanística descabellada situaron urbanizaciones en llanuras aluviales sin apenas defensas contra inundaciones. La disolución de la Unidad Valenciana de Emergencias el año anterior a la catástrofe paralizó la capacidad de respuesta de la región. Mientras tanto, Protección Civil (encargada de coordinar los esfuerzos locales de socorro) apenas se movilizó. El gobierno regional retrasó la intervención de la Unidad Militar de Emergencias (unidad militar española especializada en respuesta a catástrofes) y del Mecanismo de Protección Civil de la UE en las dos primeras semanas. Estos fallos sistémicos dejaron a miles de víctimas de las inundaciones dependiendo inicialmente de esfuerzos voluntarios improvisados como el nuestro.
 
@@ -18,11 +18,11 @@ Así que fuimos a las zonas afectadas, ofreciendo ayuda.
 
 Al llegar, ofrecemos nuestra ayuda a los de uniforme y a algunos residentes, pero nuestra propuesta es rechazada. Así que intentamos unirnos a una de las muchas brigadas de voluntarios ocupadas en vaciar las viviendas de la planta baja que tenían su contenido cubierto de barro. Formamos una cadena humana y nos damos cuenta de que estamos separados por unos 30 cm, lo que hace obvio que muchos voluntarios de la cadena son redundantes.
 
-Se nos pide que saquemos el barro de delante de la vivienda. Nadie nos dice dónde, así que lo paleamos a otra parte de la calle. Nos dicen que no lo pongamos en esta parte de la calle porque impide el acceso a los servicios de emergencia, así que lo paleamos hasta un jardín público. Nos dicen que esto matará a los árboles, así que lo paleamos al alcantarillado. Nos dicen que bloqueará el alcantarillado al solidificarse el barro. (Vemos por qué parte de ello tuvo como destino a Su Majestad el Rey Felipe VI cuando vino a visitar la zona). Habiendo sacado/trasladado el barro, reanudamos el deambular. 
+Se nos pide que saquemos el barro de delante de la vivienda. Nadie nos dice dónde, así que lo paleamos a otra parte de la calle. Nos dicen que no lo pongamos en esta parte de la calle porque impide el acceso a los servicios de emergencia, así que lo paleamos hasta un jardín público. Nos dicen que esto matará a los árboles, así que lo paleamos al alcantarillado. Nos dicen que bloqueará el alcantarillado al solidificarse el barro. (Vemos por qué parte de ello tuvo como destino a Su Majestad el Rey Felipe VI cuando vino a visitar la zona). Habiendo sacado/trasladado el barro, reanudamos el deambular.
 
 Nuestra ayuda es rechazada por ocho residentes cubiertos de barro, gente de uniforme y trabajadores de restaurantes. Por casualidad, entramos en un Ayuntamiento con delante un mostrador que dice "Voluntarios", nos dirigen a un centro de voluntariado improvisado en una escuela y nos encargan llevar provisiones a un grupo de ancianos de la zona.
 
-Ese día, menos de un cuarto de nuestras horas se empleó de manera productiva. 
+Ese día, menos de un cuarto de nuestras horas se empleó de manera productiva.
 
 Al día siguiente, llevamos una hidrolimpiadora, con la esperanza de que multiplicara nuestros esfuerzos en la casa de una víctima concreta. Llegamos a la casa de la víctima concreta sólo para encontrar otra brigada ya trabajando.
 
@@ -32,15 +32,15 @@ De nuevo deambulamos por las calles embarradas ofreciendo ayuda, esta vez con nu
 
 De nuevo nos paseamos ofreciendo ayuda con nuestra hidrolimpiadora satinada. Llamamos a filas de puertas. Muchas casas han quedado relativamente más limpias entre ayer y hoy. Preguntamos a los uniformados dónde ir, no saben. Finalmente encontramos clientes contentos y pasamos una hora limpiando la entrada de un edificio.
 
-Ese día, menos de un tercio de nuestras horas se empleó de manera productiva. 
+Ese día, menos de un tercio de nuestras horas se empleó de manera productiva.
 
 Al día siguiente nos desplazamos a otra zona, empuñando nuestra hidrolimpiadora enmugrecida. Llegamos y descubrimos que ya hay cinco hidrolimpiadoras funcionando en cada bloque. Esta zona es más pudiente de lo que imaginábamos. Vamos en busca de una zona menos próspera, y finalmente encontramos la casa de una abuela que necesita un lavado, pero sus siete nietos ya están allí y nuestras manos son evidentemente superfluas. Les dejamos la hidrolimpiadora y nos vamos a comer.
 
-Ese día, menos de un quinto de nuestras horas se empleó de manera productiva. 
+Ese día, menos de un quinto de nuestras horas se empleó de manera productiva.
 
 ***
 
-A la desdichada trayectoria de destrucción de la inundación se superpuso la tragedia del despilfarro de la solidaridad. Nuestra experiencia no fue única: los esfuerzos de muchos voluntarios fueron redundantes o mal dirigidos: paleando barro sin rumbo, uniéndose a brigadas abarrotadas o trabajando en lugares donde menos personas podrían haber realizado la misma tarea. A menudo llegamos allí donde ya se prestaba ayuda, donde las víctimas podían haberse costeado profesionales, o donde el impacto de nuestro trabajo era mínimo en relación con las necesidades no atendidas en otros lugares. El exceso de buena voluntad se convertía trágicamente en un déficit de impacto. 
+A la desdichada trayectoria de destrucción de la inundación se superpuso la tragedia del despilfarro de la solidaridad. Nuestra experiencia no fue única: los esfuerzos de muchos voluntarios fueron redundantes o mal dirigidos: paleando barro sin rumbo, uniéndose a brigadas abarrotadas o trabajando en lugares donde menos personas podrían haber realizado la misma tarea. A menudo llegamos allí donde ya se prestaba ayuda, donde las víctimas podían haberse costeado profesionales, o donde el impacto de nuestro trabajo era mínimo en relación con las necesidades no atendidas en otros lugares. El exceso de buena voluntad se convertía trágicamente en un déficit de impacto.
 
 ![](/assets/images/stories/tropelero_2.png)
 
@@ -62,10 +62,10 @@ Cierne el perenne vituperio cínico: muchos, si no la mayoría, de los Protector
 
 Pero elevémonos por encima de estas aguas turbias. La causa fundamental del desperdicio de esfuerzos fue la anarquía; la falta de coordinación y liderazgo eficaces. Pienso que los treinta mil voluntarios que se presentaron tenían el potencial necesario para limpiar el barro, eliminar los escombros, reconstruir infraestructuras esenciales para hogares y empresas y proporcionar un apoyo psicológico significativo. El poder estaba ahí, sólo necesitaba orientación. No se puede esperar que treinta mil desconocidos sin formación actúen como la Unidad Militar de Emergencias; más bien se espera que actúen a las órdenes de ésta. O, para el caso, a las órdenes de una ONG, alimentada por donantes más confiados.
 
-El tropelero del Turia que llevo en mí replica que esto no era un proyecto de ingeniería. Claro que la productividad era elusiva, pero no se trataba de maximizar los indicadores clave de rendimiento, optimizar eficiencia o alinear resultados con objetivos estratégicos. No se trataba de montar una máquina, sino de fortalecer el tejido comunitario. Se trataba de hacer una afirmación consciente de la comunidad auténtica, de mostrar a mis vecinos valencianos que yo estaba allí por ellos, física, espiritual y literalmente. 
+El tropelero del Turia que llevo en mí replica que esto no era un proyecto de ingeniería. Claro que la productividad era elusiva, pero no se trataba de maximizar los indicadores clave de rendimiento, optimizar eficiencia o alinear resultados con objetivos estratégicos. No se trataba de montar una máquina, sino de fortalecer el tejido comunitario. Se trataba de hacer una afirmación consciente de la comunidad auténtica, de mostrar a mis vecinos valencianos que yo estaba allí por ellos, física, espiritual y literalmente.
 
 Esto fue especialmente importante en las semanas que siguieron a las inundaciones, cuando las autoridades demoraron el despliegue de una ayuda sustancial e incluso impidió que otras organizaciones intervinieran. Durante esas primeras semanas decisivas, la mayoría de las víctimas pudieron recurrir a voluntarios como yo, procedentes del otro lado del puente. Si bien mi pala no era tan eficaz como la de un tractor, en aquellos primeros días los tractores no estaban allí; yo sí e hice una parte del trabajo.
 
-Las inundaciones nos recordaron que la comunidad no es sólo un concepto abstracto; es una actuación en vivo, en la que uno (como salvador o como cínico) ocupa su lugar, pala en mano, junto a los vecinos, por muy improvisado, desordenado o ineficaz que sea el proceso. Actuar juntos, incluso de forma imperfecta, es mucho mejor que dejar el escenario vacío. Pero el siguiente acto requiere un guion mejor, que genere resiliencia mucho antes de que se levante el telón del desastre y los focos inunden la escena. 
+Las inundaciones nos recordaron que la comunidad no es sólo un concepto abstracto; es una actuación en vivo, en la que uno (como salvador o como cínico) ocupa su lugar, pala en mano, junto a los vecinos, por muy improvisado, desordenado o ineficaz que sea el proceso. Actuar juntos, incluso de forma imperfecta, es mucho mejor que dejar el escenario vacío. Pero el siguiente acto requiere un guion mejor, que genere resiliencia mucho antes de que se levante el telón del desastre y los focos inunden la escena.
 
 ![](/assets/images/stories/tropelero_4.png)

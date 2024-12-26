@@ -1,10 +1,10 @@
 ---
 title: The Turia Trooper
-preview: Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste. 
+preview: Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste.
 story-roll-image: arcs1.png
 ---
 
-Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste. 
+Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste.
 
 Plenty of time had been wasted systemically. Decades of reckless urban planning placed developments on floodplains with barely any flood defenses. The dissolution of the Unidad Valenciana de Emergencias (a regional disaster response unit), the very year before the catastrophe, crippled the region’s disaster response capacity. Meanwhile, Protección Civil (tasked with coordinating local relief efforts) was scarcely mobilized. The regional government delayed intervention of the Unidad Militar de Emergencias (Spain's national military unit specialized in disaster response) and the EU Civil Protection Mechanism in the first two weeks. These systemic failures left thousands of flood victims initally reliant on improvised volunteer efforts like ours.
 
@@ -18,7 +18,7 @@ So we went to the disaster areas, offering help.
 
 Upon arrival, we offer our help to people in uniforms and some residents, but it's declined. So we try joining one of the many volunteer brigades busy emptying out the ground floor homes which had had their contents covered in mud. We form a human chain and realise we are spaced about 30cm apart, making it obvious that many volunteers in the chain are redundant.
 
-We're then asked to shovel out the mud in front of the home. Nobody specifies where to, so we shovel it to a different part of the street. We’re told not to put it in this part of the street as it prevents access for emergency responders, so we shovel it into a public garden. We’re then told this will murder the trees, so we shovel it into the sewage. We’re then told this will block the sewage as the mud solidifies. (We can see how some of it found its destination on His Majesty King Felipe VI when he came to visit the area.) When the mud is cleared (or transferred elsewhere), we resume wandering around. 
+We're then asked to shovel out the mud in front of the home. Nobody specifies where to, so we shovel it to a different part of the street. We’re told not to put it in this part of the street as it prevents access for emergency responders, so we shovel it into a public garden. We’re then told this will murder the trees, so we shovel it into the sewage. We’re then told this will block the sewage as the mud solidifies. (We can see how some of it found its destination on His Majesty King Felipe VI when he came to visit the area.) When the mud is cleared (or transferred elsewhere), we resume wandering around.
 
 Our help is declined by eight mud-covered residents, people in uniforms, and restaurant workers. By chance we walk into a town hall with a volunteering desk in front, get directed to a makeshift volunteering hub in a school, and are tasked with bringing provisions to a set of older citizens in the area.
 
@@ -36,11 +36,11 @@ Up to a third of our hours that day are spent productively.
 
 The next day we travel to a different area, brandishing our grimy pressure washer. We arrive and discover that there are already five pressure washers operating in each block. This area is more affluent than we imagined. We go in search of a less affluent area, and finally find a grandmother's home in need of pressure washing, but her seven grandchildren are already there and our hands are evidently redundant. We leave them the pressure washer and go for lunch.
 
-About a fifth of our hours that day are spent productively. 
+About a fifth of our hours that day are spent productively.
 
 ***
 
-Overlaid on the wretched path of the flood's destruction was the tragedy of the squandering of solidarity. Our experience wasn't unique: many volunteers' efforts were redundant or misdirected – shoveling mud aimlessly, joining overcrowded brigades, or working in places where fewer people could have accomplished the same task. Often arriving where help was already provided, where victims could have afforded professionals, or where the impact of their work was minimal relative to unmet needs elsewhere. Excess goodwill being tragically turned into a deficit of impact. 
+Overlaid on the wretched path of the flood's destruction was the tragedy of the squandering of solidarity. Our experience wasn't unique: many volunteers' efforts were redundant or misdirected – shoveling mud aimlessly, joining overcrowded brigades, or working in places where fewer people could have accomplished the same task. Often arriving where help was already provided, where victims could have afforded professionals, or where the impact of their work was minimal relative to unmet needs elsewhere. Excess goodwill being tragically turned into a deficit of impact.
 
 ![](/assets/images/stories/tropelero_2.png)
 
@@ -61,7 +61,7 @@ The engineer in me cringes at the system’s inefficiency. It even hurls indictm
 Looms the perennial cynical remark: many, if not most, Protectors Of The Vulnerable in those ridiculously overcrowded brigades were there for themselves, to assuage their guilt, to feel like they mattered, to have a story to tell and a selfie to share. Good old disaster tourism. A flood relief effort that relieves the victims as well as the volunteers. Altruism camouflaging vanity.
 But let’s rise above these murky waters. The root cause of the wasted effort was the anarchy; the lack of effective coordination and leadership. I believe the thirty thousand volunteers who showed up had the potential to fully clear the mud, dispose of the debris, rebuild essential infrastructure for homes and businesses, and provide meaningful psychological support. The power was there—it just needed direction. Thirty thousand untrained strangers cannot be expected to operate like the Unidad Militar de Emergencias; rather, they are expected to operate under it. Or, for that matter, under an NGO – fuelled by the more trusting donors.
 
-The Turia trooper in me rebuts that this wasn’t an engineering project. Sure, productivity was elusive, but it wasn’t about maximizing key performance indicators, optimizing efficiency, or aligning outcomes with strategic goals. This wasn’t about building a machine; it was about fortifying the fabric of community. It was about making a conscious affirmation of real community – about showing my fellow Valencians that I was physically, spiritually, and literally there for them. 
+The Turia trooper in me rebuts that this wasn’t an engineering project. Sure, productivity was elusive, but it wasn’t about maximizing key performance indicators, optimizing efficiency, or aligning outcomes with strategic goals. This wasn’t about building a machine; it was about fortifying the fabric of community. It was about making a conscious affirmation of real community – about showing my fellow Valencians that I was physically, spiritually, and literally there for them.
 
 This was especially important in the weeks immediately after the floods, when the government delayed sending meaningful aid and even blocked other organisations from stepping in. For those critical first weeks, most victims were able to rely on volunteers like me from across the bridge. My shovel may not have matched the efficiency of a tractor, but in those early days, the tractors weren’t there – I was, and I did a part of the job.
 
