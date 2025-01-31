@@ -3,11 +3,11 @@ title: Trail Mix
 preview: The hikers stop meandering and rest in a secluded cove. Oblivious to the doom that stalks their steps. As of right now, they're four hours into the wilderness, isolation wraps around them like a shroud, muffling possible shrieks and screams...
 ---
 
-The hikers stop meandering and rest in a secluded cove. Oblivious to the doom that stalks their steps. As of right now, they're four hours into the wilderness, isolation wraps around them like a shroud, muffling possible shrieks and screams. They now eat in silence, but his fragile peace breaks when a girl named Raisinée joins the eatery by unveiling a bag containing grapes that had been stabbed on a skewer.
+The hikers stop meandering and rest in a secluded cove. Oblivious to the doom that stalks their steps. As of right now, they're four hours into the wilderness; isolation wraps around them like a shroud, muffling possible shrieks and screams. They now eat in silence, but this fragile peace breaks when a girl named Raisinée joins the eatery by unveiling a bag containing grapes that had been stabbed on a skewer.
 
 Our social contract began to splinter when Raisinée empties the bag in front of us, dropping the skewers into her hand.
 
-Many of the hikers, outraged at her shamelessness, contain their breath. A column of smoke comes out of Don's left ear as the outrage boils his brain cells. The others, equally disconcerted and speechless, hold on to their walking stick as a crucifix approximation. I also contain my outrage, wrestle with the moral weight of Raisinée's brazenness, and end up breaking the silence.
+Many of the hikers, outraged at her shamelessness, contain their breath. A column of smoke comes out of Don's left ear as the outrage boils his brain cells. The others, equally disconcerted and speechless, hold on to their walking stick as a crucifix approximation. I also suppress my outrage, wrestle with the moral weight of Raisinée's brazenness, and end up breaking the silence.
 
 "Are those grapes?" My question is a formality, a fact-finding mission, a last shred of hope for this absurdity to have a rational explanation (perhaps the grapes are a bizarre new cosmetic I wasn't aware of).
 
