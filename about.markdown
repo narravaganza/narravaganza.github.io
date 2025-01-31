@@ -71,6 +71,9 @@ Dedicated to Pupa I.
 ## The Pedaler of Enlightenment
 Improved with feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
 
+## Trail Mix
+Incited by Nick H and Desirée Frames.
+
 ## The Turia Trooper
 Improved with feedback from Alejandro J., Cate Baum, Clàudia C., Javier E., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
 
