@@ -1,5 +1,6 @@
 ---
 ---
+@use "screenplay";
 @use "fonts";
 
 $font-stack-proza: Proza Libre, sans-serif;
@@ -21,10 +22,10 @@ $max-width: 580px;
   .nav-tagline {
     font-size: 1.4vw;
   }
-  a.navigation-item { 
+  a.navigation-item {
     font-size: 2vw;
   }
-  .current-navigation-item { 
+  .current-navigation-item {
     font-size: 2vw;
   }
   img.homepage-hero-image {
@@ -58,7 +59,7 @@ $max-width: 580px;
    font-size: 1.4rem;
   }
   li {
-    max-width: $max-width; // if applied to p then story-body text gets too little max-width... 
+    max-width: $max-width; // if applied to p then story-body text gets too little max-width...
   }
 }
 @media only screen and (max-width: 999px) { //smaller screens
@@ -72,10 +73,10 @@ $max-width: 580px;
   .nav-tagline {
     font-size: 4vw;
   }
-  a.navigation-item { 
+  a.navigation-item {
     font-size: 6vw;
   }
-  a.current-navigation-item { 
+  a.current-navigation-item {
     font-size: 6vw;
   }
   img.homepage-hero-image {
@@ -129,7 +130,7 @@ h1 {
 
 div.footnotes {
   p, li, a {
-    font-size: 0.9rem; // why can't i change the size of the arrow? 
+    font-size: 0.9rem; // why can't i change the size of the arrow?
   }
 }
 
@@ -147,7 +148,7 @@ a:hover {
 // Navigation
 .nav-title {
   font-weight: bold;
-  text-decoration: none; 
+  text-decoration: none;
   color: $raven-color;
 }
 
@@ -169,7 +170,7 @@ nav {
   }
 }
 
-a.navigation-item { 
+a.navigation-item {
   text-decoration: none;
 }
 
