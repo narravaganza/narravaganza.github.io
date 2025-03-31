@@ -81,7 +81,7 @@ Hugs to Clàudia, Kiko, and Josep, my fellow _tropeleros_.
 
 ***
 
-## Miscellanous Creative Input
+## Artistic Collaborators
 * [ChatGPT](https://chatgpt.com/){:target="_blank"}
 * [Claude](https://claude.ai/){:target="_blank"}
 
