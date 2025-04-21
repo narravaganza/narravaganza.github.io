@@ -1,11 +1,21 @@
 ---
 title: Kañe Flood This
-preview: "Guy goes to an ice cream shop, walks up, peculiarly goes: do you have cucumber ice cream please"
+preview: "In February 2025, Kanye West sent out a barrage of brazen tweets, like a clown car barreling through a hall of mirrors. Their audacity was comedy gold, but it also sparked a thought: what if this same swagger came from a politician dodging accountability?"
 ---
 
-_Here is a comedy sketch written using (the artist formerly known as) Kanye West’s February 2025 flurry of outrageous tweets. I found those tweets knee-slappingly hilarious. But, unlike the Anti-Defamation-League, I couldn’t take them seriously given their sheer bluntness and outrageousness. Kanye’s brazenness reminded me of the president of the regional government of Valencia, who failed to act effectively during the devastating floods of October 2024 and is pretty grandstanding about it. In this sketch, this Presidente is parodied as "Kañe" and every line the character speaks is a verbatim Kanye tweet._
+_Here is a comedy sketch written using (the artist formerly known as) Kanye West’s February 2025 flurry of outrageous tweets. I found those tweets knee-slappingly hilarious. Their sheer bluntness and swagger were like a clown car crashing through a hall of mirrors with the horn stuck on full blast._
 
-_Aside from satirizing the political handling of the flood, the main goal of this piece is to make you laugh by repurposing written language as spoken language—though most of the comedy comes from the words’ unrelenting swagger._
+_Which reminded me of the president of the regional government of Valencia, who failed to act effectively during the floods of October 2024 and remains pretty grandstanding about it._
+
+_One intention here is to expose the absurdity of political arrogance by dressing it in Kanye’s unhinged rhetoric, to show how power often shields irrationality just as brazen as a manic episode. When the Presidente's actions are narrated through Kanye's bombastic language, the disconnect between accountability and authority becomes impossible to ignore._
+
+_Another intention, given that Kanye West lives with bipolar disorder and likely posted these tweets during a manic episode, is to make us reconsider our notion of mental health conditions. These expressions of mania are labeled as inappropriate and dangerous, yet when similar cognitive distortions appear in "respectable" contexts like politics, they become acceptable strategy. The current President displays a disconnection from reality no less profound than Kanye's, believing himself blameless for preventable deaths while clinging to power — yet one is diagnosed while the other governs._
+
+_Revealingly, none of the outrage this sketch has received has engaged with this mental health angle. That silence is due to involuntary and voluntary ignorance; important things are often sidelined when they clash with ideological imperatives that favor outrage over understanding. This sketch invites us to question that double standard: perhaps the manic mind and the political mind aren't as different as we think, and our categorizations of "healthy" versus "unhealthy" thinking often reflect power and presentation more than any objective measure of rational thought._
+
+_So this sketch is not an endorsement of the hatred/worldview Kanye expresses. Potentially offensive words appear not as slurs but as part of a verbatim literary remix. Some readers may experience discomfort, and that is part of the satirical intent. Language has power. And it also has context, tone, and intention._
+
+_Ultimately, this sketch isn't just about Kanye or our Presidente, it’s about who gets to say crazy shit without consequences, and whether it was ever really crazy to begin with._
 
 <div id="wrapper" class="screenplay">
 
