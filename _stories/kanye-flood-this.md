@@ -13,7 +13,9 @@ _Another intention, given that Kanye West lives with bipolar disorder and likely
 
 _Revealingly, none of the outrage this sketch has received has engaged with this mental health angle. That silence is due to involuntary and voluntary ignorance; important things are often sidelined when they clash with ideological imperatives that favor outrage over understanding. This sketch invites us to question that double standard: perhaps the manic mind and the political mind aren't as different as we think, and our categorizations of "healthy" versus "unhealthy" thinking often reflect power and presentation more than any objective measure of rational thought._
 
-_So this sketch is not an endorsement of the hatred/worldview Kanye expresses. Potentially offensive words appear not as slurs but as part of a verbatim literary remix. Some readers may experience discomfort, and that is part of the satirical intent. Language has power. And it also has context, tone, and intention._
+_So this sketch is not an endorsement of the hatred/worldview Kanye expresses. Potentially offensive words appear not as slurs but as part of a verbatim literary remix. Some readers may experience discomfort, and that is part of the satirical intent._
+
+_When I first performed this piece, I failed to provide sufficient context and performed it without adequate preparation. This prevented many audience members from understanding the satirical framework and deeper commentary I intended to convey. Some people understandably interpreted the language as gratuitously discriminatory rather than as a critical examination of double standards. To those who felt hurt or offended by my poorly executed performance, I offer my apology. Language has power, and also context, tone, and intention, all of which were regrettably unclear due to my oversight._
 
 _Ultimately, this sketch isn't just about Kanye or our Presidente, it’s about who gets to say crazy shit without consequences, and whether it was ever really crazy to begin with._
 
