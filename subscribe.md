@@ -1,34 +1,15 @@
 ---
 layout: default
 title: Subscribe
-permalink: /subscribe
-preview: Subscribe to Narravaganza and receive new humorous short stories and flash fiction. 
+preview: Subscribe to Narravaganza and receive new humorous short stories and flash fiction.
 ---
 
 # Subscribe
 
-Insert your details and receive new short stories straight into your inbox. 
+Fill this in to receive new short stories straight into your inbox.
 
-Should happen between 1-2 times a month. 
+<iframe width="540" height="360" src="https://b0fab0cb.sibforms.com/serve/MUIFAO5bIzJRkkxLeENMux38VvKH5yeWlHdooXbH4Wt5_t44yBxvY-DtCPlM89YCh7PQBKDWS4qAMkXxH18xQLHhUMjMI9O2beKa3ywiUHt46wFF16oM-h8h4B9MdfAKnp59eCiwepjBDnSAtTu_rObRr2_giL0uWbvnAdw3KMSdunTHueeGL1xWOxJquTDyS_xT791wULzZRuXZ" frameborder="0" scrolling="auto" allowfullscreen style="display: block; max-width: 100%;"></iframe>
 
-You can unsubscribe at any time. I'll never share your email with third-parties. 
+Should happen between 1-2 times a month.
 
-<form method="post" action="https://narravaganza-mailinglist.pikapod.net/subscription/form" class="listmonk-form">
-    <div>
-        <input type="hidden" name="nonce" />
-        <p><input type="email" name="email" required placeholder="E-mail" /></p>
-        <p><input type="text" name="name" placeholder="Name (optional)" /></p>
-      
-        <p hidden>
-          <input id="84195" type="checkbox" name="l" checked value="84195823-db31-43f8-98b3-5468283ced4e" />
-          <label for="84195">Homepage form</label>
-        </p>
-        
-        <div class="captcha">
-            <div class="h-captcha" data-sitekey="52d74513-19c6-46c2-92e2-6ef9506393c3"></div>
-            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-        </div>
-        
-        <p><input type="submit" value="Subscribe" /></p>
-    </div>
-</form>
+You can unsubscribe at any time.
