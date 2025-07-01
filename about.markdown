@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-permalink: /about
 preview: Narravaganza is an online collection of humorous short stories and flash fiction.
 ---
 
