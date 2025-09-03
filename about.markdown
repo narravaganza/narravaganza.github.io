@@ -45,36 +45,39 @@ Spanish version proofread by Patriczia C.
 Incited by Matt B.
 
 ## Chatty Chakras
-Improved with feedback from the BA Writers Group.
+I'm grateful for feedback from the BA Writers Group.
 
 ## Live at the Baby Seal
-Improved with feedback from Alejandro J.
+I'm grateful for feedback from Alejandro J.
 
 ## Reliable Massage
 Inspired by a Writers Group that shall remain unknown.
 
 ## The Boiled Tomato Technique
-Improved with feedback from Diana G.
+I'm grateful for feedback from Diana G.
 
 ## Fajeever And I
-Improved with feedback from Joan D.
+I'm grateful for feedback from Joan D.
 
 ## How Everything Is
 Incited by Diana G.
 
 ## The Happiest Person Alive
-Improved with feedback from Dina S., Diana G., Mikey B., and the [Paris Writers Group](https://www.meetup.com/pariswriters/){:target="_blank"}
+I'm grateful for feedback from Dina S., Diana G., Mikey B., and the [Paris Writers Group](https://www.meetup.com/pariswriters/){:target="_blank"}
 
 Dedicated to Pupa I.
 
 ## The Pedaler of Enlightenment
-Improved with feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
+I'm grateful for feedback from the [All Good Bookshop Writing Group](https://www.meetup.com/AllGoodBookshopWriters){:target="_blank"}
+
+## A Tractate on the Cultivation of What Can't Be Harvested
+I'm grateful for feedback from Alejandro J. and Joan D.
 
 ## Trail Mix
 Incited by Nick H and Desirée Frames.
 
 ## The Turia Trooper
-Improved with feedback from Alejandro J., Cate Baum, Clàudia C., Javier E., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
+I'm grateful for feedback from Alejandro J., Cate Baum, Clàudia C., Javier E., Joan D., Ivelina C., Neus M.E., Neus T.M., Papa E., Pietro G., Raymond G., and Yoti.
 
 Hugs to Clàudia, Kiko, and Josep, my fellow _tropeleros_.
 
