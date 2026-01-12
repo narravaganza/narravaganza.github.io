@@ -19,20 +19,25 @@ jobs:
     runs-on:  macos-14
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.154.5"
+          extended: true
+
+      - name: Build site
+        run: |
+          hugo build
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
-
-      - name: Build site
-        run: |
-          bundle install --quiet
-          bundle exec jekyll build
+          ruby-version: "3.1"
 
       - name: Check site
         run: |
           NOKOGIRI_USE_SYSTEM_LIBRARIES=true
           gem install html-proofer --silent
-          htmlproofer --ignore-urls "/leonardo.ai/,/instagram.com/,/midjourney.com/,/twitter.com/,/reddit.com/,/substack.com/,/chatgpt.com/,/openai.com/,/claude.ai/" ./_site
+          htmlproofer --ignore-urls "/leonardo.ai/,/instagram.com/,/midjourney.com/,/twitter.com/,/reddit.com/,/substack.com/,/chatgpt.com/,/openai.com/,/claude.ai/" ./docs

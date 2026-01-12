@@ -1,0 +1,27 @@
+baseURL = "https://narravaganza.lol/"
+title = "Narravaganza"
+languageCode = "en-us"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+publishDir = "docs"
+
+[params]
+  description = "Narravaganza is an online collection of humorous short stories and flash fiction."
+  ogImage = "https://narravaganza.lol/assets/images/avellaneous_satellite.jpg"
+
+[permalinks]
+  stories = "/stories/:slug/"
+  essays = "/essays/:slug/"
+  sketches = "/sketches/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

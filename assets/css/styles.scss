@@ -1,7 +1,5 @@
----
----
-@use "screenplay";
-@use "fonts";
+@import "screenplay";
+@import "fonts";
 
 $font-stack-proza: Proza Libre, sans-serif;
 
@@ -185,7 +183,8 @@ a.navigation-item {
 }
 
 .story-list-preview {
-  padding-bottom: 25px;
+  margin-top: 0.75rem;
+  padding-bottom: 65px;
   max-width: $max-width;
 }
 

@@ -1,1 +1,1 @@
-Sitemap: https://narravaganza.lol/sitemap.xml
+User-agent: *

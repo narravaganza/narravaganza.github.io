@@ -1,8 +1,9 @@
 set -ex
-bundle exec jekyll build --destination docs
+hugo --destination docs
 
 if [ "$1" == "-s" ]; then
-    pkill -f "jekyll serve" || true
-    bundle exec jekyll serve  \
-        --livereload
+    pkill -f "hugo serve" || true
+    hugo serve \
+        --destination docs \
+        --disableFastRender
 fi

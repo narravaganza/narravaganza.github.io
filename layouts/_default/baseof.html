@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{- $description := .Params.preview | default .Site.Params.description -}}
+    <meta property="og:description" content="{{ $description }}" />
+    {{- with .Site.Params.ogImage }}
+    <meta property="og:image" content="{{ . }}" />
+    {{- end }}
+    <meta name="description" content="{{ $description }}">
+    <title>{{ .Title }}</title>
+    {{- $style := resources.Get "css/styles.scss" | toCSS (dict "targetPath" "assets/css/styles.css" "includePaths" (slice "assets/css" "_sass") "enableSourceMap" (not hugo.IsProduction)) -}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    {{ partial "navigation.html" . }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

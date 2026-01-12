@@ -1,0 +1,5 @@
+{{- $stories := where .Site.RegularPages "Section" "stories" -}}
+{{- range sort $stories "File.Path" -}}
+<a href="{{ .RelPermalink }}" class="story-list-header">{{ .Title }}</a>
+<div class="story-list-preview">{{ .Params.preview }}</div>
+{{- end -}}

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{- range sort .Pages "File.Path" -}}
+<a href="{{ .RelPermalink }}" class="story-list-header">{{ .Title }}</a>
+<div class="story-list-preview">{{ .Params.preview | default .Summary }}</div>
+{{- end -}}
+{{ end }}

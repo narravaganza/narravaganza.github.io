@@ -1,128 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://narravaganza.lol/hemingway-17-04</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/essays/tropelero</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/essays/turia-trooper</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/sketches/ego-disillusion</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/sketches/originally-from</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/arcs</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/baby-seal</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/beautiful-abstract-necessary</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/bench-it-is</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/boiled-tomato-technique</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/chatty-chakras</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/comet-jordi</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/critical-mass</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/el-cometa-jordi</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/fajeever-and-i</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/flavour-of-facts</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/how-everything-is</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/kanye-flood-this</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/my-career-with-pope-horses-ceos</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/old-man-and-the-feelings</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/oooh-miss</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/peanuts</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/pedaler-of-enlightenment</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/reliable-massage</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/sabor-de-los-hechos</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/tecnica-del-pomodoro-bollito</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/the-happiest-person-alive</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/tractate</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/stories/trail-mix</loc>
-<lastmod>2025-11-28T11:29:42+01:00</lastmod>
-</url>
-<url>
-<loc>https://narravaganza.lol/about.html</loc>
-</url>
-<url>
-<loc>https://narravaganza.lol/</loc>
-</url>
-<url>
-<loc>https://narravaganza.lol/subscribe.html</loc>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/stories/a-tractate-on-the-cultivation-of-what-cant-be-harvested/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/arcs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/chatty-chakras/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/comet-jordi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/critical-mass/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sketches/ego-disillusion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/el-cometa-jordi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/el-sabor-de-los-hechos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/el-tropelero-del-turia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/fajeever-and-i/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/how-everything-is/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/ka%C3%B1e-flood-this/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/la-tecnica-del-pomodoro-bollito/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/live-at-the-baby-seal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/my-career-with-the-pope-and-horses-and-ceos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sketches/originally-from/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/peanuts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/reliable-massage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/sick-of-the-whole-ooooh-miss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sketches/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/subscribe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hemingway-17-04/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-beautiful-the-abstract-and-the-absolutely-necessary/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-bench-it-is/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-boiled-tomato-technique/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-flavour-of-facts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-happiest-person-alive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-old-man-and-the-feelings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/the-pedaler-of-enlightenment/</loc>
+  </url><url>
+    <loc>http://localhost:1313/essays/the-turia-trooper/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stories/trail-mix/</loc>
+  </url>
 </urlset>
