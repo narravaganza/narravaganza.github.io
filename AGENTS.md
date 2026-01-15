@@ -1,6 +1,4 @@
 # AGENTS.md
-
-## Purpose
 This repo is a Hugo-powered static site for publishing fiction and non-fiction writing. Agents are expected to help with frontend tasks and to act as creative partners to write or edit stories.
 
 ## Quick map
@@ -23,18 +21,15 @@ This repo is a Hugo-powered static site for publishing fiction and non-fiction w
 - Build output (do not edit by hand)
   - `docs/` : generated site files
 
-## How to be quickly productive
-### Writing and editing stories
-- Add new pieces to the appropriate collection folder as Markdown.
-- Use YAML front matter at the top. At minimum, include `title` and `preview`.
-- Keep the author voice consistent with existing pieces (in _stories/ and _sketches); match tone and cadence.
-- When collaborating, propose a short outline or a few paragraph options before drafting a full piece.
+## Writing and editing stories
+- **CRITICAL: Before writing or editing the body any new story, you MUST read all existing stories from `content/stories/` to absorb the author's voice.** Do not write in a generic style. Match the tone, cadence, sentence structure, and quirks of the existing work. The author's voice is distinctive: first-person, tangential, philosophical spiraling, absurdist escalation from mundane situations.
+- Add new pieces to the appropriate collection folder as Markdown, with the appropriate YAML front matter at the top.
 
-### Frontend and CSS edits
+## Frontend edits
 - Prefer editing SCSS in `assets/css/` or `_sass/`. Hugo will compile it.
 - If the change touches layout or shared components, check `layouts/` and `layouts/partials/`.
 - Keep typography and spacing consistent with the existing aesthetic unless asked to redesign.
-- Ensure builds pass by running `hugo build`
+- Always run `hugo build` as a smoke test before considering work done.
 
 ### Building and serving
 - Build to the `docs/` folder: `hugo`

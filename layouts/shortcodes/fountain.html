@@ -1,0 +1,127 @@
+{{- $file := .Get "file" -}}
+{{- if not $file -}}
+  {{- errorf "fountain shortcode requires a file param" -}}
+{{- end -}}
+
+{{- $sceneClass := .Get "sceneClass" | default "slug" -}}
+
+{{- $showScenes := true -}}
+{{- with .Get "scenes" -}}
+  {{- $showScenes = ne (lower (printf "%v" .)) "false" -}}
+{{- end -}}
+
+{{- $showActions := true -}}
+{{- with .Get "actions" -}}
+  {{- $showActions = ne (lower (printf "%v" .)) "false" -}}
+{{- end -}}
+
+{{- $wrap := true -}}
+{{- with .Get "wrapper" -}}
+  {{- $wrap = ne (lower (printf "%v" .)) "false" -}}
+{{- end -}}
+
+{{- $path := $file -}}
+{{- if not (hasPrefix $path "fountain/") -}}
+  {{- $path = printf "fountain/%s" $path -}}
+{{- end -}}
+{{- $path = trim $path "/" -}}
+
+{{- $raw := readFile $path -}}
+{{- $lines := split $raw "\n" -}}
+
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "dialogOpen" false -}}
+{{- $scratch.Set "inLyrics" false -}}
+{{- $scratch.Set "lyricsHasLine" false -}}
+{{- $scratch.Set "inCharacters" false -}}
+
+{{- if $wrap -}}
+<div id="wrapper" class="screenplay">
+{{- end -}}
+
+{{- range $i, $rawLine := $lines -}}
+  {{- $line := trim $rawLine " \t\r" -}}
+  {{- $upper := upper $line -}}
+  {{- $lower := lower $line -}}
+  {{- $isLyric := hasPrefix $line "~" -}}
+  {{- if and (not $isLyric) ($scratch.Get "inLyrics") -}}
+    </div>
+    {{- $scratch.Set "inLyrics" false -}}
+    {{- $scratch.Set "lyricsHasLine" false -}}
+  {{- end -}}
+
+  {{- if eq $line "" -}}
+    {{- if $scratch.Get "dialogOpen" -}}
+      </div>
+      {{- $scratch.Set "dialogOpen" false -}}
+    {{- end -}}
+    {{- if $scratch.Get "inCharacters" -}}
+      {{- $scratch.Set "inCharacters" false -}}
+    {{- end -}}
+  {{- else if $scratch.Get "inCharacters" -}}
+  {{- else if or (hasPrefix $lower "title:") (hasPrefix $lower "credit:") (hasPrefix $lower "author:") (hasPrefix $lower "draft:") (hasPrefix $lower "revision:") (hasPrefix $lower "contact:") (hasPrefix $lower "copyright:") -}}
+  {{- else if hasPrefix $lower "characters:" -}}
+    {{- $scratch.Set "inCharacters" true -}}
+  {{- else if $isLyric -}}
+    {{- if $scratch.Get "dialogOpen" -}}
+      </div>
+      {{- $scratch.Set "dialogOpen" false -}}
+    {{- end -}}
+    {{- if not ($scratch.Get "inLyrics") -}}
+      <div class="lyrics">
+      {{- $scratch.Set "inLyrics" true -}}
+    {{- end -}}
+    {{- if $scratch.Get "lyricsHasLine" -}}
+      <br>
+    {{- end -}}
+    {{- trim (replaceRE "^~" "" $line) " \t" -}}
+    {{- $scratch.Set "lyricsHasLine" true -}}
+  {{- else if hasPrefix $line "!" -}}
+    {{- if $scratch.Get "dialogOpen" -}}
+      </div>
+      {{- $scratch.Set "dialogOpen" false -}}
+    {{- end -}}
+    {{- if $showActions -}}
+      <div class="action">{{ trim (replaceRE "^!" "" $line) " \t" }}</div>
+    {{- end -}}
+  {{- else -}}
+    {{- if $scratch.Get "dialogOpen" -}}
+      {{- if and (hasPrefix $line "(") (hasSuffix $line ")") -}}
+        <p class="parenthetical">{{ $line }}</p>
+      {{- else -}}
+        <p>{{ $line }}</p>
+      {{- end -}}
+    {{- else -}}
+      {{- $isScene := or (hasPrefix $upper "INT.") (hasPrefix $upper "EXT.") (hasPrefix $upper "INT/EXT.") (hasPrefix $upper "I/E.") -}}
+      {{- $isAllCaps := eq $line $upper -}}
+      {{- $isCharacter := and $isAllCaps (not $isScene) (not (hasSuffix $line ".")) (not (hasSuffix $line ":")) -}}
+      {{- $isTransition := and $isAllCaps (or (hasPrefix $line ">") (hasSuffix $line "TO:") (hasPrefix $line "CUT TO") (hasPrefix $line "FADE OUT") (hasPrefix $line "FADE TO") (hasPrefix $line "SMASH CUT") (hasPrefix $line "DISSOLVE TO") (hasPrefix $line "MATCH CUT") (hasPrefix $line "WIPE TO")) -}}
+
+      {{- if $isScene -}}
+        {{- if $showScenes -}}
+          <div class="{{ $sceneClass }}">{{ $line }}</div>
+        {{- end -}}
+      {{- else if $isCharacter -}}
+        <div class="dialog">
+          <p class="character">{{ $line }}</p>
+        {{- $scratch.Set "dialogOpen" true -}}
+      {{- else if $isTransition -}}
+        <div class="transition">{{ $line }}</div>
+      {{- else if $showActions -}}
+        <div class="action">{{ $line }}</div>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $scratch.Get "inLyrics" -}}
+  </div>
+{{- end -}}
+
+{{- if $scratch.Get "dialogOpen" -}}
+  </div>
+{{- end -}}
+
+{{- if $wrap -}}
+</div>
+{{- end -}}

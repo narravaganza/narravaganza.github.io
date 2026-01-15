@@ -1,0 +1,115 @@
+---
+title: Logan's Potatoes
+preview: "A woman from the government pulls up the driveway. Chevy Malibu. I know why she's here. She doesn't know that I know why she's here, but I know. The potatoes know too..."
+---
+A woman from the government pulls up the driveway. Chevy Malibu. I know why she's here. She doesn't know that I know why she's here, but I know. The potatoes know too.
+
+"Mr. Logan?"
+
+That's not my name. Logan is the name of the farm. My name is Terrence. But I've been correcting people for forty years and they keep calling me Logan so I've given up. Yes. Logan. That's me now.
+
+She says she's from the EPA. Environmental Protection Agency. Office of Chemical Safety and Pollution Prevention. I ask her if that's a real thing or if she made it up. She says it's a real thing. She has a badge that says it's a real thing. Of course you can print anything on a badge these days. My nephew printed a badge that said he was the Pope. Took it to the Vatican. They didn't let him in but they were impressed by the lamination quality.
+
+"We received a tip about your operation."
+
+I don't have an operation. I have a farm. An operation is what you have when doctors cut you open to fix your gallbladder. Maybe she means the farm is sick. The farm is not sick. The farm is fine. The potatoes are fine.
+
+"We have reason to believe you've been applying chlorpyrifos at rates exceeding the Maximum Residue Limit as defined under 40 CFR Part 180.342."
+
+She says this like I'm supposed to know what it means. I do know what it means. But she doesn't know that I know what it means. 40 CFR Part 180.342 is the section of the Code of Federal Regulations that establishes tolerance levels for pesticide residues on raw agricultural commodities. Subsection (a) covers general provisions. Subsection (b) covers specific tolerances by crop group. Potatoes fall under Crop Group 1C, Root and Tuber Vegetables, as amended by the 2017 harmonisation with Codex Alimentarius international standards.
+
+I know this because I read it.
+
+I read it because Henderson from the co-op told me the feds were coming. Henderson reads the regulations for fun. Henderson has no friends. Henderson's wife left him in 2019 and took the dog. Not because of the regulations. Because of the ferret breeding. You can only have so many ferrets before your wife leaves you and takes the dog.
+
+"Those are my potatoes."
+
+"Those are Solanum tuberosum cultivated in potential violation of EPA tolerance levels."
+
+Solanum tuberosum. The Latin name. She's showing off. Two can play at that game.
+
+"The species was first domesticated in the region of modern-day southern Peru and extreme northwestern Bolivia between 8000 and 5000 BC."
+
+She looks at me.
+
+"That's from Wikipedia."
+
+"Sir, we're talking about organophosphate compounds. Acetylcholinesterase inhibitors."
+
+Acetylcholinesterase. Now we're getting technical. Acetylcholinesterase is an enzyme. It breaks down acetylcholine, which is a neurotransmitter. When you inhibit acetylcholinesterase, acetylcholine accumulates in the synaptic cleft. This causes continuous stimulation of cholinergic receptors. In insects this causes paralysis and death. In humans it causes salivation, lacrimation, urination, defecation, gastrointestinal distress, and emesis. The medical community abbreviates this as SLUDGE. I learned this from Henderson. Henderson knows a lot of things. Henderson should have been a doctor but instead he runs a co-op and breeds ferrets.
+
+"Ma'am, I've been growing Russet Burbanks since 1987."
+
+"And the tolerance level for chlorpyrifos on potatoes is 0.01 parts per million."
+
+"That's the Codex standard. The previous EPA tolerance was 0.1 ppm before the 2021 revocation under FIFRA Section 6(b)."
+
+She stops. She didn't expect me to know about FIFRA Section 6(b). FIFRA is the Federal Insecticide, Fungicide, and Rodenticide Act. Section 6(b) covers the cancellation and change of registration. The chlorpyrifos revocation was based on a risk assessment conducted by the Office of Pesticide Programs using the Dietary Exposure Evaluation Model, which integrates consumption data from the National Health and Nutrition Examination Survey with residue data from the Pesticide Data Program.
+
+Henderson told me all of this. Henderson has a subscription to the Federal Register. Henderson reads the Federal Register every morning with his coffee. This is why Henderson has no friends.
+
+"You've done your research."
+
+"I've done my compliance."
+
+This is a lie. I have not done my compliance. I have chlorpyrifos in my shed. Lorsban Advanced, Dow AgroSciences, EPA Registration Number 62719-591, active ingredient chlorpyrifos 40.18% by weight. This product was cancelled for food uses on February 28, 2022. I bought it in 2021 before the cancellation. I have been using it ever since. The Colorado potato beetles don't stand a chance. Neither do my neurotransmitters, probably.
+
+She asks to see my shed.
+
+"There's nothing in my shed."
+
+"Under FIFRA Section 11(a), I have authority to enter any establishment where pesticides are held for distribution or sale, or where pesticides are applied."
+
+Section 11(a). The inspection provision. Paragraph (c)(2)(B) requires that I provide access to any records relating to the use of pesticides. The penalty for refusing inspection is outlined in Section 14(a)(1): civil penalties not to exceed $21,205 per violation per day. This figure was adjusted for inflation in 2023 pursuant to the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015.
+
+Henderson told me about the Inflation Adjustment Act. Henderson tracks inflation adjustments across seventeen federal agencies. Henderson has spreadsheets. Henderson's spreadsheets have spreadsheets. Henderson once showed me a pivot table that cross-referenced penalty amounts with enforcement frequency by EPA region. Region 8 covers North Dakota. Region 8 is known for aggressive enforcement. I am in Region 8.
+
+We walk to the shed. I unlock it. Inside are the drums. Blue drums. DOT hazmat placards. Class 6.1. Toxic substances.
+
+She photographs them.
+
+"Terbufos. EPA Registration Number 241-257."
+
+Terbufos. Organophosphate. Soil-applied. Effective against wireworms, seedcorn maggots, and white grubs. Voluntary cancellation in 2020 following a Section 6(f) request by the registrant. The human health risk assessment indicated unacceptable dietary exposure at the 99.9th percentile of consumption. The ecological risk assessment indicated high acute toxicity to freshwater fish with an LC50 of 0.013 mg/L for rainbow trout.
+
+Henderson explained the LC50 concept to me. LC50 is the lethal concentration required to kill 50% of a test population. Henderson once calculated his own theoretical LC50 for ferret dander. It was surprisingly high. Henderson is not allergic to ferrets. Henderson is allergic to human companionship.
+
+"This is a Superfund situation."
+
+CERCLA. The Comprehensive Environmental Response, Compensation, and Liability Act. Section 107 establishes strict liability for owners and operators of facilities from which hazardous substances are released. The National Priorities List currently includes 1,336 sites. North Dakota has 3 sites on the NPL: Arsenic Trioxide Site in Southeastern ND, Oakes Air Force Station, and Minot Air Force Base. I do not want my farm to be the fourth.
+
+"Who told you."
+
+"I can't disclose confidential informants."
+
+Henderson. It was Henderson. Henderson told me the feds were coming and then Henderson called the feds. Henderson is a double agent. Henderson has been playing both sides. Henderson reads the Federal Register and reports violations to the EPA anonymously through the online tip portal, which was established in 2018 as part of the Agency's Enhanced Compliance Initiative.
+
+I'm not angry at Henderson. Henderson is doing what Henderson does. Henderson has convictions. Henderson believes in the regulatory framework. Henderson once told me that 40 CFR Part 180 is the most beautiful piece of legislation ever written. I asked Henderson about the Constitution. Henderson said the Constitution has too many ambiguities. 40 CFR Part 180 has specific tolerance levels in parts per million. You can measure parts per million. You cannot measure "unreasonable searches and seizures."
+
+She pulls out handcuffs.
+
+"Sir, you are being detained pending criminal referral to the United States Attorney's Office for the District of North Dakota."
+
+The District of North Dakota. Headquarters in Bismarck. Current U.S. Attorney appointed in 2021. Prosecution of FIFRA violations falls under the Environmental Crimes Section. Maximum penalty for knowing violations under Section 14(b)(1) is $50,000 per day of violation and/or imprisonment not to exceed one year. For subsequent convictions the maximum is doubled.
+
+Henderson told me about the sentencing guidelines. Henderson has memorised Chapter 2Q of the United States Sentencing Guidelines, which covers offenses involving the environment. Base offense level for pesticide violations is 8. Enhancements apply for ongoing, continuous discharge, for substantial likelihood of death or serious bodily injury, and for discharge into a public water supply.
+
+My groundwater connects to the Missouri River.
+
+"One question," I say.
+
+"What."
+
+"Henderson. Did he seem okay when he called you?"
+
+She doesn't answer.
+
+Henderson. Alone with his ferrets. Alone with his spreadsheets. Alone with 40 CFR Part 180 and his subscription to the Federal Register. Reading the tolerance levels for chlorpyrifos on root and tuber vegetables. 0.01 parts per million. Internationally harmonised. Protecting the children.
+
+The potatoes will rot in the ground. The beetles will return. The acetylcholinesterase will flow unimpeded through the synaptic clefts of earthworms and fieldmice and whatever else lives beneath the North Dakota soil.
+
+Henderson was right.
+
+Henderson is always right.
+
+Henderson has no friends.
