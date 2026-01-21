@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Essays on Narravaganza</title>
-    <link>http://localhost:1313/essays/</link>
+    <link>https://narravaganza.lol/essays/</link>
     <description>Recent content in Essays on Narravaganza</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/essays/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://narravaganza.lol/essays/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Tropelero del Turia</title>
-      <link>http://localhost:1313/essays/el-tropelero-del-turia/</link>
+      <link>https://narravaganza.lol/essays/el-tropelero-del-turia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/essays/el-tropelero-del-turia/</guid>
+      <guid>https://narravaganza.lol/essays/el-tropelero-del-turia/</guid>
       <description>&lt;p&gt;Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Texts of Pieces Performed at Club Hemingway on April 17</title>
-      <link>http://localhost:1313/hemingway-17-04/</link>
+      <link>https://narravaganza.lol/hemingway-17-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hemingway-17-04/</guid>
+      <guid>https://narravaganza.lol/hemingway-17-04/</guid>
       <description>&lt;p&gt;This page contains the complete and unabridged texts of the literary and performative pieces delivered by Ariel E. and Arthur L. at Club Hemingway on April 17, 2025. It serves as an official archive for reference, study, and appreciation of the works presented.&lt;/p&gt;&#xA;&lt;h1 id=&#34;where-are-you-really-from&#34;&gt;Where are you REALLY from&lt;/h1&gt;&#xA;&lt;p&gt;Co-written with Arthur Lemon.&lt;/p&gt;&#xA;&lt;h2 id=&#34;characters&#34;&gt;Characters&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;ALEX:&lt;/strong&gt; Mild-mannered, thoughtful.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;JORDAN:&lt;/strong&gt; Curious but oblivious.&lt;/p&gt;&#xA;&lt;h2 id=&#34;setting&#34;&gt;Setting&lt;/h2&gt;&#xA;&lt;p&gt;A casual social event. Both holding drinks, meeting for the first time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Turia Trooper</title>
-      <link>http://localhost:1313/essays/the-turia-trooper/</link>
+      <link>https://narravaganza.lol/essays/the-turia-trooper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/essays/the-turia-trooper/</guid>
+      <guid>https://narravaganza.lol/essays/the-turia-trooper/</guid>
       <description>&lt;p&gt;Wasting time is sad. Wasting time trying to do good is tragic. What&amp;rsquo;s even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn&amp;rsquo;t promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste.&lt;/p&gt;</description>
     </item>
   </channel>

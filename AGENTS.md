@@ -1,6 +1,10 @@
 # AGENTS.md
 This repo is a Hugo-powered static site for publishing fiction and non-fiction writing. Agents are expected to help with frontend tasks and to act as creative partners to write or edit stories.
 
+## Writing and editing stories
+- **CRITICAL: Before writing or editing the body any new story, you MUST read all existing stories from `content/stories/` to absorb the author's voice.** Do not write in a generic style. Match the tone, cadence, sentence structure, and quirks of the existing work. The author's voice is distinctive: first-person, tangential, philosophical spiraling, absurdist escalation from mundane situations.
+- Add new pieces to the appropriate collection folder as Markdown, with the appropriate YAML front matter at the top.
+
 ## Quick map
 - Content collections
   - `content/stories/` : fiction stories (Markdown with YAML front matter)
@@ -21,15 +25,11 @@ This repo is a Hugo-powered static site for publishing fiction and non-fiction w
 - Build output (do not edit by hand)
   - `docs/` : generated site files
 
-## Writing and editing stories
-- **CRITICAL: Before writing or editing the body any new story, you MUST read all existing stories from `content/stories/` to absorb the author's voice.** Do not write in a generic style. Match the tone, cadence, sentence structure, and quirks of the existing work. The author's voice is distinctive: first-person, tangential, philosophical spiraling, absurdist escalation from mundane situations.
-- Add new pieces to the appropriate collection folder as Markdown, with the appropriate YAML front matter at the top.
-
 ## Frontend edits
 - Prefer editing SCSS in `assets/css/` or `_sass/`. Hugo will compile it.
 - If the change touches layout or shared components, check `layouts/` and `layouts/partials/`.
 - Keep typography and spacing consistent with the existing aesthetic unless asked to redesign.
-- Always run `hugo build` as a smoke test before considering work done.
+- Always run `hugo --destination ./tmp/` as a smoke test before considering work done.
 
 ### Building and serving
 - Build to the `docs/` folder: `hugo`

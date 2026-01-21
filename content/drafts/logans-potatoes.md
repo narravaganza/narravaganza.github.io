@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Logan's Potatoes
 preview: "A woman from the government pulls up the driveway. Chevy Malibu. I know why she's here. She doesn't know that I know why she's here, but I know. The potatoes know too..."
 ---

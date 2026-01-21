@@ -20,11 +20,25 @@
   {{- $wrap = ne (lower (printf "%v" .)) "false" -}}
 {{- end -}}
 
-{{- $path := $file -}}
-{{- if not (hasPrefix $path "fountain/") -}}
-  {{- $path = printf "fountain/%s" $path -}}
+{{- $path := trim $file "/" -}}
+{{- $candidates := slice -}}
+{{- if not (in $path "/") -}}
+  {{- $candidates = $candidates | append (printf "content/sketches/fountain/%s" $path) -}}
+  {{- $candidates = $candidates | append (printf "fountain/%s" $path) -}}
 {{- end -}}
-{{- $path = trim $path "/" -}}
+{{- $candidates = $candidates | append $path -}}
+
+{{- $pathScratch := newScratch -}}
+{{- $pathScratch.Set "path" "" -}}
+{{- range $candidates -}}
+  {{- if and (eq ($pathScratch.Get "path") "") (fileExists .) -}}
+    {{- $pathScratch.Set "path" . -}}
+  {{- end -}}
+{{- end -}}
+{{- $path = $pathScratch.Get "path" -}}
+{{- if eq $path "" -}}
+  {{- errorf "fountain shortcode could not find file: %s" $file -}}
+{{- end -}}
 
 {{- $raw := readFile $path -}}
 {{- $lines := split $raw "\n" -}}
