@@ -1,16 +1,10 @@
 ---
 draft: true
 title: Balls Attached
-preview: After a medical imaging centre gets hacked and his ultrasound ends up in Malaysia, Ariel discovers the only way to get revenge is to prove material damage...
+preview: After a medical imaging centre gets hacked and his ultrasound ends up in Malaysia, Santiano discovers the only way to get revenge is to get compensated for material damage
 ---
 
-Yes, please come in.
-
-Hello, Doctor. Thank you for seeing me at such short notice.
-
-Are you Mr. Santiano?
-
-Yes, I am.
+I have received an email with my balls attached to it.
 
 Please take a seat, Mr. Santiano. Are you here for an initial consultation?
 
@@ -20,35 +14,31 @@ I'm sorry?
 
 A cigar. Would you like one? I brought them. Here, choose any one. They're all the same.
 
-I appreciate the offer, but I don't smoke during sessions. Mr. Santiano, you mentioned on the phone that you're experiencing significant psychological distress?
+I appreciate the offer but I don't smoke during sessions. Mr. Santiano, you mentioned on the phone that you're experiencing distress?
 
-Doctor, I'm in massive psychological distress right now. My feelings are suffering. I'm in pain, and I'm very saddened, and my emotions are hurt. I need a lot of therapy.
+Last night I dreamed I was in Kuala Lumpur and everyone was walking around with my balls printed on t-shirts. Everyone. Children, grandmothers, police officers. All wearing my balls. I'm in massive psychological distress right now. My feelings are suffering. I'm in pain, and I'm very saddened, and my emotions are hurt. I need a lot of therapy.
 
 I see. Can you tell me what's caused this distress?
 
-I have received an email with my balls attached to it.
-
-I'm sorry?
-
-An email. With my balls attached to it. A PDF of my balls. You see, a month ago I went to a clinic—ASCIRES, they're called—to get an ultrasound of my testicles. Everything was fine. Routine checkup. And then on Tuesday, I received an email from someone in Malaysia who has hacked this clinic. My balls—the ultrasound—is in his possession. He's parading this ultrasound across Malaysia.
+An email. With my balls attached to it. A PDF of my balls. You see, a month ago I went to a clinic, to get an ultrasound of my testicles. Everything was fine. Routine checkup. And then on Tuesday, I received an email from someone in Malaysia who has hacked this clinic. My balls the ultrasound are in his possession. He's parading this ultrasound across Malaysia.
 
 I understand this is concerning. When you say he's "parading" it—
 
-The subject line said "nice twins." He has malevolent intent. He wants my balls all over Malaysian food. Malaysian women. It's hot over there. It's not a good place in which to have an image of my balls. And I believe that is deeply hurtful.
+The subject line said "well-rounded". He has malevolent intent. He wants my balls all over Malaysian food and women and it's hot and humid over there. It's not a good place in which to have... my balls... Fermenting, and I believe that is hurtful. 
 
 The clinic has confirmed there was a data breach?
 
-Yes. They sent me a very apologetic email. Very sorry for the inconvenience. But here's the thing, Doctor—they will not give me any compensation unless I can prove there was material damage. Material damage. My uncle Isaac, he's a lawyer, he told me this is the only way.
+Yes. They sent me a sorry email. [But according to my friend, torment is just a mood until it hardens into something with a receipt. | this needs to stay ambiguous, too expository. dont mention the uncle. briefly indirectly hint at desire to revenge.]
 
-I see. And your uncle referred you to me?
+I see. And your friend referred you to me?
 
 Yes. He said you're very understanding. Very professional. And expensive.
 
-I charge a standard rate for—
+Mr. Santiano, I think we should focus on—
 
-One hundred and fifty euros per hour, yes. But this is not a standard case, Doctor. This is complex. This will require in-depth analysis. Many, many sessions. I believe you should charge more. Say, five thousand euros per session?
+One hundred and seventy nine euros an hour, yes. But this is not a standard case, Doctor. This is complex. This will require in-depth analysis. Many, many sessions. I believe you should charge more. Say, five thousand euros per session?
 
-Mr. Santiano, I don't think you understand how therapy works—
+[Mr. Santiano, I don't think you understand how therapy works— | shrink needs to speak like a normal shrink would in a session]
 
 I suffer five hundred thousand times a day, Doctor. Five hundred thousand times. Every moment I think about those twins in Malaysia, being looked at, being laughed at. I'm a software engineer. I can't work anymore. I run bugs all day. Terrible bugs. I cry at my desk.
 
@@ -70,7 +60,7 @@ Both. Can't it be both? The only way I can get revenge—moral revenge—is to p
 
 Do you feel this obsession is affecting your daily life?
 
-Every waking moment. And sleeping moments too. I dream about it. Last night I dreamed I was in Kuala Lumpur and everyone was walking around with my ultrasound printed on t-shirts. Everyone. Children, grandmothers, police officers. All wearing my twins.
+Every waking moment. And sleeping moments too. I dream about it. 
 
 That sounds distressing.
 
