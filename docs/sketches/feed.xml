@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sketches on Narravaganza</title>
-    <link>https://narravaganza.lol/sketches/</link>
-    <description>Recent content in Sketches on Narravaganza</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://narravaganza.lol/sketches/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ego Disillusion</title>
-      <link>https://narravaganza.lol/sketches/ego-disillusion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://narravaganza.lol/sketches/ego-disillusion/</guid>
-      <description>&lt;p&gt;This sketch is a meditation on meditation, or more precisely, on the absurd, relentless nature of the mind. Co-written with my friend Arthur Lemon, it captures the dissonance between the intention to cultivate stillness and the chaotic reality of inner life.&lt;/p&gt;&#xA;&lt;p&gt;What begins as a practice of peaceful attention is quickly derailed by memory, song lyrics, sexual frustration, mortality, and whatever else the mind decides to throw in. Sam Harris, a Militant Atheist and Meditation Guru, described the experience as follows:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Originally from</title>
-      <link>https://narravaganza.lol/sketches/originally-from/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://narravaganza.lol/sketches/originally-from/</guid>
-      <description>&lt;p&gt;One of the most popular first questions to ask a person is the place where they come from. It&amp;rsquo;s often done for the sake of small talk rather than some sinister categorisation, but my friend Arthur disagrees to the extent that he boycotts the question. He suspects the enquirer is less interested in the answer and more eager to slot you into a prewritten story. The following sketch, co-written with him, explores the rationale.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Sketches on Narravaganza</title>
+		<link>https://narravaganza.lol/sketches/</link>
+		<description>Recent content in Sketches on Narravaganza</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://narravaganza.lol/sketches/feed.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ego Disillusion</title>
+				<link>https://narravaganza.lol/sketches/ego-disillusion/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://narravaganza.lol/sketches/ego-disillusion/</guid>
+				<description>&lt;p&gt;This sketch is a meditation on meditation, or more precisely, on the absurd, relentless nature of the mind. Co-written with my friend Arthur Lemon, it captures the dissonance between the intention to cultivate stillness and the chaotic reality of inner life.&lt;/p&gt;&#xA;&lt;p&gt;What begins as a practice of peaceful attention is quickly derailed by memory, song lyrics, sexual frustration, mortality, and whatever else the mind decides to throw in. Sam Harris, a Militant Atheist and Meditation Guru, described the experience as follows:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Originally from</title>
+				<link>https://narravaganza.lol/sketches/originally-from/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://narravaganza.lol/sketches/originally-from/</guid>
+				<description>&lt;p&gt;One of the most popular first questions to ask a person is the place where they come from. It&amp;rsquo;s often done for the sake of small talk rather than some sinister categorisation, but my friend Arthur disagrees to the extent that he boycotts the question. He suspects the enquirer is less interested in the answer and more eager to slot you into a prewritten story. The following sketch, co-written with him, explores the rationale.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

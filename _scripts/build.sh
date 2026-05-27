@@ -1,5 +1,5 @@
 set -ex
-hugo --destination docs
+hugo --cleanDestinationDir --destination docs
 
 if [ "$1" == "-s" ]; then
     pkill -f "hugo serve" || true

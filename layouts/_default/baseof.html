@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+{{ block "meta" . -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="index,follow">
+{{ end -}}
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
     {{- $description := .Params.preview | default .Site.Params.description -}}
@@ -18,6 +22,6 @@
   </head>
   <body>
     {{ partial "navigation.html" . }}
-    {{ block "main" . }}{{ end }}
+{{ block "main" . }}{{ end }}
   </body>
 </html>

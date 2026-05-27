@@ -1,5 +1,6 @@
 ---
 title: Kañe Flood This
+slug: kanye-flood-this
 preview: "In February 2025, Kanye West sent out a barrage of brazen tweets, like a clown car barreling through a hall of mirrors. Their audacity was comedy gold, but it also sparked a thought: what if this same swagger came from a politician dodging accountability?"
 ---
 
