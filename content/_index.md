@@ -12,6 +12,12 @@ Start reading a story by visiting one of the links below:
 
 {{< storyroll >}}
 
+## Sketches
+
+If you'd rather start with something written to be performed, there are sketches too:
+
+{{< storyroll section="sketches" >}}
+
 ## Could you possibly be desirous of additional material?
 
 Get an email when each release

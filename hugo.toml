@@ -1,6 +1,6 @@
 baseURL = "https://narravaganza.lol/"
 title = "Narravaganza"
-languageCode = "en-us"
+locale = "en-us"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 publishDir = "docs"

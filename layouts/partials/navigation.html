@@ -2,7 +2,7 @@
   <a href="{{ "/" | relURL }}" class="nav-title">Narravaganza</a>
   <p class="nav-tagline">Short Stories to make you LOLWTF</p>
   {{- $current := .RelPermalink -}}
-  {{- with .Site.Data.navigation -}}
+  {{- with hugo.Data.navigation -}}
     {{- range . -}}
       {{- $link := .link -}}
       {{- $isCurrent := or (eq $current $link) (eq $current (printf "%s/" $link)) -}}
