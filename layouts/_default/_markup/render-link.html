@@ -1,2 +1,29 @@
-{{- $isExternal := or (strings.HasPrefix .Destination "http://") (strings.HasPrefix .Destination "https://") -}}
-<a href="{{ .Destination | safeURL }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- $destination := .Destination -}}
+{{- $url := urls.Parse $destination -}}
+{{- $href := $destination -}}
+{{- $isExternal := or (eq $url.Scheme "http") (eq $url.Scheme "https") -}}
+{{- $hasScheme := ne $url.Scheme "" -}}
+{{- /*
+  Markdown links are easy to write as [About](about) or [Subscribe](/subscribe),
+  but Hugo publishes those pages at their canonical RelPermalink values:
+  /about/ and /subscribe/. If we emit the raw Markdown destination, crawlers
+  discover redirecting URLs even though the page canonical is correct.
+
+  For scheme-less, non-anchor links, try resolving the destination as a Hugo
+  page. When it matches, replace the href with that page's canonical relative
+  permalink and preserve any query string or fragment. If it does not match a
+  page, leave it unchanged so asset links, downloads, and unusual relative URLs
+  keep their author-provided destination.
+*/ -}}
+{{- if and (not $hasScheme) (not (strings.HasPrefix $destination "#")) $url.Path -}}
+  {{- with $.Page.GetPage (strings.TrimPrefix "/" $url.Path) -}}
+    {{- $href = .RelPermalink -}}
+    {{- with $url.RawQuery -}}{{- $href = printf "%s?%s" $href . -}}{{- end -}}
+    {{- with $url.Fragment -}}{{- $href = printf "%s#%s" $href . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- /*
+  Keep the existing external-link behavior: only http/https links open in a new
+  tab with noopener. Schemes such as mailto: and tel: are emitted as normal links.
+*/ -}}
+<a href="{{ $href | safeURL }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
