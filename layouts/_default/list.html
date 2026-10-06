@@ -1,9 +1,11 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "optimized-content.html" . }}
+{{ define "header" }}
+<header class="index-header">
+  {{ partial "masthead.html" . }}
+  <h1 class="section-title">{{ .Title }}</h1>
+  <div class="index-intro">{{ partial "optimized-content.html" . }}</div>
+</header>
+{{ end }}
 
-{{- range sort .Pages "File.Path" -}}
-<a href="{{ .RelPermalink }}" class="story-list-header">{{ .Title }}</a>
-<div class="story-list-preview">{{ .Params.preview | default .Summary }}</div>
-{{- end -}}
+{{ define "main" }}
+{{ partial "piece-list.html" (dict "pages" .Pages) }}
 {{ end }}

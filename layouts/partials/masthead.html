@@ -1,0 +1,7 @@
+{{- /* Homepage-style header: quiet nav plus the big wordmark. On the homepage the wordmark is the page's h1. */ -}}
+{{ partial "quiet-nav.html" . }}
+{{- if .IsHome }}
+<h1 class="home-title">{{ .Site.Title }}</h1>
+{{- else }}
+<a href="{{ "/" | relURL }}" class="home-title">{{ .Site.Title }}</a>
+{{- end }}

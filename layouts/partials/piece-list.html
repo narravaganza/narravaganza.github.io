@@ -1,0 +1,14 @@
+{{- /* Expects a dict with "pages" and "title"; renders a labelled list of pieces. */ -}}
+{{- with .pages }}
+<section class="piece-list" aria-label="{{ $.title }}">
+  {{- with $.title }}
+  <h2 class="section-label">{{ . }}</h2>
+  {{- end }}
+  {{- range sort . "File.Path" }}
+  <a href="{{ .RelPermalink }}" class="list-item">
+    <span class="list-item-title">{{ .Title }}</span>
+    <span class="list-item-preview">{{ .Params.preview | default .Summary | markdownify | plainify | htmlUnescape }}</span>
+  </a>
+  {{- end }}
+</section>
+{{- end }}

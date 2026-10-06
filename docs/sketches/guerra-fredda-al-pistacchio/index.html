@@ -15,11 +15,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav>
-  <a href="/" class="nav-title">Narravaganza</a>
-  <p class="nav-tagline">Short Stories to make you LOLWTF</p>
-  <div class="collection-links"><a href="/stories/" class="navigation-item">Stories</a><a href="/essays/" class="navigation-item">Essays</a><a href="/sketches/" class="navigation-item">Sketches</a></div>
+
+<header class="site-header">
+  <a href="/" class="site-wordmark">Narravaganza</a>
+  <nav class="quiet-nav" aria-label="Sections">
+  <a href="/stories/">Stories</a>
+  <a href="/essays/">Essays</a>
+  <a href="/sketches/">Sketches</a>
+  <a href="/about/">About</a>
 </nav>
+
+</header>
+
 
 
 <h1 class="story-header">Guerra fredda al pistacchio</h1>
@@ -171,6 +178,25 @@
           <p class="character">GIANMARCO</p><p>CLOONEY SE PO&#39; METTE LE CAPSULE IN CULO</p></div><div class="dialog">
           <p class="character">ENTRAMBI</p><p class="parenthetical">(Urlando, lanciandosi gelati)</p><p>VAFFANCULO! VAFFANCULO! VAFFANCULO!</p></div><div class="action">Continuano a urlare e lanciarsi gelato mentre le luci si abbassano lentamente.</div><div class="action">BUIO</div><div class="action">[[NOTE DI REGIA:</div><div class="action">- Gli attori non si muovono mai dalle loro postazioni tranne che per i movimenti della battaglia</div><div class="action">- Tutta l&#39;azione è rivolta al pubblico, tranne quando si urlano addosso</div><div class="action">- I &#34;lanci&#34; di gelato sono completamente mimati ma molto fisici</div><div class="action">- La scena del pianto deve essere vera e toccante prima di tornare comica</div><div class="action">- Enfatizzare gli accenti regionali senza esagerare: l&#39;accento comasco mantiene suoni come &#34;gelaa&#34; per gelato, &#34;pess&#34; per pesce, &#34;gh&#39;è/gh&#39;hoo&#34; per c&#39;è/ho, &#34;sont&#34; per sono, vocali aperte e tipiche cadenze laringhe</div><div class="action">- Il ritmo accelera progressivamente, rallenta per la scena emotiva, poi esplode di nuovo</div><div class="action">- L&#39;ultima battaglia deve essere ancora più intensa e ridicola della prima</div><div class="action">- Il personaggio comasco è orgoglioso delle specialità di lago e della tradizione culinaria lombarda, particolarmente del pesce di lago e della polenta]]</div></div>
 </div>
+
+
+<footer class="site-footer">
+  <p class="footer-tagline" data-taglines="[&#34;The Internet&#39;s favourite pubic intellectual&#34;,&#34;A digital cabaret for half the family&#34;,&#34;Seek out shitposting for its own sake; the grave will supply plenty of time for silence&#34;,&#34;Suspect your own motives, and all excuses&#34;,&#34;Transcripts from the radio station of a trash limousine&#34;,&#34;Countertop contemptoaster&#34;,&#34;Entrechment of the online jestacular&#34;,&#34;It&#39;s basically slurrealism, and you look like a melted clock&#34;,&#34;Check out this fizzique&#34;,&#34;Brainy brouhaha&#34;,&#34;Subprime narrative equipment, sale ends TODAY&#34;,&#34;Also known as Disparagiraffe (but most professional epistemologists disagree)&#34;,&#34;Straight courtesy flush&#34;,&#34;Wrytagonizing like there&#39;s no bone marrow&#34;,&#34;Misadventures of mundane merchandise&#34;,&#34;Funny findings and frivolous fancies&#34;,&#34;To all my sniggers in the house say yeah&#34;,&#34;Dramanarchy for a discerning clientele&#34;,&#34;I like the way you write it. No dignity. I gotta bag it up.&#34;]">“The Internet&#39;s favourite pubic intellectual”</p>
+  <div class="footer-row">
+    <p>New pieces by email, at most twice a month. <a href="/subscribe/">Join the mailing list</a></p>
+    <p class="footer-social"><a href="https://www.instagram.com/narravaganza">Instagram</a> · <a href="https://substack.com/@narravaganza">Substack</a> · <a href="https://www.tiktok.com/@narravaganza">TikTok</a> · <a href="https://medium.com/@narravaganza">Medium</a> · <a href="https://www.facebook.com/narravaganza/">Facebook</a> · <a href="https://twitter.com/narravaganza">Twitter</a></p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var el = document.querySelector('.footer-tagline');
+    try {
+      var all = JSON.parse(el.dataset.taglines);
+      el.textContent = '“' + all[Math.floor(Math.random() * all.length)] + '”';
+    } catch (e) {}
+  })();
+</script>
+
 
   </body>
 </html>

@@ -15,11 +15,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav>
-  <a href="/" class="nav-title">Narravaganza</a>
-  <p class="nav-tagline">Short Stories to make you LOLWTF</p>
-  <div class="collection-links"><a href="/stories/" class="navigation-item">Stories</a><a href="/essays/" class="navigation-item">Essays</a><a href="/sketches/" class="navigation-item">Sketches</a></div>
+
+<header class="site-header">
+  <a href="/" class="site-wordmark">Narravaganza</a>
+  <nav class="quiet-nav" aria-label="Sections">
+  <a href="/stories/">Stories</a>
+  <a href="/essays/">Essays</a>
+  <a href="/sketches/">Sketches</a>
+  <a href="/about/">About</a>
 </nav>
+
+</header>
+
 
 
 <h1 class="story-header">Trail Mix</h1>
@@ -49,6 +56,25 @@
 <p>Storm clouds gathered over our heads and it started pissing down.</p>
 <p><img width="1280" height="853" srcset="/assets/images/stories/trail-mix-2-640.avif 640w, /assets/images/stories/trail-mix-2-1280.avif 1280w" sizes="(min-width: 1000px) 45vw, 90vw" loading="lazy" decoding="async" src="/assets/images/stories/trail-mix-2-1280.avif" alt="Hikers sit in a circle beside a mountain trail overlooking a valley."></p>
 </div>
+
+
+<footer class="site-footer">
+  <p class="footer-tagline" data-taglines="[&#34;The Internet&#39;s favourite pubic intellectual&#34;,&#34;A digital cabaret for half the family&#34;,&#34;Seek out shitposting for its own sake; the grave will supply plenty of time for silence&#34;,&#34;Suspect your own motives, and all excuses&#34;,&#34;Transcripts from the radio station of a trash limousine&#34;,&#34;Countertop contemptoaster&#34;,&#34;Entrechment of the online jestacular&#34;,&#34;It&#39;s basically slurrealism, and you look like a melted clock&#34;,&#34;Check out this fizzique&#34;,&#34;Brainy brouhaha&#34;,&#34;Subprime narrative equipment, sale ends TODAY&#34;,&#34;Also known as Disparagiraffe (but most professional epistemologists disagree)&#34;,&#34;Straight courtesy flush&#34;,&#34;Wrytagonizing like there&#39;s no bone marrow&#34;,&#34;Misadventures of mundane merchandise&#34;,&#34;Funny findings and frivolous fancies&#34;,&#34;To all my sniggers in the house say yeah&#34;,&#34;Dramanarchy for a discerning clientele&#34;,&#34;I like the way you write it. No dignity. I gotta bag it up.&#34;]">“Also known as Disparagiraffe (but most professional epistemologists disagree)”</p>
+  <div class="footer-row">
+    <p>New pieces by email, at most twice a month. <a href="/subscribe/">Join the mailing list</a></p>
+    <p class="footer-social"><a href="https://www.instagram.com/narravaganza">Instagram</a> · <a href="https://substack.com/@narravaganza">Substack</a> · <a href="https://www.tiktok.com/@narravaganza">TikTok</a> · <a href="https://medium.com/@narravaganza">Medium</a> · <a href="https://www.facebook.com/narravaganza/">Facebook</a> · <a href="https://twitter.com/narravaganza">Twitter</a></p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var el = document.querySelector('.footer-tagline');
+    try {
+      var all = JSON.parse(el.dataset.taglines);
+      el.textContent = '“' + all[Math.floor(Math.random() * all.length)] + '”';
+    } catch (e) {}
+  })();
+</script>
+
 
   </body>
 </html>

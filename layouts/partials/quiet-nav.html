@@ -1,0 +1,6 @@
+<nav class="quiet-nav" aria-label="Sections">
+{{- range hugo.Data.navigation }}
+  <a href="{{ .link | relURL }}">{{ .name }}</a>
+{{- end }}
+  <a href="{{ "/about/" | relURL }}">About</a>
+</nav>

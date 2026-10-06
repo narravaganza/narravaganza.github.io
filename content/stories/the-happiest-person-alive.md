@@ -2,6 +2,7 @@
 title: The Happiest Person Alive
 preview: My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling...
 description: "A marriage proposal goes down at 30,000 feet. The rejected groom finds consolation in a family legacy involving the legendary ‘pull my finger’ prank."
+featured: true
 ---
 
 My plane is in the middle of the air when a commotion belches out a few rows ahead, people shrieking, clapping, extend my neck to see what's happening. There's this dude kneeling in the aisle with a small box clutched in his palm. Guy's doing a marriage proposal way above the ground.

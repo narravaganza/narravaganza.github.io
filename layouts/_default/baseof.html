@@ -22,8 +22,13 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
-    {{ partial "navigation.html" . }}
+  <body{{ if or .IsHome (eq .Kind "section") (and (eq .Kind "page") (eq .Section "")) }} class="index-page"{{ end }}>
+{{ block "header" . }}
+{{ partial "site-header.html" . }}
+{{ end }}
 {{ block "main" . }}{{ end }}
+{{ block "footer" . }}
+{{ partial "site-footer.html" . }}
+{{ end }}
   </body>
 </html>

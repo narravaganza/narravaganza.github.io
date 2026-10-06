@@ -1,3 +1,11 @@
+{{ define "header" }}
+<header class="index-header">
+  {{ partial "masthead.html" . }}
+</header>
+{{ end }}
+
 {{ define "main" }}
+<div class="page-body">
 {{ partial "optimized-content.html" . }}
+</div>
 {{ end }}

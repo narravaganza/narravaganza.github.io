@@ -1,0 +1,20 @@
+<footer class="site-footer">
+  {{- with hugo.Data.taglines }}
+  <p class="footer-tagline" data-taglines="{{ jsonify . }}">“{{ index (shuffle .) 0 }}”</p>
+  {{- end }}
+  <div class="footer-row">
+    <p>New pieces by email, at most twice a month. <a href="{{ "/subscribe/" | relURL }}">Join the mailing list</a></p>
+    <p class="footer-social">
+    {{- range $i, $s := hugo.Data.social }}{{ if $i }} · {{ end }}<a href="{{ $s.link }}">{{ $s.name }}</a>{{ end -}}
+    </p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var el = document.querySelector('.footer-tagline');
+    try {
+      var all = JSON.parse(el.dataset.taglines);
+      el.textContent = '“' + all[Math.floor(Math.random() * all.length)] + '”';
+    } catch (e) {}
+  })();
+</script>

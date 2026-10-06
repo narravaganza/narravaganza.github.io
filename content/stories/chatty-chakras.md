@@ -3,6 +3,7 @@ title: Chatty Chakras
 preview: From the city of Fedfer near the Atlantic ocean, good morning, good evening, wherever you may be, across the nation, around the world. This is Epicenter of Light FM, 107.3, radio for your light and your....
 story-roll-image: chatty_chakras2.png
 description: "Welcome to Epicenter of Light FM, where spiritual enlightenment meets live radio, an unruly caller, and a host struggling to keep the chakras aligned."
+featured: true
 ---
 
 ![](/assets/images/stories/chatty_chakras_1.png)

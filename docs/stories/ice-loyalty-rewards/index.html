@@ -15,13 +15,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav>
-  <a href="/" class="nav-title">Narravaganza</a>
-  <p class="nav-tagline">Short Stories to make you LOLWTF</p>
-  <div class="collection-links"><a href="/stories/" class="navigation-item">Stories</a><a href="/essays/" class="navigation-item">Essays</a><a href="/sketches/" class="navigation-item">Sketches</a></div>
+
+<header class="index-header">
+  <nav class="quiet-nav" aria-label="Sections">
+  <a href="/stories/">Stories</a>
+  <a href="/essays/">Essays</a>
+  <a href="/sketches/">Sketches</a>
+  <a href="/about/">About</a>
 </nav>
 
+<a href="/" class="home-title">Narravaganza</a>
 
+</header>
+
+
+<div class="page-body">
 <img width="1125" height="810" srcset="/assets/images/stories/ice-loyalty-rewards/milo-deportation-target-640.avif 640w, /assets/images/stories/ice-loyalty-rewards/milo-deportation-target-1125.avif 1125w" sizes="(min-width: 467px) 420px, 90vw" loading="eager" fetchpriority="high" decoding="async" src="/assets/images/stories/ice-loyalty-rewards/milo-deportation-target-1125.avif" alt="Screenshot of a post attributed to Milo Yiannopoulos calling for 10,000 deportations a day." style="display: block; width: 100%; max-width: 420px; height: auto;">
 <hr style="width: 100%; max-width: 420px; margin: 2rem 0; border: 0; border-top: 2px solid #999;">
 <img width="1125" height="1428" srcset="/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-640.avif 640w, /assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-1125.avif 1125w" sizes="(min-width: 467px) 420px, 90vw" loading="lazy" decoding="async" src="/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-1125.avif" alt="Screenshot of a post attributed to Milo Yiannopoulos calling for ICE checkpoints and on-the-spot deportations." style="display: block; width: 100%; max-width: 420px; height: auto;">
@@ -127,6 +135,26 @@
 <p>That does not affect your immigration status.</p>
 <h2 id="one-of-them-just-wrote-the-dildo-of-consequences-rarely-arrives-lubed">One of them just wrote “the dildo of consequences rarely arrives lubed.”</h2>
 <p>Please surrender your phone.</p>
+
+</div>
+
+
+<footer class="site-footer">
+  <p class="footer-tagline" data-taglines="[&#34;The Internet&#39;s favourite pubic intellectual&#34;,&#34;A digital cabaret for half the family&#34;,&#34;Seek out shitposting for its own sake; the grave will supply plenty of time for silence&#34;,&#34;Suspect your own motives, and all excuses&#34;,&#34;Transcripts from the radio station of a trash limousine&#34;,&#34;Countertop contemptoaster&#34;,&#34;Entrechment of the online jestacular&#34;,&#34;It&#39;s basically slurrealism, and you look like a melted clock&#34;,&#34;Check out this fizzique&#34;,&#34;Brainy brouhaha&#34;,&#34;Subprime narrative equipment, sale ends TODAY&#34;,&#34;Also known as Disparagiraffe (but most professional epistemologists disagree)&#34;,&#34;Straight courtesy flush&#34;,&#34;Wrytagonizing like there&#39;s no bone marrow&#34;,&#34;Misadventures of mundane merchandise&#34;,&#34;Funny findings and frivolous fancies&#34;,&#34;To all my sniggers in the house say yeah&#34;,&#34;Dramanarchy for a discerning clientele&#34;,&#34;I like the way you write it. No dignity. I gotta bag it up.&#34;]">“Countertop contemptoaster”</p>
+  <div class="footer-row">
+    <p>New pieces by email, at most twice a month. <a href="/subscribe/">Join the mailing list</a></p>
+    <p class="footer-social"><a href="https://www.instagram.com/narravaganza">Instagram</a> · <a href="https://substack.com/@narravaganza">Substack</a> · <a href="https://www.tiktok.com/@narravaganza">TikTok</a> · <a href="https://medium.com/@narravaganza">Medium</a> · <a href="https://www.facebook.com/narravaganza/">Facebook</a> · <a href="https://twitter.com/narravaganza">Twitter</a></p>
+  </div>
+</footer>
+<script>
+  (function () {
+    var el = document.querySelector('.footer-tagline');
+    try {
+      var all = JSON.parse(el.dataset.taglines);
+      el.textContent = '“' + all[Math.floor(Math.random() * all.length)] + '”';
+    } catch (e) {}
+  })();
+</script>
 
 
   </body>

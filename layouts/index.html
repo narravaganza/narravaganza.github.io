@@ -1,4 +1,42 @@
+{{ define "header" }}
+<header class="index-header">
+  {{ partial "masthead.html" . }}
+  <p class="home-tagline">{{ .Params.tagline }}</p>
+  <div class="index-intro">{{ .Content }}</div>
+</header>
+{{ end }}
+
 {{ define "main" }}
-<h1 class="visually-hidden">{{ .Title }}</h1>
-{{ partial "optimized-content.html" . }}
+{{- $featured := where (where .Site.RegularPages "Section" "in" (slice "stories" "essays" "sketches")) "Params.featured" true -}}
+{{- with $featured }}
+<section class="home-featured" aria-labelledby="featured-heading">
+  <h2 id="featured-heading" class="section-label">Featured</h2>
+  {{- range sort . "File.Path" }}
+  {{- $excerpt := .Params.excerpt | default .Params.preview | markdownify | plainify | htmlUnescape | strings.TrimRight ". …" }}
+  {{- $thumb := .Params.thumbnail | default "" }}
+  {{- if not $thumb }}
+    {{- with findRESubmatch `<img[^>]+src="([^"]+)"` .Content 1 }}{{ $thumb = index (index . 0) 1 }}{{ end }}
+  {{- end }}
+  {{- with index hugo.Data.images $thumb }}{{ $thumb = (index .variants 0).src }}{{ end }}
+  <a href="{{ .RelPermalink }}" class="featured-item">
+    {{- with $thumb }}
+    <img class="featured-thumb" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
+    {{- end }}
+    <span class="featured-text">
+      <span class="featured-excerpt">“{{ $excerpt }}…”</span>
+      <span class="featured-meta">
+        <span class="featured-title">{{ .Title }}</span>
+        <span class="featured-more">Keep reading →</span>
+      </span>
+    </span>
+  </a>
+  {{- end }}
+</section>
+{{- end }}
+
+{{ range slice "stories" "essays" "sketches" }}
+{{- with $.Site.GetPage (printf "/%s" .) }}
+{{ partial "piece-list.html" (dict "title" .Title "pages" (where .RegularPages "Params.featured" "!=" true)) }}
+{{- end }}
+{{- end }}
 {{ end }}
