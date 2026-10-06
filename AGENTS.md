@@ -19,7 +19,8 @@ This repo is a Hugo-powered static site for publishing fiction and non-fiction w
   - `assets/css/styles.scss` : main site styles (Hugo compiles SCSS)
   - `assets/css/screenplay.scss` : screenplay-specific styles
   - `_sass/` : shared Sass files (fonts, helpers)
-  - `static/assets/` : static assets (fonts, images)
+- `assets/images/originals/` : source images (preserve filenames and subfolders)
+- `static/assets/` : published assets (fonts, AVIF images)
 - Data
   - `data/` : site data files (navigation, taglines)
 - Build output (do not edit by hand)
@@ -29,6 +30,7 @@ This repo is a Hugo-powered static site for publishing fiction and non-fiction w
 - Prefer editing SCSS in `assets/css/` or `_sass/`. Hugo will compile it.
 - If the change touches layout or shared components, check `layouts/` and `layouts/partials/`.
 - Keep typography and spacing consistent with the existing aesthetic unless asked to redesign.
+- Encode images as AVIF at quality 75 using `python3 scripts/optimize-images.py`.
 - Always run `hugo --destination ./tmp/` as a smoke test before considering work done.
 
 ### Building and serving

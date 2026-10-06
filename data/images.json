@@ -1,0 +1,652 @@
+{
+  "/assets/images/about/the-gang.png": {
+    "src": "/assets/images/about/the-gang-1280.avif",
+    "width": 1280,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/assets/images/about/the-gang-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/about/the-gang-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/avellaneous_satellite.jpg": {
+    "src": "/assets/images/avellaneous_satellite-1023.avif",
+    "width": 1023,
+    "height": 732,
+    "variants": [
+      {
+        "src": "/assets/images/avellaneous_satellite-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/avellaneous_satellite-1023.avif",
+        "width": 1023
+      }
+    ],
+    "decorative": true,
+    "quality": 75
+  },
+  "/assets/images/stories/arcs_9.jpeg": {
+    "src": "/assets/images/stories/arcs_9-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/arcs_9-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/arcs_9-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "Two entwined figures with flowing hair and looping tendrils.",
+    "quality": 75
+  },
+  "/assets/images/stories/baby_seal_1.png": {
+    "src": "/assets/images/stories/baby_seal_1-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/baby_seal_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/baby_seal_1-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "A man in sunglasses sits in a dim jazz club beside a sculpture above the bar.",
+    "quality": 75
+  },
+  "/assets/images/stories/bench-it-is-extra1.jpg": {
+    "src": "/assets/images/stories/bench-it-is-extra1-180.avif",
+    "width": 180,
+    "height": 240,
+    "variants": [
+      {
+        "src": "/assets/images/stories/bench-it-is-extra1-180.avif",
+        "width": 180
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/bench-it-is-extra2.jpg": {
+    "src": "/assets/images/stories/bench-it-is-extra2-180.avif",
+    "width": 180,
+    "height": 135,
+    "variants": [
+      {
+        "src": "/assets/images/stories/bench-it-is-extra2-180.avif",
+        "width": 180
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/bench-it-is-extra3.jpg": {
+    "src": "/assets/images/stories/bench-it-is-extra3-180.avif",
+    "width": 180,
+    "height": 233,
+    "variants": [
+      {
+        "src": "/assets/images/stories/bench-it-is-extra3-180.avif",
+        "width": 180
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/bench-it-is-extra4.jpg": {
+    "src": "/assets/images/stories/bench-it-is-extra4-720.avif",
+    "width": 720,
+    "height": 540,
+    "variants": [
+      {
+        "src": "/assets/images/stories/bench-it-is-extra4-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/bench-it-is-extra4-720.avif",
+        "width": 720
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/bench-it-is-extra5.jpg": {
+    "src": "/assets/images/stories/bench-it-is-extra5-535.avif",
+    "width": 535,
+    "height": 720,
+    "variants": [
+      {
+        "src": "/assets/images/stories/bench-it-is-extra5-535.avif",
+        "width": 535
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/boiled-tomato-1.png": {
+    "src": "/assets/images/stories/boiled-tomato-1-768.avif",
+    "width": 768,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/assets/images/stories/boiled-tomato-1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/boiled-tomato-1-768.avif",
+        "width": 768
+      }
+    ],
+    "alt": "A dog stands beside a tomato suspended from a balance scale.",
+    "quality": 75
+  },
+  "/assets/images/stories/boiled-tomato-4.png": {
+    "src": "/assets/images/stories/boiled-tomato-4-768.avif",
+    "width": 768,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/assets/images/stories/boiled-tomato-4-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/boiled-tomato-4-768.avif",
+        "width": 768
+      }
+    ],
+    "alt": "A dog holds scales with tomatoes while two figures look on.",
+    "quality": 75
+  },
+  "/assets/images/stories/career_with_pope_1.png": {
+    "src": "/assets/images/stories/career_with_pope_1-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/career_with_pope_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/career_with_pope_1-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "The pope offers a drink to a panda wearing tiger-striped robes.",
+    "quality": 75
+  },
+  "/assets/images/stories/career_with_pope_2.png": {
+    "src": "/assets/images/stories/career_with_pope_2-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/career_with_pope_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/career_with_pope_2-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "The pope and a smiling businessman stand beside bicycles in a shop.",
+    "quality": 75
+  },
+  "/assets/images/stories/chatty_chakras_1.png": {
+    "src": "/assets/images/stories/chatty_chakras_1-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/chatty_chakras_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/chatty_chakras_1-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "A radio host spreads his arms over a cluttered desk surrounded by spiritual symbols.",
+    "quality": 75
+  },
+  "/assets/images/stories/flavour_of_facts_1.png": {
+    "src": "/assets/images/stories/flavour_of_facts_1-1232.avif",
+    "width": 1232,
+    "height": 928,
+    "variants": [
+      {
+        "src": "/assets/images/stories/flavour_of_facts_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/flavour_of_facts_1-1232.avif",
+        "width": 1232
+      }
+    ],
+    "alt": "An ice cream maker prepares a green mixture with cucumber slices.",
+    "quality": 75
+  },
+  "/assets/images/stories/flavour_of_facts_2.png": {
+    "src": "/assets/images/stories/flavour_of_facts_2-1280.avif",
+    "width": 1280,
+    "height": 717,
+    "variants": [
+      {
+        "src": "/assets/images/stories/flavour_of_facts_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/flavour_of_facts_2-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A bowl of green ice cream surrounded by curling leaves and cucumber slices.",
+    "quality": 75
+  },
+  "/assets/images/stories/flavour_of_facts_3.png": {
+    "src": "/assets/images/stories/flavour_of_facts_3-1280.avif",
+    "width": 1280,
+    "height": 717,
+    "variants": [
+      {
+        "src": "/assets/images/stories/flavour_of_facts_3-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/flavour_of_facts_3-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A green ice cream cone surrounded by ornate leaves and curling vines.",
+    "quality": 75
+  },
+  "/assets/images/stories/flavour_of_facts_4.png": {
+    "src": "/assets/images/stories/flavour_of_facts_4-1280.avif",
+    "width": 1280,
+    "height": 731,
+    "variants": [
+      {
+        "src": "/assets/images/stories/flavour_of_facts_4-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/flavour_of_facts_4-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A cucumber performs at a microphone before an audience of vegetables.",
+    "quality": 75
+  },
+  "/assets/images/stories/how_everything_is_1.png": {
+    "src": "/assets/images/stories/how_everything_is_1-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/how_everything_is_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/how_everything_is_1-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "An elderly man works at a desk surrounded by planets and galaxies.",
+    "quality": 75
+  },
+  "/assets/images/stories/ice-loyalty-rewards/dhs-milo-detention-announcement.jpeg": {
+    "src": "/assets/images/stories/ice-loyalty-rewards/dhs-milo-detention-announcement-401.avif",
+    "width": 401,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/dhs-milo-detention-announcement-401.avif",
+        "width": 401
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/ice-loyalty-rewards/milo-deportation-target.jpeg": {
+    "src": "/assets/images/stories/ice-loyalty-rewards/milo-deportation-target-1125.avif",
+    "width": 1125,
+    "height": 810,
+    "variants": [
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-deportation-target-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-deportation-target-1125.avif",
+        "width": 1125
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints.jpeg": {
+    "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-1125.avif",
+    "width": 1125,
+    "height": 1428,
+    "variants": [
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints-1125.avif",
+        "width": 1125
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/ice-loyalty-rewards/milo-ice-immunity.jpeg": {
+    "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-immunity-1125.avif",
+    "width": 1125,
+    "height": 637,
+    "variants": [
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-immunity-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/ice-loyalty-rewards/milo-ice-immunity-1125.avif",
+        "width": 1125
+      }
+    ],
+    "quality": 75
+  },
+  "/assets/images/stories/jordi_1.jpg": {
+    "src": "/assets/images/stories/jordi_1-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/stories/jordi_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/jordi_1-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "Two people walk across a beach toward apartment buildings in the evening sun.",
+    "quality": 75
+  },
+  "/assets/images/stories/old_man_1.png": {
+    "src": "/assets/images/stories/old_man_1-1232.avif",
+    "width": 1232,
+    "height": 928,
+    "variants": [
+      {
+        "src": "/assets/images/stories/old_man_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/old_man_1-1232.avif",
+        "width": 1232
+      }
+    ],
+    "alt": "An old fisherman sits in a boat beneath a radiant golden sun.",
+    "quality": 75
+  },
+  "/assets/images/stories/old_man_2.png": {
+    "src": "/assets/images/stories/old_man_2-1232.avif",
+    "width": 1232,
+    "height": 928,
+    "variants": [
+      {
+        "src": "/assets/images/stories/old_man_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/old_man_2-1232.avif",
+        "width": 1232
+      }
+    ],
+    "alt": "An old fisherman bends toward a large fish at the water’s edge.",
+    "quality": 75
+  },
+  "/assets/images/stories/old_man_3.png": {
+    "src": "/assets/images/stories/old_man_3-1232.avif",
+    "width": 1232,
+    "height": 928,
+    "variants": [
+      {
+        "src": "/assets/images/stories/old_man_3-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/old_man_3-1232.avif",
+        "width": 1232
+      }
+    ],
+    "alt": "A shirtless old fisherman sits in a small boat at sea.",
+    "quality": 75
+  },
+  "/assets/images/stories/pedaler-of-enlightenment_1.png": {
+    "src": "/assets/images/stories/pedaler-of-enlightenment_1-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_1-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "An empty orange robe stands on a runway with a long train spread behind it.",
+    "quality": 75
+  },
+  "/assets/images/stories/pedaler-of-enlightenment_2.png": {
+    "src": "/assets/images/stories/pedaler-of-enlightenment_2-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_2-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "An ornate orange bicycle decorated with a dragon and clockwork gears.",
+    "quality": 75
+  },
+  "/assets/images/stories/pedaler-of-enlightenment_3.png": {
+    "src": "/assets/images/stories/pedaler-of-enlightenment_3-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_3-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_3-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "An orange bicycle carries a seated Buddha figure among intricate carvings.",
+    "quality": 75
+  },
+  "/assets/images/stories/pedaler-of-enlightenment_5.png": {
+    "src": "/assets/images/stories/pedaler-of-enlightenment_5-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_5-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/pedaler-of-enlightenment_5-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "An orange bicycle with exposed gears stands against a cloudy sky.",
+    "quality": 75
+  },
+  "/assets/images/stories/tractor_1.png": {
+    "src": "/assets/images/stories/tractor_1-1024.avif",
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tractor_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tractor_1-1024.avif",
+        "width": 1024
+      }
+    ],
+    "alt": "A rusty tractor stands in a dry, harvested field.",
+    "quality": 75
+  },
+  "/assets/images/stories/tractor_2.png": {
+    "src": "/assets/images/stories/tractor_2-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tractor_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tractor_2-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A woman in a dress stands facing a tractor in a dry field.",
+    "quality": 75
+  },
+  "/assets/images/stories/trail-mix-1.png": {
+    "src": "/assets/images/stories/trail-mix-1-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/trail-mix-1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/trail-mix-1-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A wooden skewer pierces grapes covered in colorful circular patterns.",
+    "quality": 75
+  },
+  "/assets/images/stories/trail-mix-2.png": {
+    "src": "/assets/images/stories/trail-mix-2-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/trail-mix-2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/trail-mix-2-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "Hikers sit in a circle beside a mountain trail overlooking a valley.",
+    "quality": 75
+  },
+  "/assets/images/stories/tropelero_1.png": {
+    "src": "/assets/images/stories/tropelero_1-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tropelero_1-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tropelero_1-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "Volunteers use shovels to clear thick mud beside a damaged wall.",
+    "quality": 75
+  },
+  "/assets/images/stories/tropelero_2.png": {
+    "src": "/assets/images/stories/tropelero_2-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tropelero_2-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tropelero_2-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A giraffe stands in a muddy, debris-strewn street.",
+    "quality": 75
+  },
+  "/assets/images/stories/tropelero_3.png": {
+    "src": "/assets/images/stories/tropelero_3-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tropelero_3-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tropelero_3-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "Volunteers shovel mud around a giraffe beside a damaged building.",
+    "quality": 75
+  },
+  "/assets/images/stories/tropelero_4.png": {
+    "src": "/assets/images/stories/tropelero_4-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tropelero_4-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tropelero_4-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A giraffe towers over volunteers clearing mud with shovels.",
+    "quality": 75
+  },
+  "/assets/images/stories/tropelero_5.png": {
+    "src": "/assets/images/stories/tropelero_5-1280.avif",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/images/stories/tropelero_5-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/stories/tropelero_5-1280.avif",
+        "width": 1280
+      }
+    ],
+    "alt": "A crowd gathers around an enormous pan of paella.",
+    "quality": 75
+  }
+}

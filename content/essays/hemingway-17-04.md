@@ -6,19 +6,19 @@ preview: The complete and unabridged texts of the literary and performative piec
 
 This page contains the complete and unabridged texts of the literary and performative pieces delivered by Ariel E. and Arthur L. at Club Hemingway on April 17, 2025. It serves as an official archive for reference, study, and appreciation of the works presented.
 
-# Where are you REALLY from
+## Where are you REALLY from
 
 Co-written with Arthur Lemon.
 
-## Characters
+### Characters
 **ALEX:** Mild-mannered, thoughtful.
 
 **JORDAN:** Curious but oblivious.
 
-## Setting
+### Setting
 A casual social event. Both holding drinks, meeting for the first time.
 
-## Sketch
+### Sketch
 
 **JORDAN:** So, Alex, right? Nice to meet you.
 
@@ -91,11 +91,11 @@ A casual social event. Both holding drinks, meeting for the first time.
 **JORDAN:** Bolivia.
 
 
-# Three poems
+## Three poems
 
 The following poems were written by Arthur Lemon.
 
-## Ching box
+### Ching box
 
 The little Ching Box has found me<br>
 a sentence of dark red wood<br>
@@ -117,7 +117,7 @@ and will do so again<br>
 And Finland will burn in eqatorial flames,<br>
 counteracting measures,<br>
 interacting change.<br>
-## Love Death Time<br>
+### Love Death Time<br>
 <br>
 Love, revenge,<br>
 Love is strange.<br>
@@ -155,7 +155,7 @@ Red oceans have now turned to blue<br>
 for you.<br>
 For you and me<br>
 <br>
-## A Symbol<br>
+### A Symbol<br>
 <br>
 There is infinity in our words<br>
 In our minds<br>

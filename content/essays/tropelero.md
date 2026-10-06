@@ -2,6 +2,7 @@
 title: El Tropelero del Turia
 preview: Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder.
 story-roll-image: arcs1.png
+description: "Tras las inundaciones de Valencia, me uní a unos amigos para retirar barro y ayudar a los damnificados. Perder el tiempo intentando hacer el bien es trágico."
 ---
 
 Perder el tiempo es triste. Perder el tiempo intentando hacer el bien es trágico. Más trágica aún es la inundación que devastó mi ciudad, Valencia; con casas, comercios y calles cubiertos de metros de barro. Los damnificados necesitaban ayuda urgente, y cuando se hizo evidente que las autoridades no la proporcionaría con rapidez, decidí intervenir y me uní a un grupo de amigos que habían seguido un razonamiento similar. No había tiempo que perder.

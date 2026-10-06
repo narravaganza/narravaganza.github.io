@@ -5,6 +5,14 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 publishDir = "docs"
 
+# Keep source images separate from AVIF derivatives without breaking old URLs.
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "assets/images/originals"
+  target = "static/assets/images"
+
 [params]
   description = "Narravaganza is an online collection of humorous short stories and flash fiction."
   ogImage = "https://narravaganza.lol/assets/images/avellaneous_satellite.jpg"

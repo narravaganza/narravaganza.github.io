@@ -1,6 +1,7 @@
 ---
 title: The Bench It Is
 preview: It’s May 2010, I’ve been in Paris since August 2009, not getting much done except getting my emotional and intellectual self-esteems trampled by the vengeful angry elephants of reality whose stolen ivory was used to build the towers I lived in. Those beasts being a protected species, fighting them is...
+description: "Four days off, no reservations, and a plan to find myself on the French coast. Spontaneous travel turns out to involve considerably more benches than Nobel prizes."
 ---
 
 I hadn’t left Paris for too long. I mean left Paris, not just going somewhere for the weekend, in the knowledge that I had an approximate 36 hours of mitigated freedom before I need to put myself to bed eight hours before the alarm clock rings for me to be in decent lucid shape Monday morning at the office.

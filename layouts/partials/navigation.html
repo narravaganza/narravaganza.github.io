@@ -1,6 +1,7 @@
 <nav>
   <a href="{{ "/" | relURL }}" class="nav-title">Narravaganza</a>
   <p class="nav-tagline">Short Stories to make you LOLWTF</p>
+  <div class="collection-links">
   {{- $current := .RelPermalink -}}
   {{- with hugo.Data.navigation -}}
     {{- range . -}}
@@ -9,4 +10,5 @@
       <a href="{{ $link | relURL }}" class="{{ if $isCurrent }}current-navigation-item{{ else }}navigation-item{{ end }}">{{ .name }}</a>
     {{- end -}}
   {{- end -}}
+  </div>
 </nav>

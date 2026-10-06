@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ .Content }}
+{{ partial "optimized-content.html" . }}
 
 {{- range sort .Pages "File.Path" -}}
 <a href="{{ .RelPermalink }}" class="story-list-header">{{ .Title }}</a>

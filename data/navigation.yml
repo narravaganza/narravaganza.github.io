@@ -1,2 +1,6 @@
-# - name: About
-#   link: /about/
+- name: Stories
+  link: /stories/
+- name: Essays
+  link: /essays/
+- name: Sketches
+  link: /sketches/

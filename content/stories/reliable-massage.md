@@ -1,6 +1,7 @@
 ---
 title: Reliable Massage
 preview: Ok welcome, welcome. So this, this is the Fedfer Writers Workshop. You are most of you are regulars, but just for the few newcomers, what we like to do is we like to read the piece together. And... Twice if it's a poem, once if it's prose. And then we have...
+description: "Welcome to the Fedfer Writers Workshop, where feedback is abundant, revenge is very present, and everyone has a few thoughts about the descriptions."
 ---
 
 “Ok welcome, welcome. So this, this is the Fedfer Writers Workshop. You are most of you are regulars, but just for the few newcomers, what we like to do is we like to read the piece together. And... Twice if it's a poem, once if it's prose. And then we have to discuss, give feedback both to the author and to the group in general, and have discussion: what do you think works, what do you think works less. We can also discuss... Excuse me no side discussion, please. We have to discuss the piece in the context, where is it in the book also, so yeah, if you bring a chapter from the middle of a book and then you should also introduce the characters, and, I mean, yeah unless those characters have been presented here before, so... OK, and please keep your comments short, possibly on the minute, cause, again, we are many and we try to bring as many people in the conversation as we can. Alright, so... Martina is first. Who wants to read this? Are you feeling like reading Martina's story... Ed?”

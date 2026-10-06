@@ -1,5 +1,5 @@
 {{ define "main" }}
 <h1 class="story-header">{{ .Title }}</h1>
 
-<div class="story-body">{{ .Content }}</div>
+<div class="story-body">{{ partial "optimized-content.html" . }}</div>
 {{ end }}

@@ -1,6 +1,7 @@
 ---
 title: Trail Mix
 preview: The hikers stop meandering and rest in a secluded cove. Oblivious to the doom that stalks their steps. As of right now, they're four hours into the wilderness, isolation wraps around them like a shroud, muffling possible shrieks and screams...
+description: "A hiker puts grapes on skewers. Her companions question her morals, the social contract, and the fundamental nature of chaos. Then it starts raining."
 ---
 
 The hikers stop meandering and rest in a secluded cove. Oblivious to the doom that stalks their steps. As of right now, they're four hours into the wilderness; isolation wraps around them like a shroud, muffling possible shrieks and screams. They now eat in silence, but this fragile peace breaks when a girl named Raisinée joins the eatery by unveiling a bag containing grapes that had been stabbed on a skewer.

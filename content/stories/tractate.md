@@ -1,6 +1,7 @@
 ---
 title: A Tractate on the Cultivation of What Can't Be Harvested
 preview: It's been one month since I harrowed my relationship with my former girlfriend after I told her that I had gone for a walk in an orange grove near our house, peaceful and green, until i saw a kid sitting on a large rock, crying miserably...
+description: "A tractor joke plants the seeds of a relationship’s collapse. Silence grows, metaphors multiply, and the harvest is considerably worse than expected."
 ---
 
 It's been one month since I harrowed my relationship with my former girlfriend after I told her that I had gone for a walk in an orange grove near our house, peaceful and green, until i saw a kid sitting on a large rock, crying miserably

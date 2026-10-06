@@ -1,6 +1,7 @@
 ---
 title: The Pedaler of Enlightenment
 preview: "A runway extends towards the vanishing point, punctuated by a few dog walkers, the sporadic kite flyer, and a cyclist charging furiously down the tarmac, sitting erect, hands grasping his lap in quiet determination. We stand witness to..."
+description: "A cyclist charges down a runway with his hands in his lap. We investigate the peculiar relationship between pedalling, concentration, and enlightenment."
 ---
 A runway extends towards the vanishing point, punctuated by a few dog walkers, the sporadic kite flyer, and a cyclist charging furiously down the tarmac, sitting erect, hands grasping his lap in quiet determination. We stand witness to the charm of Berlin's retired Tempelhof Airport, founded in 1936, exuding the revolting charm of despotism and ideological divide, now thriving as a public park favoured by the aforementioned tethered promenaders, wind jockeys, and aspirants to the World Record for Longest Distance Cycled Without Holding The Handlebars.
 

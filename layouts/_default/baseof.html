@@ -8,7 +8,7 @@
 {{ end -}}
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    {{- $description := .Params.preview | default .Site.Params.description -}}
+    {{- $description := .Params.description | default .Params.preview | default .Site.Params.description | plainify -}}
     <meta property="og:description" content="{{ $description }}" />
     {{- with .Site.Params.ogImage }}
     <meta property="og:image" content="{{ . }}" />
@@ -17,6 +17,8 @@
     <title>{{ .Title }}</title>
     {{- $style := resources.Get "css/styles.scss" | toCSS (dict "targetPath" "assets/css/styles.css" "includePaths" (slice "assets/css" "_sass") "enableSourceMap" (not hugo.IsProduction)) -}}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="preload" href="/assets/fonts/Proza_Libre/ProzaLibre-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/fonts/Proza_Libre/ProzaLibre-Bold.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>

@@ -1,3 +1,4 @@
 {{ define "main" }}
-{{ .Content }}
+<h1 class="visually-hidden">{{ .Title }}</h1>
+{{ partial "optimized-content.html" . }}
 {{ end }}

@@ -2,6 +2,7 @@
 title: The Turia Trooper
 preview: Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste.
 story-roll-image: arcs1.png
+description: "After Valencia’s devastating floods, I joined friends to shovel mud and help survivors. Wasting time trying to do good turns out to be its own disaster."
 ---
 
 Wasting time is sad. Wasting time trying to do good is tragic. What's even more tragic is the flood that devastated my city, Valencia; with homes, shops, and streets covered in meters of mud. Flood survivors needed urgent help, and it soon became evident that the authorities wouldn't promptly provide it. So I decided to step in and joined a group of friends who had followed a similar thought process. There was no time to waste.

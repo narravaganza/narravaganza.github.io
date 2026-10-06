@@ -4,6 +4,7 @@ slug: kanye-flood-this
 aliases:
   - /stories/kanye-flood-this/
 preview: "In February 2025, Kanye West sent out a barrage of brazen tweets, like a clown car barreling through a hall of mirrors. Their audacity was comedy gold, but it also sparked a thought: what if this same swagger came from a politician dodging accountability?"
+description: "A politician borrows Kanye West’s swagger to dodge accountability after a devastating flood. A satirical sketch about bravado and public responsibility."
 ---
 
 _Here is a comedy sketch written using (the artist formerly known as) Kanye West’s February 2025 flurry of outrageous tweets. I found those tweets knee-slappingly hilarious. Their sheer bluntness and swagger were like a clown car crashing through a hall of mirrors with the horn stuck on full blast._
