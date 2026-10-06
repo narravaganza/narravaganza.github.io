@@ -1,5 +1,7 @@
 ---
 title: My Career with the Pope and Horses and CEOs
+aliases:
+  - /stories/my-career-with-pope-horses-ceos/
 preview: Franco says I need to *focus*, so today I'll start this journal to think of new projects I can focus on, dedicate my life to. I've ruled out starting a...
 ---
 

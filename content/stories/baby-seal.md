@@ -1,5 +1,7 @@
 ---
 title: Live at the Baby Seal
+aliases:
+  - /stories/baby-seal/
 preview: As background jazz, they usually play that Bill Evans record with the yellow cover, placing the LP cover on top of the whiskey bottles, beneath a sculpture of the words "Now Playing Sculpture...
 ---
 "Can I have a double Martini no ice, please?"

@@ -1,5 +1,7 @@
 ---
 title: The Beautiful, the Abstract, and the Absolutely Necessary
+aliases:
+  - /stories/beautiful-abstract-necessary/
 preview: Speaking of abyss, i am walking underground in a tunnel in a train station in poetic company because i'm with my friend Jano and he's a poet. this may be a pedestrian tunnel but...
 ---
 ```

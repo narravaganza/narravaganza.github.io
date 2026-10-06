@@ -1,5 +1,7 @@
 ---
 title: El Sabor De Los Hechos
+aliases:
+  - /stories/sabor-de-los-hechos/
 preview: "Un tipo va a una heladería, se acerca, peculiarmente dice: ¿Tiene helado de pepino, por favor?"
 ---
 
