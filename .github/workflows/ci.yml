@@ -33,6 +33,14 @@ jobs:
           echo "${RUNNER_TEMP}" >> "${GITHUB_PATH}"
           "${RUNNER_TEMP}/hugo" version
 
+      - name: Install image tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes imagemagick libavif-bin
+
+      - name: Check optimized images
+        run: python3 scripts/optimize-images.py --check
+
       - name: Build site
         run: |
           hugo --cleanDestinationDir

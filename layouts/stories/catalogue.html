@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="exhibition-catalogue">
+  <header class="catalogue-header">
+    <p class="catalogue-institution">{{ .Params.institution }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="catalogue-subtitle">Selected entries from the exhibition catalogue</p>
+  </header>
+  <div class="catalogue-content">{{ partial "optimized-content.html" . }}</div>
+</article>
+{{ end }}

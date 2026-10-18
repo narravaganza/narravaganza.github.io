@@ -1,0 +1,13 @@
+{{- $id := printf "work-%s" (anchorize (.Get "title")) -}}
+{{- $image := images.Config (printf "static%s" (.Get "src")) -}}
+<section class="catalogue-entry" aria-labelledby="{{ $id }}">
+  <figure class="catalogue-artwork">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async">
+    <figcaption class="catalogue-caption">
+      <h2 id="{{ $id }}" class="catalogue-work-title">{{ .Get "title" }}</h2>
+      <span class="catalogue-work-details">{{ .Get "year" }} · {{ .Get "medium" }}</span>
+      <span class="catalogue-provenance">{{ .Get "provenance" }}</span>
+    </figcaption>
+  </figure>
+  <div class="catalogue-wall-text">{{ .Page.RenderString (dict "display" "block") .Inner }}</div>
+</section>

@@ -1,0 +1,7 @@
+{{- $content := replace .RawContent "\r\n" "\n" -}}
+{{- range split $content "\n\n" -}}
+  {{- $paragraph := strings.TrimSpace . -}}
+  {{- with $paragraph }}
+<p>{{ range $index, $line := split . "\n" }}{{ if $index }}<br>{{ end }}{{ $line }}{{ end }}</p>
+  {{- end -}}
+{{- end -}}

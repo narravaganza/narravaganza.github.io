@@ -1,6 +1,6 @@
 <footer class="site-footer">
   {{- with hugo.Data.taglines }}
-  <p class="footer-tagline" data-taglines="{{ jsonify . }}">“{{ index (shuffle .) 0 }}”</p>
+  <p class="footer-tagline" data-taglines="{{ jsonify . }}">“{{ index . 0 }}”</p>
   {{- end }}
   <div class="footer-row">
     <p>New pieces by email, at most twice a month. <a href="{{ "/subscribe/" | relURL }}">Join the mailing list</a></p>

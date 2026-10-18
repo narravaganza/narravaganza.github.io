@@ -1,0 +1,7 @@
+# `hugo server` uses the development environment by default. Keep draft
+# content available locally without including it in production builds.
+buildDrafts = true
+
+# GitHub Pages publishes the committed `docs/` directory directly. Keep local
+# server output (including drafts) in the ignored development directory.
+publishDir = "tmp"

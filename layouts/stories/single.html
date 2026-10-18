@@ -1,5 +1,11 @@
 {{ define "main" }}
 <h1 class="story-header">{{ .Title }}</h1>
 
-<div class="story-body">{{ partial "optimized-content.html" . }}</div>
+<div class="story-body{{ with .Params.format }} story-body--{{ . | urlize }}{{ end }}">
+  {{- if eq .Params.format "greentext" -}}
+    {{- partial "greentext-content.html" . -}}
+  {{- else -}}
+    {{- partial "optimized-content.html" . -}}
+  {{- end -}}
+</div>
 {{ end }}
