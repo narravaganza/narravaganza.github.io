@@ -1,9 +1,15 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Locale | default "en-us" }}">
+<html lang="{{ (partial "content-language.html" .).code }}">
   <head>
     <meta charset="utf-8">
 {{ block "meta" . -}}
     <link rel="canonical" href="{{ .Permalink }}">
+    {{- $versions := partial "translation-pages.html" . -}}
+    {{- if gt (len $versions) 1 -}}
+      {{- range $versions }}
+    <link rel="alternate" hreflang="{{ (partial "content-language.html" .).code }}" href="{{ .Permalink }}">
+      {{- end -}}
+    {{- end }}
     <meta name="robots" content="index,follow">
 {{ end -}}
     <meta property="og:title" content="{{ .Title }}" />
@@ -11,7 +17,12 @@
     {{- $description := .Params.description | default .Params.preview | default .Site.Params.description | plainify -}}
     <meta property="og:description" content="{{ $description }}" />
     {{- with .Site.Params.ogImage }}
-    <meta property="og:image" content="{{ . }}" />
+    {{- $image := . -}}
+    {{- $source := strings.TrimPrefix (strings.TrimSuffix "/" $.Site.BaseURL) . -}}
+    {{- with index hugo.Data.images $source -}}
+      {{- with .social -}}{{- $image = .src -}}{{- end -}}
+    {{- end }}
+    <meta property="og:image" content="{{ $image | absURL }}" />
     {{- end }}
     <meta name="description" content="{{ $description }}">
     <title>{{ .Title }}</title>
@@ -22,7 +33,7 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body{{ if or .IsHome (eq .Kind "section") (and (eq .Kind "page") (eq .Section "")) }} class="index-page"{{ end }}>
+  <body{{ if or .IsHome (eq .Kind "section") (and (eq .Kind "page") (eq .Section "") (not (in (slice "fine-art-collection" "collection") .Layout))) }} class="index-page"{{ end }}>
 {{ block "header" . }}
 {{ partial "site-header.html" . }}
 {{ end }}

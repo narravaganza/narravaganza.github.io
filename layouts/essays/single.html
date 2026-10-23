@@ -1,5 +1,6 @@
 {{ define "main" }}
 <h1 class="story-header">{{ .Title }}</h1>
+{{ partial "translation-links.html" (dict "page" .) }}
 
 <div class="story-body">{{ partial "optimized-content.html" . }}</div>
 {{ end }}

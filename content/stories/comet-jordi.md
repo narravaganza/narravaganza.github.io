@@ -1,6 +1,8 @@
 ---
 title: Comet Jordi
 preview: On the beach you'll see people walking across the beach, trying to walk determinedly, athletically, despite bland bikinis and drooping pecs, trying to look like...
+params:
+  contentLanguage: en
 ---
 
 On the beach you'll see people walking across the beach, trying to walk determinedly, athletically, despite bland bikinis and drooping pecs, trying to look like they're on their way to something important. They walk past you going up the beach and you don't care to verify whether they'll walk back down the beach. They could fall down a hole in the sand and rot and you wouldn't ponder their whereabouts during your next maritime pee.

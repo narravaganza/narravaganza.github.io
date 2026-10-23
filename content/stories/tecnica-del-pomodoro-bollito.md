@@ -3,6 +3,10 @@ title: La Tecnica del Pomodoro Bollito™
 aliases:
   - /stories/tecnica-del-pomodoro-bollito/
 preview: La Tecnica del Pomodoro Bollito™ aumenterà la vostra produttività negli appuntamenti galanti e vi garantirà l'acquisizione di una competenza duratura per....
+params:
+  contentLanguage: it
+  translationOf: /stories/boiled-tomato-technique
+  listInCollection: false
 ---
 
 ![](/assets/images/stories/boiled-tomato-1.png)

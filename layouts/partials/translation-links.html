@@ -1,0 +1,14 @@
+{{- $page := .page -}}
+{{- $versions := partial "translation-pages.html" $page -}}
+{{- if gt (len $versions) 1 -}}
+<nav class="translation-links" aria-label="Languages" lang="en">
+  {{- range $versions -}}
+    {{- $language := partial "content-language.html" . -}}
+    {{- if eq .Path $page.Path }}
+  <span lang="{{ $language.code }}" aria-current="page">{{ $language.label }}</span>
+    {{- else }}
+  <a href="{{ .RelPermalink }}" hreflang="{{ $language.code }}" lang="{{ $language.code }}">{{ $language.label }}</a>
+    {{- end -}}
+  {{- end }}
+</nav>
+{{- end -}}

@@ -1,6 +1,8 @@
 ---
 title: The Flavour of Facts
 preview: "Guy goes to an ice cream shop, walks up, peculiarly goes: do you have cucumber ice cream please"
+params:
+  contentLanguage: en
 ---
 
 ![](/assets/images/stories/flavour_of_facts_2.png)

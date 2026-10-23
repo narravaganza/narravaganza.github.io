@@ -1,0 +1,4 @@
+{{- $code := .Params.contentlanguage | default (.Site.Language.Locale | default "en-us") | lower -}}
+{{- $base := index (split $code "-") 0 -}}
+{{- $label := index hugo.Data.languages $code | default (index hugo.Data.languages $base) | default $code -}}
+{{- return (dict "code" $code "label" $label) -}}

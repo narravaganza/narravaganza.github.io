@@ -1,6 +1,2 @@
-- name: Stories
-  link: /stories/
-- name: Essays
-  link: /essays/
-- name: Sketches
-  link: /sketches/
+- name: Collection
+  link: /collection/

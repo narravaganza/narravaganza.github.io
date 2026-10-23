@@ -385,7 +385,7 @@ body.index-page {
   }
 }
 
-.index-header, .site-header, .home-featured, .piece-list, .page-body, .site-footer {
+.index-header, .site-header, .home-featured, .home-archive-link, .piece-list, .page-body, .site-footer {
   max-width: 880px;
   margin-left: auto;
   margin-right: auto;
@@ -408,7 +408,7 @@ body.index-page {
   padding-top: 28px;
 }
 
-// Compact header for individual pieces: wordmark left, nav right
+// Individual pages: home link and rotating tagline, with navigation alongside.
 .site-header {
   display: flex;
   flex-wrap: wrap;
@@ -420,6 +420,13 @@ body.index-page {
   .quiet-nav {
     margin-bottom: 0;
   }
+}
+
+.site-brand {
+  --wordmark-size: 1.75rem;
+  flex: 1 1 18rem;
+  min-width: 0;
+  max-width: 600px;
 }
 
 // Story pages keep the body's side margins, so the header and footer don't need their own
@@ -437,10 +444,44 @@ body:not(.index-page) {
 }
 
 a.site-wordmark {
-  font-size: 1.25rem;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  padding: 0;
+  font-size: var(--wordmark-size);
+  line-height: 1.15;
   font-weight: 700;
   letter-spacing: -0.01em;
   color: $index-ink;
+
+  &:hover .site-wordmark-name,
+  &:focus-visible .site-wordmark-name {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $index-accent;
+    outline-offset: 4px;
+  }
+}
+
+.site-wordmark-arrow {
+  flex: 0 0 1em;
+  color: $index-accent;
+  font-weight: 400;
+}
+
+p.site-tagline {
+  max-width: 540px;
+  margin: 2px 0 0 calc(var(--wordmark-size) * 1.35);
+  font-family: $font-stack-proza;
+  font-size: clamp(0.8125rem, 2.2vw, 0.9375rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.45;
+  text-align: left;
+  color: $index-accent;
 }
 
 .quiet-nav {
@@ -470,7 +511,7 @@ a.site-wordmark {
 }
 
 p.home-tagline {
-  margin: 18px 0 0;
+  margin: 4px 0 0;
   font-size: clamp(1.4rem, 4.2vw, 1.875rem);
   font-weight: 500;
   line-height: 1.25;
@@ -542,6 +583,9 @@ h2.section-label {
     padding: 32px 0;
     border-top: 1px solid $index-rule;
   }
+  .featured-item:last-child {
+    border-bottom: 1px solid $index-rule;
+  }
   .featured-thumb {
     flex: 0 0 auto;
     width: 160px;
@@ -561,26 +605,53 @@ h2.section-label {
   }
   .featured-excerpt {
     font-size: clamp(1.4rem, 4vw, 1.875rem);
-    font-style: italic;
     font-weight: 500;
     line-height: 1.4;
     color: #3D4244;
   }
-  .featured-meta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 6px 16px;
+  .featured-excerpt--quotation {
+    font-style: italic;
   }
   .featured-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: $index-ink;
-  }
-  .featured-more {
-    font-size: 0.9375rem;
-    font-weight: 600;
     color: $index-accent;
+  }
+}
+
+body.index-page .home-archive-link {
+  margin-top: 24px;
+
+  a {
+    display: inline-block;
+    padding: 12px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: $index-accent;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+.collection-index {
+  max-width: 880px;
+  margin: 0 auto;
+
+  .piece-list {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.collection-index-introduction {
+  max-width: 650px;
+  margin-top: 40px;
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: left;
   }
 }
 
@@ -595,19 +666,43 @@ h2.section-label {
     gap: 4px;
     padding: 18px 0;
     border-top: 1px solid $index-rule;
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      background-color: transparent;
+    }
   }
   .list-item-title {
     font-size: 1.375rem;
     font-weight: 600;
     color: $index-ink;
   }
-  .list-item:hover .list-item-title {
+  .list-item:hover .list-item-title,
+  .list-item:focus-visible .list-item-title {
     color: $index-accent;
   }
   .list-item-preview {
     font-size: 1rem;
     line-height: 1.5;
     color: $index-muted;
+  }
+}
+
+.translation-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+  margin: 0 0 28px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: $index-muted;
+
+  a {
+    color: $index-accent;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 
@@ -623,17 +718,11 @@ h2.section-label {
     margin: 0;
     font-size: inherit;
   }
-  p.footer-tagline {
-    font-size: 1.125rem;
-    font-style: italic;
-    color: #5E574B;
-  }
   .footer-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 12px 32px;
-    margin-top: 20px;
   }
   .footer-row p:first-child a {
     color: #33383A;
@@ -649,5 +738,253 @@ h2.section-label {
   .home-featured .featured-thumb {
     width: 72px;
     height: 72px;
+  }
+}
+
+// Fine Art Collection
+.fine-art-collection {
+  --gallery-ink: #171714;
+  --gallery-muted: #625f57;
+  --gallery-rule: #c9c3b5;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(5rem, 11vw, 9rem) 0 4rem;
+  color: var(--gallery-ink);
+}
+
+.collection-heading,
+.collection-introduction {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.collection-heading {
+  max-width: 980px;
+  padding-bottom: clamp(3rem, 7vw, 6rem);
+  text-align: center;
+  border-bottom: 1px solid var(--gallery-rule);
+
+  h1 {
+    max-width: 940px;
+    margin: 0 auto;
+    font-family: "Bodoni Moda", Didot, "Bodoni MT", serif;
+    font-size: clamp(2.5rem, 6.8vw, 6.25rem);
+    font-weight: 500;
+    font-optical-sizing: auto;
+    letter-spacing: -0.035em;
+    line-height: 1.05;
+    text-wrap: balance;
+    color: var(--gallery-ink);
+  }
+
+  .collection-title-line {
+    display: block;
+  }
+}
+
+.collection-introduction {
+  padding: clamp(2.5rem, 6vw, 5rem) 0 0;
+
+  p {
+    max-width: 650px;
+    margin: 0 auto 1rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    line-height: 1.62;
+    text-align: left;
+  }
+}
+
+.collection-work {
+  max-width: 980px;
+  margin: clamp(8rem, 18vw, 15rem) auto 0;
+
+  + .collection-work {
+    margin-top: clamp(3rem, 6vw, 5rem);
+  }
+}
+
+.collection-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: clamp(0.55rem, 1vw, 0.9rem);
+  background: #ede9df;
+  border: clamp(0.5rem, 1vw, 0.9rem) solid #211f1b;
+  box-shadow:
+    0 0 0 1px #716b60,
+    0 18px 42px rgba(49, 42, 29, 0.16),
+    0 3px 8px rgba(49, 42, 29, 0.18);
+
+  img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 78vh;
+    margin: 0;
+    object-fit: contain;
+  }
+}
+
+.collection-frame--portrait {
+  width: 720px;
+  max-width: 88vw;
+}
+
+.collection-frame--square {
+  width: 820px;
+  max-width: 90vw;
+}
+
+// A shared relief renderer carves each frame at its actual rendered dimensions.
+// The CSS moulding is also the no-JavaScript fallback; artwork stays uncropped.
+.fine-art-collection .collection-frame {
+  --frame-weight: 1;
+  --moulding: calc(clamp(1.6rem, 5.7vw, 3.9rem) * var(--frame-weight));
+  position: relative;
+  isolation: isolate;
+  box-sizing: border-box;
+  width: 980px;
+  max-width: calc(100% - 1rem);
+  padding: var(--moulding);
+  border: 0;
+  background: var(--frame-base, #b09560);
+  box-shadow: 0 17px 27px -9px #392a2030, 0 3px 7px #392a2024;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: calc(var(--moulding) - 1px);
+    pointer-events: none;
+    box-shadow: inset 2px 3px 5px #1e150b9c, 0 0 0 1px #49351f;
+  }
+
+  &.collection-frame--portrait { width: 650px; }
+  &.collection-frame--square { width: 790px; }
+  &:has(.collection-frame-ornament[data-size]) { background: transparent; }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    min-width: 0;
+  }
+}
+
+.collection-frame-ornament {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  max-width: none;
+  overflow: visible;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 1px #33200d2b);
+}
+
+// Retained markup from the initial CSS prototypes is superseded by the renderer.
+.collection-frame-carving { display: none; }
+
+.collection-label,
+.collection-wall-text {
+  width: 100%;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.collection-label {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.15rem;
+  margin-top: clamp(2.25rem, 4vw, 3.4rem);
+  font-family: $font-stack-proza;
+  color: #22211e;
+
+  strong {
+    grid-column: 1 / -1;
+    margin: 0 0 0.28rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.25rem, 2vw, 1.55rem);
+    font-weight: 400;
+    letter-spacing: -0.018em;
+    line-height: 1.15;
+  }
+
+  span {
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: #555149;
+  }
+
+  span:nth-of-type(1) {
+    grid-column: 1 / -1;
+    margin-bottom: 0.8rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(0.98rem, 1.5vw, 1.12rem);
+    line-height: 1.4;
+    color: #282622;
+  }
+
+  span:nth-of-type(2) {
+    grid-column: 1;
+    letter-spacing: 0.015em;
+  }
+}
+
+.collection-wall-text {
+  position: relative;
+  margin-top: clamp(2.8rem, 5vw, 4.2rem);
+  margin-bottom: 0;
+  padding: 1.6rem 0;
+  border-block: 1px solid #d2ccc0;
+  font-family: $font-stack-proza;
+  font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+  font-weight: 400;
+  letter-spacing: -0.012em;
+  line-height: 1.78;
+  text-align: left;
+  color: #34322e;
+
+  &::before {
+    content: "Curatorial note";
+    position: absolute;
+    top: -0.55em;
+    left: 0;
+    padding-right: 0.8rem;
+    background: #FBF7EF;
+    font-size: 0.61rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #858075;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .fine-art-collection {
+    padding-top: 4rem;
+  }
+
+  .collection-work {
+    margin-top: 8rem;
+  }
+
+  .collection-frame {
+    max-width: 88vw;
+    max-height: none;
+  }
+
+  .collection-label,
+  .collection-wall-text {
+    width: calc(100% - 1rem);
   }
 }

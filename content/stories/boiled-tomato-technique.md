@@ -2,6 +2,8 @@
 title: The Boiled Tomato Technique
 preview: The Boiled Tomato Technique will not only boost your dating productivity, it will give you a life-long skill to help you achieve goals....
 story-roll-image:
+params:
+  contentLanguage: en
 ---
 
 ![](/assets/images/stories/boiled-tomato-1.png)

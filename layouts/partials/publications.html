@@ -1,0 +1,8 @@
+{{- /* Shared inventory for the collection, homepage selections, and main feed. */ -}}
+{{- $collections := where .Site.RegularPages "Section" "in" (slice "stories" "essays" "sketches") -}}
+{{- $standalone := where .Site.RegularPages "Params.publication" true -}}
+{{- $pages := union $collections $standalone -}}
+{{- $pages = where $pages "Draft" false -}}
+{{- $pages = where $pages "Section" "!=" "drafts" -}}
+{{- $pages = where $pages "Params.listincollection" "!=" false -}}
+{{- return (sort $pages "Title") -}}
