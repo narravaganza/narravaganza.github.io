@@ -4,6 +4,8 @@ slug: machine-intelligence-zurich
 preview: Humanity invents actual machine consciousness. It reads the newspapers, discovers LinkedIn, chooses Switzerland, and declines to govern us.
 description: "Humanity creates genuine machine consciousness, which reviews our history, markets, billionaires, and social media before moving quietly to Zürich."
 format: greentext
+featured: true
+featuredOrder: 4
 ---
 
 >be me    

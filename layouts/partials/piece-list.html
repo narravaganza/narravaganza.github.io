@@ -1,10 +1,10 @@
-{{- /* Expects a dict with "pages" and "title"; renders a labelled list of pieces. */ -}}
-{{- with .pages }}
-<section class="piece-list" aria-label="{{ $.title }}">
+{{- /* A list with optional title, accessible label, and sort field. */ -}}
+{{- with where .pages "Params.listincollection" "!=" false }}
+<section class="piece-list"{{ with $.label | default $.title }} aria-label="{{ . }}"{{ end }}>
   {{- with $.title }}
   <h2 class="section-label">{{ . }}</h2>
   {{- end }}
-  {{- range sort . "File.Path" }}
+  {{- range sort . ($.sortBy | default "File.Path") }}
   <a href="{{ .RelPermalink }}" class="list-item">
     <span class="list-item-title">{{ .Title }}</span>
     <span class="list-item-preview">{{ .Params.preview | default .Summary | markdownify | plainify | htmlUnescape }}</span>

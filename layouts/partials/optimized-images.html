@@ -1,0 +1,43 @@
+{{- /* Optimize both Markdown-generated and hand-written image tags. The caller supplies HTML
+     and can request absolute delivery URLs for RSS readers. */ -}}
+{{- $content := .content -}}
+{{- $absolute := .absolute | default false -}}
+{{- range $index, $tag := findRE `<img\b[^>]*>` $content -}}
+  {{- $src := replaceRE `(?s).*\bsrc="([^"]+)".*` "$1" $tag -}}
+  {{- $source := strings.TrimPrefix (strings.TrimSuffix "/" site.BaseURL) $src -}}
+  {{- with index hugo.Data.images $source -}}
+    {{- $image := . -}}
+    {{- $delivery := .src -}}
+    {{- if $absolute -}}{{- $delivery = $delivery | absURL -}}{{- end -}}
+    {{- $updated := replaceRE `\bsrc="[^"]*"` (printf `src="%s"` $delivery) $tag -}}
+    {{- with .alt -}}
+      {{- $updated = replace $updated `alt=""` (printf `alt="%s"` (htmlEscape .)) -}}
+      {{- if not (findRE `\balt=` $updated) -}}
+        {{- $updated = replaceRE `<img\b` (printf `<img alt="%s"` (htmlEscape .)) $updated -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $srcset := slice -}}
+    {{- range .variants -}}
+      {{- $variant := .src -}}
+      {{- if $absolute -}}{{- $variant = $variant | absURL -}}{{- end -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $variant (int .width)) -}}
+    {{- end -}}
+    {{- $sizes := "(min-width: 1000px) 45vw, 90vw" -}}
+    {{- if strings.Contains $tag "homepage-hero-image" -}}
+      {{- $sizes = "(min-width: 1000px) 40vw, 70vw" -}}
+    {{- else if strings.Contains $tag "max-width: 420px" -}}
+      {{- $sizes = "(min-width: 467px) 420px, 90vw" -}}
+    {{- end -}}
+    {{- $loading := `loading="lazy"` -}}
+    {{- if eq $index 0 -}}{{- $loading = `loading="eager" fetchpriority="high"` -}}{{- end -}}
+    {{- /* Replace existing optimization attributes without duplicating them. */ -}}
+    {{- $updated = replaceRE `\s+(width|height|srcset|sizes|loading|decoding|fetchpriority)="[^"]*"` "" $updated -}}
+    {{- $attributes := printf `<img width="%d" height="%d" srcset="%s" sizes="%s" %s decoding="async"` (int $image.width) (int $image.height) (delimit $srcset ", ") $sizes $loading -}}
+    {{- $updated = replaceRE `<img\b` $attributes $updated -}}
+    {{- $content = replace $content $tag $updated -}}
+  {{- end -}}
+{{- end -}}
+{{- if $absolute -}}
+  {{- $content = replaceRE `(href|src)="/` (printf `$1="%s` site.BaseURL) $content -}}
+{{- end -}}
+{{- $content | safeHTML -}}

@@ -1,5 +1,6 @@
 {{- $id := printf "work-%s" (anchorize (.Get "title")) -}}
-{{- $image := images.Config (printf "static%s" (.Get "src")) -}}
+{{- $source := strings.TrimPrefix "/assets/images/" (.Get "src") -}}
+{{- $image := images.Config (printf "assets/images/originals/%s" $source) -}}
 <section class="catalogue-entry" aria-labelledby="{{ $id }}">
   <figure class="catalogue-artwork">
     <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async">

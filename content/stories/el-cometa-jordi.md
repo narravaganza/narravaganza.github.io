@@ -1,6 +1,10 @@
 ---
 title: El Cometa Jordi
 preview: En la playa veo a gente caminando a través de la playa, tratando de aparentar caminar con determinación, atléticamente, a pesar de...
+params:
+  contentLanguage: es
+  translationOf: /stories/comet-jordi
+  listInCollection: false
 ---
 
 En la playa veo a gente caminando a través de la playa, tratando de aparentar caminar con determinación, atléticamente, a pesar de bañadores sosos y pectorales caídos, tratando de aparentar que se dirigen hacia algo importante. Pasan al lado tuyo paralelos a la orilla, cruzando la playa, y no te importa si volverán a bajarla. Podrían caerse en un agujero en la arena y pudrirse ahí y no te preocuparías por su paradero durante tu próxima meada marina.

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Create or verify responsive quality-75 AVIFs.
+"""Create or verify responsive quality-80 AVIFs and social-preview JPEGs.
 
 Run after adding an image: python3 scripts/optimize-images.py
 Verify committed derivatives: python3 scripts/optimize-images.py --check
 Store originals in assets/images/originals; AVIFs go in static/assets/images.
-Hugo mounts originals at their existing URLs for social previews and old links.
+Originals are source-only. Explicit social-preview derivatives are JPEGs.
 Write alt text in the content, or add an "alt" entry to data/images.json.
 """
 import argparse
@@ -14,27 +14,53 @@ import re
 import shutil
 import subprocess
 import tempfile
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data/images.json"
 ORIGINALS = ROOT / "assets/images/originals"
 PUBLISHED_IMAGES = ROOT / "static/assets/images"
-QUALITY = 75
+QUALITY = 80
+SOCIAL_QUALITY = 85
+SOCIAL_WIDTH = 1200
 WIDTHS = (640, 1280)
 RASTER_EXTENSIONS = {".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"}
 
 
 class Images(HTMLParser):
-    def __init__(self):
+    def __init__(self, base_url=""):
         super().__init__()
         self.paths = set()
+        self.social_paths = set()
+        self.origin = urlsplit(base_url).netloc
+
+    def local_image(self, url):
+        parsed = urlsplit(url)
+        if parsed.netloc and parsed.netloc != self.origin:
+            return None
+        if parsed.path.startswith("/assets/images/"):
+            return parsed.path
+        return None
 
     def handle_starttag(self, tag, attrs):
-        src = dict(attrs).get("src", "")
-        if tag == "img" and src.startswith("/assets/images/"):
+        attrs = dict(attrs)
+        src = self.local_image(attrs.get("src", ""))
+        if tag == "img" and src:
             self.paths.add(src)
+        if tag == "img":
+            for candidate in attrs.get("srcset", "").split(","):
+                if candidate.strip():
+                    src = self.local_image(candidate.strip().split()[0])
+                    if src:
+                        self.paths.add(src)
+        if tag == "meta" and attrs.get("property", attrs.get("name")) in {
+                "og:image", "twitter:image"}:
+            src = self.local_image(attrs.get("content", ""))
+            if src:
+                self.social_paths.add(src)
 
 
 def run(*args):
@@ -75,6 +101,18 @@ def resize(source, destination, width):
         run("convert", str(source), "-resize", f"{width}x", str(destination))
 
 
+def encode_social(source, destination, width):
+    tool = image_tool()
+    if tool == "sips":
+        run("sips", "--resampleWidth", str(width), "-s", "format", "jpeg",
+            "-s", "formatOptions", str(SOCIAL_QUALITY), str(source),
+            "--out", str(destination))
+    else:
+        run(tool, str(source), "-resize", f"{width}x", "-background", "white",
+            "-alpha", "remove", "-alpha", "off", "-quality",
+            str(SOCIAL_QUALITY), str(destination))
+
+
 def sha256(path):
     digest = hashlib.sha256()
     with path.open("rb") as image:
@@ -91,17 +129,52 @@ def avif_dimensions(path):
     return tuple(map(int, match.groups()))
 
 
-def referenced_images(build_drafts=False):
+def parse_site_images(site, base_url):
+    """RSS/Atom embeds escaped HTML, so parse its decoded descriptions too."""
+    parser = Images(base_url)
+    for html in site.rglob("*.html"):
+        parser.feed(html.read_text())
+    for xml in site.rglob("*.xml"):
+        for element in ET.parse(xml).iter():
+            name = element.tag.rsplit("}", 1)[-1]
+            if name in {"description", "summary", "content", "encoded"}:
+                parser.feed(element.text or "")
+                for child in element:
+                    # XHTML namespaces serialize as prefixed tags; normalize
+                    # them so HTMLParser recognizes img and its attributes.
+                    for node in child.iter():
+                        node.tag = node.tag.rsplit("}", 1)[-1]
+                    parser.feed(ET.tostring(child, encoding="unicode"))
+    return parser
+
+
+def published_image_problems(site, paths):
+    return [f"published image is missing: {path}" for path in sorted(paths)
+            if not (site / path.lstrip("/")).is_file()]
+
+
+def referenced_images(build_drafts=False, verify_delivery=False):
     with tempfile.TemporaryDirectory(prefix="narravaganza-images-site-") as work:
         site = Path(work) / "site"
         command = ["hugo", "--source", str(ROOT), "--destination", str(site)]
         if build_drafts:
             command.append("--buildDrafts")
         run(*command)
-        parser = Images()
-        for html in site.rglob("*.html"):
-            parser.feed(html.read_text())
-        return parser.paths
+        config = json.loads(run("hugo", "config", "--source", str(ROOT),
+                                "--format", "json"))
+        parser = parse_site_images(site, config["baseurl"])
+        problems = []
+        for original in ORIGINALS.rglob("*"):
+            if original.is_file():
+                relative = original.relative_to(ORIGINALS)
+                if (site / "assets/images" / relative).exists():
+                    problems.append(f"original published by Hugo: {relative}")
+        if verify_delivery:
+            problems.extend(published_image_problems(
+                site, parser.paths | parser.social_paths))
+        if problems:
+            raise SystemExit("Invalid image delivery:\n- " + "\n- ".join(problems))
+        return parser.paths, parser.social_paths
 
 
 def expected_variants(relative, width):
@@ -115,12 +188,70 @@ def expected_variants(relative, width):
     return variants
 
 
-def check(paths, manifest):
+def original_sources(manifest):
+    """Map every rendered AVIF variant back to its source image URL."""
+    originals = {entry["src"]: src
+                 for src, entry in manifest.items() if "src" in entry}
+    originals.update({variant["src"]: src
+                      for src, entry in manifest.items()
+                      for variant in entry.get("variants", [])})
+    originals.update({entry["social"]["src"]: src
+                      for src, entry in manifest.items() if "social" in entry})
+    return originals
+
+
+def social_path(src):
+    relative = Path(src.removeprefix("/assets/images/"))
+    return "/assets/images/social/" + str(relative.with_suffix(".jpg"))
+
+
+def delivery_problems(manifest):
+    """Only AVIFs and explicitly generated social JPEGs belong in delivery."""
+    allowed = {entry["social"]["src"]
+               for entry in manifest.values() if "social" in entry}
     problems = []
-    originals = {entry["src"]: src for src, entry in manifest.items() if "src" in entry}
-    checked = 0
+    for path in PUBLISHED_IMAGES.rglob("*"):
+        if path.is_file() and path.suffix.lower() in RASTER_EXTENSIONS:
+            src = "/" + str(path.relative_to(ROOT / "static"))
+            if src not in allowed:
+                problems.append(f"unexpected raster delivery asset: {path.relative_to(ROOT)}")
+    return problems
+
+
+def check_social(paths, manifest):
+    problems = []
+    originals = original_sources(manifest)
     for rendered_src in sorted(paths):
         src = originals.get(rendered_src, rendered_src)
+        original = ORIGINALS / src.removeprefix("/assets/images/")
+        if not original.is_file():
+            problems.append(f"missing social original: {src}")
+            continue
+        social = manifest.get(src, {}).get("social", {})
+        if (social.get("src") != social_path(src)
+                or social.get("quality") != SOCIAL_QUALITY
+                or social.get("source_sha256") != sha256(original)):
+            problems.append(f"stale social derivative: {src}")
+            continue
+        destination = ROOT / "static" / social["src"].lstrip("/")
+        if not destination.is_file():
+            problems.append(f"missing social derivative: {social['src']}")
+            continue
+        width, height = dimensions(destination)
+        original_width, original_height = dimensions(original)
+        expected_width = min(original_width, SOCIAL_WIDTH)
+        expected_height = round(original_height * expected_width / original_width)
+        if (width != expected_width or abs(height - expected_height) > 1
+                or social.get("width") != width or social.get("height") != height):
+            problems.append(f"wrong social dimensions: {social['src']}")
+    return problems
+
+
+def check(paths, manifest, social_paths=()):
+    problems = []
+    originals = original_sources(manifest)
+    checked = 0
+    for src in sorted({originals.get(path, path) for path in paths}):
         relative = Path(src.removeprefix("/assets/images/"))
         if relative.suffix.lower() not in RASTER_EXTENSIONS:
             continue
@@ -149,15 +280,18 @@ def check(paths, manifest):
             encoded_width, _ = avif_dimensions(destination)
             if encoded_width != variant["width"]:
                 problems.append(f"wrong AVIF width: {destination.relative_to(ROOT)}")
+    problems.extend(check_social(social_paths, manifest))
+    problems.extend(delivery_problems(manifest))
     if problems:
         raise SystemExit("Image derivatives are stale:\n- " + "\n- ".join(problems) +
                          "\nRun: python3 scripts/optimize-images.py")
-    print(f"Image derivatives are current ({checked} raster images checked).")
+    print(f"Image derivatives are current ({checked} content images and "
+          f"{len(social_paths)} social preview(s) checked).")
 
 
-def optimize(paths, manifest):
+def optimize(paths, manifest, social_paths=()):
     total_before = total_after = 0
-    originals = {entry["src"]: src for src, entry in manifest.items() if "src" in entry}
+    originals = original_sources(manifest)
     paths = {originals.get(src, src) for src in paths}
     with tempfile.TemporaryDirectory(prefix="narravaganza-images-") as work:
         resized = Path(work) / "resized.png"
@@ -195,6 +329,26 @@ def optimize(paths, manifest):
             total_after += destination.stat().st_size
             print(f"{original.name}: {original.stat().st_size:,} → "
                   f"{destination.stat().st_size:,} bytes", flush=True)
+    for rendered_src in sorted(social_paths):
+        src = originals.get(rendered_src, rendered_src)
+        original = ORIGINALS / src.removeprefix("/assets/images/")
+        if not original.is_file():
+            raise SystemExit(f"Social image is missing: {original.relative_to(ROOT)}")
+        width, _ = dimensions(original)
+        destination = ROOT / "static" / social_path(src).lstrip("/")
+        previous = manifest.get(src, {}).get("social", {})
+        source_sha256 = sha256(original)
+        if (not destination.exists()
+                or previous.get("source_sha256") != source_sha256
+                or previous.get("width") != min(width, SOCIAL_WIDTH)
+                or previous.get("quality") != SOCIAL_QUALITY):
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            encode_social(original, destination, min(width, SOCIAL_WIDTH))
+        width, height = dimensions(destination)
+        manifest.setdefault(src, {})["social"] = dict(
+            src=social_path(src), width=width, height=height,
+            quality=SOCIAL_QUALITY, source_sha256=source_sha256)
+        print(f"Social preview: {destination.relative_to(ROOT)}", flush=True)
     MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     if total_before:
         print(f"Largest variants: {total_before:,} → {total_after:,} bytes "
@@ -204,7 +358,7 @@ def optimize(paths, manifest):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true",
-                        help="verify committed AVIFs without modifying files")
+                        help="verify image delivery and committed derivatives without modifying files")
     parser.add_argument("--include-drafts", action="store_true",
                         help="also optimize images referenced only by draft content")
     args = parser.parse_args()
@@ -217,11 +371,11 @@ def main():
     image_tool()
 
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
-    paths = referenced_images(args.include_drafts)
+    paths, social_paths = referenced_images(args.include_drafts, args.check)
     if args.check:
-        check(paths, manifest)
+        check(paths, manifest, social_paths)
     else:
-        optimize(paths, manifest)
+        optimize(paths, manifest, social_paths)
 
 
 if __name__ == "__main__":

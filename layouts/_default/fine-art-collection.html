@@ -1,0 +1,14 @@
+{{- define "main" -}}
+<main class="fine-art-collection" aria-labelledby="collection-title">
+  <header class="collection-heading">
+    <h1 id="collection-title">{{ with .Params.titleLines }}{{ range . }}<span class="collection-title-line">{{ . }}</span>{{ end }}{{ else }}{{ .Title }}{{ end }}</h1>
+  </header>
+
+  <div class="collection-body">
+    {{ partial "optimized-content.html" . }}
+  </div>
+</main>
+{{ $frames := resources.Get "js/collection-frames.js" | fingerprint }}
+{{ $worker := resources.Get "js/collection-frame-worker.js" | fingerprint }}
+<script src="{{ $frames.RelPermalink }}" data-frame-worker="{{ $worker.RelPermalink }}" defer></script>
+{{ end }}

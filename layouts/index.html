@@ -7,12 +7,13 @@
 {{ end }}
 
 {{ define "main" }}
-{{- $featured := where (where .Site.RegularPages "Section" "in" (slice "stories" "essays" "sketches")) "Params.featured" true -}}
+{{- $publications := partial "publications.html" . -}}
+{{- $featured := where $publications "Params.featured" true -}}
 {{- with $featured }}
 <section class="home-featured" aria-labelledby="featured-heading">
   <h2 id="featured-heading" class="section-label">Featured</h2>
-  {{- range sort . "File.Path" }}
-  {{- $excerpt := .Params.excerpt | default .Params.preview | markdownify | plainify | htmlUnescape | strings.TrimRight ". …" }}
+  {{- range sort . "Params.featuredOrder" }}
+  {{- $preview := .Params.excerpt | default .Params.preview | markdownify | plainify | htmlUnescape }}
   {{- $thumb := .Params.thumbnail | default "" }}
   {{- if not $thumb }}
     {{- with findRESubmatch `<img[^>]+src="([^"]+)"` .Content 1 }}{{ $thumb = index (index . 0) 1 }}{{ end }}
@@ -23,20 +24,15 @@
     <img class="featured-thumb" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
     {{- end }}
     <span class="featured-text">
-      <span class="featured-excerpt">“{{ $excerpt }}…”</span>
-      <span class="featured-meta">
-        <span class="featured-title">{{ .Title }}</span>
-        <span class="featured-more">Keep reading →</span>
-      </span>
+      <span class="featured-excerpt{{ if .Params.excerpt }} featured-excerpt--quotation{{ end }}">{{ if .Params.excerpt }}“{{ $preview | strings.TrimRight ". …" }}…”{{ else }}{{ $preview }}{{ end }}</span>
+      <span class="featured-title">{{ .Title }} <span aria-hidden="true">→</span></span>
     </span>
   </a>
   {{- end }}
 </section>
 {{- end }}
 
-{{ range slice "stories" "essays" "sketches" }}
-{{- with $.Site.GetPage (printf "/%s" .) }}
-{{ partial "piece-list.html" (dict "title" .Title "pages" (where .RegularPages "Params.featured" "!=" true)) }}
-{{- end }}
-{{- end }}
+<div class="home-archive-link">
+  <a href="{{ "/collection/" | relURL }}">There's more. Click here to see the rest of my questionable output <span aria-hidden="true">→</span></a>
+</div>
 {{ end }}

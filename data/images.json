@@ -13,7 +13,7 @@
         "width": 1280
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "1454fdb12c841e73e36e499ed60987f722a58930824fae2341d17e875aaa49cb"
   },
   "/assets/images/avellaneous_satellite.jpg": {
@@ -31,7 +31,15 @@
       }
     ],
     "decorative": true,
-    "quality": 75
+    "quality": 80,
+    "social": {
+      "src": "/assets/images/social/avellaneous_satellite.jpg",
+      "width": 1023,
+      "height": 732,
+      "quality": 85,
+      "source_sha256": "73990c295726dba36cae98a624e88693934bd4b2d75e2713e74a9db20072d575"
+    },
+    "source_sha256": "73990c295726dba36cae98a624e88693934bd4b2d75e2713e74a9db20072d575"
   },
   "/assets/images/stories/arcs_9.jpeg": {
     "src": "/assets/images/stories/arcs_9-1024.avif",
@@ -48,7 +56,7 @@
       }
     ],
     "alt": "Two entwined figures with flowing hair and looping tendrils.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "399ed886bf674d276c3b06c905560e796550a039396c20fc98b8165c11a48fbc"
   },
   "/assets/images/stories/baby_seal_1.png": {
@@ -66,7 +74,7 @@
       }
     ],
     "alt": "A man in sunglasses sits in a dim jazz club beside a sculpture above the bar.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "c801a8dcd8e0d95c46afe4fdb0e6c0f67149fbd99485a3d8aa020015d536e225"
   },
   "/assets/images/stories/bench-it-is-extra1.jpg": {
@@ -79,7 +87,7 @@
         "width": 180
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "b30745a38bffe0c6914a780095c0ae292f5e133c33af51a8334a88a7ddbbfd88"
   },
   "/assets/images/stories/bench-it-is-extra2.jpg": {
@@ -92,7 +100,7 @@
         "width": 180
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "b5786760fedfadaedc8fed5ae67171db670833af143474f0d01ef896ccf4d623"
   },
   "/assets/images/stories/bench-it-is-extra3.jpg": {
@@ -105,7 +113,7 @@
         "width": 180
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "6870f1a3b0cddc58748c0f1bb45ada78a158c3906980499677a766d7eead0b41"
   },
   "/assets/images/stories/bench-it-is-extra4.jpg": {
@@ -122,7 +130,7 @@
         "width": 720
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "763cd929b79d36750b05972432ca7d6bd842684f1e169820a0b8c271ac017f31"
   },
   "/assets/images/stories/bench-it-is-extra5.jpg": {
@@ -135,7 +143,7 @@
         "width": 535
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "feeaad1abb878cda4f715c72c60cfe407e376b6bd43ef673b2f2ce0a84a110dc"
   },
   "/assets/images/stories/boiled-tomato-1.png": {
@@ -153,7 +161,7 @@
       }
     ],
     "alt": "A dog stands beside a tomato suspended from a balance scale.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "aca9807336c500836250955f18aa06793c7dd61a622e6a3ec686cdc79d0a129d"
   },
   "/assets/images/stories/boiled-tomato-4.png": {
@@ -171,7 +179,7 @@
       }
     ],
     "alt": "A dog holds scales with tomatoes while two figures look on.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "8b168725e54db7fdcdfd8c4461ca745dba6e5f640bf0394b374bd074b8d3e4d8"
   },
   "/assets/images/stories/career_with_pope_1.png": {
@@ -189,7 +197,7 @@
       }
     ],
     "alt": "The pope offers a drink to a panda wearing tiger-striped robes.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "d40d0b1890d9fb64007fe04035f08db5c3d640775a48d0357e1f8f02019f0ccb"
   },
   "/assets/images/stories/career_with_pope_2.png": {
@@ -207,7 +215,7 @@
       }
     ],
     "alt": "The pope and a smiling businessman stand beside bicycles in a shop.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "de15145fae23cffb21606ec274705a27032a5e58d47be1f13c1eba389075b87a"
   },
   "/assets/images/stories/chatty_chakras_1.png": {
@@ -225,7 +233,7 @@
       }
     ],
     "alt": "A radio host spreads his arms over a cluttered desk surrounded by spiritual symbols.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "93f3fb95619ab70c2850f825d802a8c074cc260551aab7bcd5c0e6fa2372c7e5"
   },
   "/assets/images/stories/flavour_of_facts_1.png": {
@@ -243,7 +251,7 @@
       }
     ],
     "alt": "An ice cream maker prepares a green mixture with cucumber slices.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "42d2adafb5bb80f323063d5c9d7323ea3423ead8ee046e1839db53740424d49f"
   },
   "/assets/images/stories/flavour_of_facts_2.png": {
@@ -261,7 +269,7 @@
       }
     ],
     "alt": "A bowl of green ice cream surrounded by curling leaves and cucumber slices.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "80660be521f3703963f3d06840c21641de0ceed7944dd8a2fbc5c42157237844"
   },
   "/assets/images/stories/flavour_of_facts_3.png": {
@@ -279,7 +287,7 @@
       }
     ],
     "alt": "A green ice cream cone surrounded by ornate leaves and curling vines.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "7f399b9441c85610a9ff52c2ae8e942b6ae391105920ee362cc4182a2748d50f"
   },
   "/assets/images/stories/flavour_of_facts_4.png": {
@@ -297,7 +305,7 @@
       }
     ],
     "alt": "A cucumber performs at a microphone before an audience of vegetables.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "ba3ab9f9a78ecf63097aef5fd139fbbdad524d1b908e526164c829ae821dd68a"
   },
   "/assets/images/stories/how_everything_is_1.png": {
@@ -315,7 +323,7 @@
       }
     ],
     "alt": "An elderly man works at a desk surrounded by planets and galaxies.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "a9f1afd1e8e9647dcb7133b788cdbdee2cc06ed958297d3ac8ebb1642ae219e3"
   },
   "/assets/images/stories/ice-loyalty-rewards/dhs-milo-detention-announcement.jpeg": {
@@ -328,7 +336,7 @@
         "width": 401
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "272b9a0375bbab08e36feea224c79a3d15ebc5c7cf7c78c62edeb1eefcf83f09"
   },
   "/assets/images/stories/ice-loyalty-rewards/milo-deportation-target.jpeg": {
@@ -345,7 +353,7 @@
         "width": 1125
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "b0967a7926a3b0e70852ed76c1ed9ebccae9aaf5ef8ccacd9fbf62c68981ac61"
   },
   "/assets/images/stories/ice-loyalty-rewards/milo-ice-checkpoints.jpeg": {
@@ -362,7 +370,7 @@
         "width": 1125
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "87e487eb916a7e9e289e5d7eeb9b2d8133bb5d766d60ab0dbd43a6fe98a0e66b"
   },
   "/assets/images/stories/ice-loyalty-rewards/milo-ice-immunity.jpeg": {
@@ -379,7 +387,7 @@
         "width": 1125
       }
     ],
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "89b40fdc81d143f6f43d6b85e3c83466692f02f9fa73e3f32d2b193ecd22fd39"
   },
   "/assets/images/stories/jordi_1.jpg": {
@@ -397,7 +405,7 @@
       }
     ],
     "alt": "Two people walk across a beach toward apartment buildings in the evening sun.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "f16a701f2101789da42c022998c28cc855006a7a46ceba76171d80625096bb32"
   },
   "/assets/images/stories/old_man_1.png": {
@@ -415,7 +423,7 @@
       }
     ],
     "alt": "An old fisherman sits in a boat beneath a radiant golden sun.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "407f425e1b5e8a1c4593f286a145ee414921ba37d73cbc021583c1f89f3db8d0"
   },
   "/assets/images/stories/old_man_2.png": {
@@ -433,7 +441,7 @@
       }
     ],
     "alt": "An old fisherman bends toward a large fish at the water’s edge.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "2746f5f5b14ab21d07f557def589cb868fc6a94cf11c3bd4ba9aa3a9d11afb33"
   },
   "/assets/images/stories/old_man_3.png": {
@@ -451,7 +459,7 @@
       }
     ],
     "alt": "A shirtless old fisherman sits in a small boat at sea.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "933ddc838bc740ead4dee29d01f5317c91d3ca01adccbc1fbe8c10f6b08c16b1"
   },
   "/assets/images/stories/pedaler-of-enlightenment_1.png": {
@@ -469,7 +477,7 @@
       }
     ],
     "alt": "An empty orange robe stands on a runway with a long train spread behind it.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "a28dc06eddad20e78b5ff9a97b8b6ea32b6c6416c3928f9d4406c69e5b0d00f4"
   },
   "/assets/images/stories/pedaler-of-enlightenment_2.png": {
@@ -487,7 +495,7 @@
       }
     ],
     "alt": "An ornate orange bicycle decorated with a dragon and clockwork gears.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "5038aa31388a2c7101bd393deda6fd16b00273c2f65703d15630e348abca654a"
   },
   "/assets/images/stories/pedaler-of-enlightenment_3.png": {
@@ -505,7 +513,7 @@
       }
     ],
     "alt": "An orange bicycle carries a seated Buddha figure among intricate carvings.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "be33d7bc2b25f3c5380fe7b259dbac7eaf2d146bd195c8914a63db9fe0697abf"
   },
   "/assets/images/stories/pedaler-of-enlightenment_5.png": {
@@ -523,7 +531,7 @@
       }
     ],
     "alt": "An orange bicycle with exposed gears stands against a cloudy sky.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "fe9e0308092e57bdb579abcc9c3e9e6497897ae0fa5907c36db1dba3c29bebe9"
   },
   "/assets/images/stories/tractor_1.png": {
@@ -541,7 +549,7 @@
       }
     ],
     "alt": "A rusty tractor stands in a dry, harvested field.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "ab4674b8037e066e0b2aa1aaefa619fd32c576a62a7d5a3106fa1c2bd7bda655"
   },
   "/assets/images/stories/tractor_2.png": {
@@ -559,7 +567,7 @@
       }
     ],
     "alt": "A woman in a dress stands facing a tractor in a dry field.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "203739fa34787d818a4bfdcff413a35d45e239685bc81c5b2ec0a1201e514177"
   },
   "/assets/images/stories/trail-mix-1.png": {
@@ -577,7 +585,7 @@
       }
     ],
     "alt": "A wooden skewer pierces grapes covered in colorful circular patterns.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "5bc0b440c7f8e6bdbfb80286fa2bcae76a032463aeaf03008ca29ffb74b610ba"
   },
   "/assets/images/stories/trail-mix-2.png": {
@@ -595,7 +603,7 @@
       }
     ],
     "alt": "Hikers sit in a circle beside a mountain trail overlooking a valley.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "dbb6fba37fcf8de4261429cd5041f3fb467ecb37bc9d7f62151878f670ab4d38"
   },
   "/assets/images/stories/tropelero_1.png": {
@@ -613,7 +621,7 @@
       }
     ],
     "alt": "Volunteers use shovels to clear thick mud beside a damaged wall.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "91bd450f28604b86050d169d498289ca0ccd1cadf4912cea6d72fb14e32c2ca4"
   },
   "/assets/images/stories/tropelero_2.png": {
@@ -631,7 +639,7 @@
       }
     ],
     "alt": "A giraffe stands in a muddy, debris-strewn street.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "22e82a75dfc09207306f8d199b9446700821aa4b601afc17b03deafc2f89e8a7"
   },
   "/assets/images/stories/tropelero_3.png": {
@@ -649,7 +657,7 @@
       }
     ],
     "alt": "Volunteers shovel mud around a giraffe beside a damaged building.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "c72783fc36b7cfff6ea145c90c938a3aa10197153d7f76ad142e2e0ea9a25a0d"
   },
   "/assets/images/stories/tropelero_4.png": {
@@ -667,7 +675,7 @@
       }
     ],
     "alt": "A giraffe towers over volunteers clearing mud with shovels.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "94b53574bbc0933e624fae348e6b3b95df2dedb17d5af24229cd3b0182076296"
   },
   "/assets/images/stories/tropelero_5.png": {
@@ -685,7 +693,279 @@
       }
     ],
     "alt": "A crowd gathers around an enormous pan of paella.",
-    "quality": 75,
+    "quality": 80,
     "source_sha256": "b0ed9c18be0be2e2b37a0c6ea2a5434ac04de44515070fe120631e900924b455"
+  },
+  "/assets/images/artists/candinsky.png": {
+    "src": "/assets/images/artists/candinsky-1254.avif",
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/artists/candinsky-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/candinsky-1254.avif",
+        "width": 1254
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "854343269b39102e3e2bc4b67e8f11d5a6f4394caa54bf9dbd1c486be5e6fab5"
+  },
+  "/assets/images/artists/claude_monet_laundering.png": {
+    "src": "/assets/images/artists/claude_monet_laundering-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/claude_monet_laundering-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/claude_monet_laundering-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "aa02f16d3732376fe4272ff9d763f6f0868fbf91483ee03106ad9f4be6388703"
+  },
+  "/assets/images/artists/edgar_degastation.png": {
+    "src": "/assets/images/artists/edgar_degastation-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/edgar_degastation-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/edgar_degastation-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "62aca9275f8241c206228f5f6d4af3f95c1e5e9f70f623fa27f1507d926b0694"
+  },
+  "/assets/images/artists/francis_bacon_sandwich.png": {
+    "src": "/assets/images/artists/francis_bacon_sandwich-1122.avif",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "src": "/assets/images/artists/francis_bacon_sandwich-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/francis_bacon_sandwich-1122.avif",
+        "width": 1122
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "fd1f15091acf47ff2644387ecc2d49695b72d6af1acc9563e7cac23d42bc2412"
+  },
+  "/assets/images/artists/frida_kahlories.png": {
+    "src": "/assets/images/artists/frida_kahlories-1122.avif",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "src": "/assets/images/artists/frida_kahlories-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/frida_kahlories-1122.avif",
+        "width": 1122
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "906c37d846562663220614ae6320bac88b421135f8821826d07faf43ca2ec3ca"
+  },
+  "/assets/images/artists/gericault_of_duty.png": {
+    "src": "/assets/images/artists/gericault_of_duty-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/gericault_of_duty-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/gericault_of_duty-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "5f8c0b1e9d956121dd1f6fe08484653fb6258d181ec95c39a45049d1d0133cea"
+  },
+  "/assets/images/artists/hieronymus_bosch.png": {
+    "src": "/assets/images/artists/hieronymus_bosch-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/hieronymus_bosch-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/hieronymus_bosch-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "e27c600b4415c211d68a6f3ea955fc9cf6526593cf431bd05b6e30c84a9298cf"
+  },
+  "/assets/images/artists/max_bill.png": {
+    "src": "/assets/images/artists/max_bill-1280.avif",
+    "width": 1280,
+    "height": 961,
+    "variants": [
+      {
+        "src": "/assets/images/artists/max_bill-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/max_bill-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "1701b1ff4994162920ef4dbd3a53ad69bb5e05b00b0f24fbd32cd59bd981eb2f"
+  },
+  "/assets/images/artists/mc_escher.png": {
+    "src": "/assets/images/artists/mc_escher-1024.avif",
+    "width": 1024,
+    "height": 1536,
+    "variants": [
+      {
+        "src": "/assets/images/artists/mc_escher-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/mc_escher-1024.avif",
+        "width": 1024
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "167deaffb18b12c218b56a6edad7ad93273903d87a00b635bba20d20b1c354ff"
+  },
+  "/assets/images/artists/michael_jackson_pollock.png": {
+    "src": "/assets/images/artists/michael_jackson_pollock-1254.avif",
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/artists/michael_jackson_pollock-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/michael_jackson_pollock-1254.avif",
+        "width": 1254
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "bc8415b570c30147566bc7814801597cd2dab1a8ee0aa532ff2c12a45b9f4f43"
+  },
+  "/assets/images/artists/michelangelo_david_bowie.png": {
+    "src": "/assets/images/artists/michelangelo_david_bowie-1122.avif",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "src": "/assets/images/artists/michelangelo_david_bowie-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/michelangelo_david_bowie-1122.avif",
+        "width": 1122
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "80e3b0d3e771a9f612e7e9f972ae58026e7258dd947155d876544ee07acc0fba"
+  },
+  "/assets/images/artists/pablo_pikachu.png": {
+    "src": "/assets/images/artists/pablo_pikachu-1254.avif",
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/assets/images/artists/pablo_pikachu-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/pablo_pikachu-1254.avif",
+        "width": 1254
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "af327fc964337b6b24dd026f66732211a911f5b4fdbfe5e69b7074934d5927e8"
+  },
+  "/assets/images/artists/paul_kleenex.png": {
+    "src": "/assets/images/artists/paul_kleenex-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/paul_kleenex-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/paul_kleenex-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "16d32b9d61eb257d0a8a10549a55b9de7b6867efcdcd8ca99794fda9911f53fe"
+  },
+  "/assets/images/artists/salvador_dolly.png": {
+    "src": "/assets/images/artists/salvador_dolly-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/salvador_dolly-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/salvador_dolly-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "fa597e0efeaab1462f34afbc6606b93474ad082b6d3cd351ed5bd010cfc97661"
+  },
+  "/assets/images/artists/vincent_van_gogh.png": {
+    "src": "/assets/images/artists/vincent_van_gogh-1280.avif",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/images/artists/vincent_van_gogh-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/vincent_van_gogh-1280.avif",
+        "width": 1280
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "ecd7bc5c615a4cdcb545debb00b33ee67e3c405a0d5355f7f8a9c8ef49c67ea8"
+  },
+  "/assets/images/artists/mondrianna.png": {
+    "src": "/assets/images/artists/mondrianna-1122.avif",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "src": "/assets/images/artists/mondrianna-640.avif",
+        "width": 640
+      },
+      {
+        "src": "/assets/images/artists/mondrianna-1122.avif",
+        "width": 1122
+      }
+    ],
+    "quality": 80,
+    "source_sha256": "56f5d49f040a75f143b8b15a2d514f77fead340e23627bdd718b604ada16721c"
   }
 }

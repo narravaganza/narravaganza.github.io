@@ -1,0 +1,6 @@
+{{ define "main" }}
+<main class="collection-index">
+  {{ with .Content }}<div class="collection-index-introduction">{{ . }}</div>{{ end }}
+  {{ partial "piece-list.html" (dict "pages" (partial "publications.html" .) "sortBy" "Title" "label" "Collection") }}
+</main>
+{{ end }}

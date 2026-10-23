@@ -1,0 +1,14 @@
+{{- /* translationOf identifies a content path, independent of its public URL. */ -}}
+{{- $original := . -}}
+{{- with .Params.translationof -}}
+  {{- with $.Site.GetPage . -}}
+    {{- $original = . -}}
+  {{- else -}}
+    {{- errorf "Unknown translationOf %q in %s" . $.File.Path -}}
+  {{- end -}}
+{{- end -}}
+{{- $published := where .Site.RegularPages "Draft" false -}}
+{{- $published = where $published "Section" "!=" "drafts" -}}
+{{- $originals := where $published "Path" $original.Path -}}
+{{- $translations := where $published "Params.translationof" $original.Path -}}
+{{- return (union $originals (sort $translations "Params.contentlanguage")) -}}

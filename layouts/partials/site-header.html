@@ -1,4 +1,9 @@
-<header class="site-header">
-  <a href="{{ "/" | relURL }}" class="site-wordmark">{{ .Site.Title }}</a>
+<header class="site-header" lang="{{ .Site.Language.Locale | default "en-us" }}">
+  <div class="site-brand">
+    <a href="{{ "/" | relURL }}" class="site-wordmark" aria-label="{{ .Site.Title }} home"><span class="site-wordmark-arrow" aria-hidden="true">←</span><span class="site-wordmark-name">{{ .Site.Title }}</span></a>
+    {{- with hugo.Data.taglines }}
+    <p class="site-tagline" data-taglines="{{ jsonify . }}">{{ index . 0 }}</p>
+    {{- end }}
+  </div>
   {{ partial "quiet-nav.html" . }}
 </header>
